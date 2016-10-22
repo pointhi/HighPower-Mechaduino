@@ -29,7 +29,7 @@ This is the original Meachaduino Project: https://hackaday.io/project/11224-mech
 
 * Input Voltage-range of about 12V-50V
 * N-Mosfet Driver which is capable of about 10A
-* board in the size of NMEA 32 (85x85mm) or NMEA 24 (60x60mm)
+* board in the size of NEMA 23 (56x56xmm) or NEMA 24 (60x60mm)
 
 
 ## License
