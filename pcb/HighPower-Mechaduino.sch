@@ -146,7 +146,7 @@ U 1 1 5804D984
 P 3800 2100
 F 0 "U1" H 3400 2600 50  0000 C CNN
 F 1 "AS5047D" H 4100 1600 50  0000 C CNN
-F 2 "SSOP_Packages:TSSOP-14_4.4x5mm_Pitch0.65mm" H 3800 1350 50  0001 C CNN
+F 2 "Housings_SSOP:TSSOP-14_4.4x5mm_Pitch0.65mm" H 3800 1350 50  0001 C CNN
 F 3 "" H 1650 3700 50  0000 C CNN
 	1    3800 2100
 	1    0    0    -1  
@@ -400,8 +400,6 @@ $EndComp
 Wire Wire Line
 	7750 2800 8800 2800
 Wire Wire Line
-	7750 1500 8850 1500
-Wire Wire Line
 	7450 1500 7050 1500
 Wire Wire Line
 	7450 2800 7050 2800
@@ -426,9 +424,6 @@ F 3 "" H 8250 1750 50  0000 C CNN
 	1    8250 1750
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	8250 1600 8250 1500
-Connection ~ 8250 1500
 $Comp
 L C C8
 U 1 1 58097D21
@@ -475,7 +470,7 @@ U 1 1 5809CF6A
 P 11050 2000
 F 0 "J2" H 11131 2542 50  0000 C CNN
 F 1 "STEPPER" H 11131 2451 50  0000 C CNN
-F 2 "Terminal_Blocks:TerminalBlock_Pheonix_MPT-2.54mm_4pol" H 11050 1575 50  0001 C CNN
+F 2 "Connectors_Terminal_Blocks:TerminalBlock_Pheonix_MPT-2.54mm_4pol" H 11050 1575 50  0001 C CNN
 F 3 "" H 11025 2200 50  0001 C CNN
 	1    11050 2000
 	-1   0    0    -1  
@@ -548,9 +543,6 @@ F 3 "" H 7950 2000 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7950 1600 7950 1500
-Connection ~ 7950 1500
-Wire Wire Line
 	7950 1900 7950 2000
 $Comp
 L R R10
@@ -585,7 +577,7 @@ U 1 1 580B1708
 P 900 4550
 F 0 "J1" H 980 4892 50  0000 C CNN
 F 1 "SUPPLY" H 980 4801 50  0000 C CNN
-F 2 "Terminal_Blocks:TerminalBlock_Pheonix_MPT-2.54mm_2pol" H 900 4325 50  0001 C CNN
+F 2 "Connectors_Terminal_Blocks:TerminalBlock_Pheonix_MPT-2.54mm_2pol" H 900 4325 50  0001 C CNN
 F 3 "" H 875 4550 50  0001 C CNN
 	1    900  4550
 	1    0    0    -1  
@@ -1359,4 +1351,12 @@ F 3 "" H 2500 6550 50  0000 C CNN
 	1    2500 6550
 	1    0    0    1   
 $EndComp
+Wire Wire Line
+	7750 1500 8800 1500
+Wire Wire Line
+	8250 1600 8250 1500
+Connection ~ 8250 1500
+Wire Wire Line
+	7950 1600 7950 1500
+Connection ~ 7950 1500
 $EndSCHEMATC
