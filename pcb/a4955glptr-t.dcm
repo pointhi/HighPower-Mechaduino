@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP A4955GLPTR-T
+D Full-Bridge PWM Gate Driver
+K pwm motor driver
+F http://datasheet.octopart.com/A4955GLPTR-T-Allegro-datasheet-59799940.pdf
+$ENDCMP
+#
+#End Doc Library
