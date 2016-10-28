@@ -580,7 +580,7 @@ F 1 "SUPPLY" H 980 4801 50  0000 C CNN
 F 2 "Connectors_Terminal_Blocks:TerminalBlock_Pheonix_MPT-2.54mm_2pol" H 900 4325 50  0001 C CNN
 F 3 "" H 875 4550 50  0001 C CNN
 	1    900  4550
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L GND #PWR011
