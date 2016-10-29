@@ -23,6 +23,7 @@ This is the original Meachaduino Project: https://hackaday.io/project/11224-mech
 * graphical gui
 * more controll options (force, velocity, position, acceleration, torque)
 * zenner diodes (overvoltage protection when turning the motor)
+* Temperature sensor
 
 
 ### Planned Electrical/Mechanical Ratings
