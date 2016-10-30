@@ -7,6 +7,9 @@ This is the original Meachaduino Project: https://hackaday.io/project/11224-mech
 
 **Warning** This Board is currently under development. Simply fabricating it doesn't mean it would work!
 
+A big thanks to the [Shuttleworth Foundation](https://shuttleworthfoundation.org) for supporting the development of this Project.
+
+![Shuttleworth Funded](assets/Shuttleworth Funded.jpg)
 
 ### Planned Improvements
 
