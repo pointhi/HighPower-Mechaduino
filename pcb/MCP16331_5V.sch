@@ -292,8 +292,6 @@ Wire Wire Line
 	5700 3650 5950 3650
 Wire Wire Line
 	5950 3650 5950 3800
-Wire Wire Line
-	5950 3800 6250 3800
 Connection ~ 6150 3800
 $Comp
 L D_Schottky D4
@@ -361,17 +359,6 @@ VIN
 Text HLabel 4250 3450 0    60   Input ~ 0
 EN
 $Comp
-L TEST_1P W19
-U 1 1 58179C3A
-P 6250 3800
-F 0 "W19" V 6204 3987 50  0000 L CNN
-F 1 "VBF" V 6295 3987 50  0000 L CNN
-F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 6450 3800 50  0001 C CNN
-F 3 "" H 6450 3800 50  0000 C CNN
-	1    6250 3800
-	0    1    1    0   
-$EndComp
-$Comp
 L TEST_1P W18
 U 1 1 5817A2DF
 P 6150 2700
@@ -382,4 +369,6 @@ F 3 "" H 6350 2700 50  0000 C CNN
 	1    6150 2700
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	5950 3800 6150 3800
 $EndSCHEMATC

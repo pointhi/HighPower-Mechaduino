@@ -258,7 +258,9 @@ Wire Wire Line
 Wire Wire Line
 	3800 1300 3800 1500
 Wire Wire Line
-	3700 1200 3700 1500
+	3700 1200 3700 1300
+Wire Wire Line
+	3700 1300 3700 1500
 Wire Wire Line
 	3700 1300 3600 1300
 Wire Wire Line
@@ -320,7 +322,9 @@ $EndSheet
 Wire Wire Line
 	8700 2300 8800 2300
 Wire Wire Line
-	8700 800  8700 2300
+	8700 800  8700 1000
+Wire Wire Line
+	8700 1000 8700 2300
 Wire Wire Line
 	8700 1000 8800 1000
 $Comp
@@ -354,7 +358,9 @@ IN4
 Wire Wire Line
 	8600 3000 8800 3000
 Wire Wire Line
-	8600 1700 8600 3000
+	8600 1700 8600 2300
+Wire Wire Line
+	8600 2300 8600 3000
 Wire Wire Line
 	8600 1700 8800 1700
 Wire Wire Line
@@ -398,7 +404,11 @@ F 3 "" H 7600 2800 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	7750 2800 8800 2800
+	7750 2800 7950 2800
+Wire Wire Line
+	7950 2800 8250 2800
+Wire Wire Line
+	8250 2800 8800 2800
 Wire Wire Line
 	7450 1500 7050 1500
 Wire Wire Line
@@ -620,11 +630,19 @@ Wire Wire Line
 Wire Wire Line
 	1200 4650 1200 5050
 Wire Wire Line
-	1200 4450 1100 4450
+	1200 4450 1150 4450
 Wire Wire Line
-	1700 4450 2750 4450
+	1150 4450 1100 4450
 Wire Wire Line
-	1800 4100 1800 4600
+	1700 4450 1800 4450
+Wire Wire Line
+	1800 4450 2300 4450
+Wire Wire Line
+	2300 4450 2750 4450
+Wire Wire Line
+	1800 4100 1800 4450
+Wire Wire Line
+	1800 4450 1800 4600
 Wire Wire Line
 	1800 4900 1800 5050
 $Comp
@@ -650,7 +668,9 @@ F 3 "" H 2300 5050 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2750 4350 2750 4600
+	2750 4350 2750 4450
+Wire Wire Line
+	2750 4450 2750 4600
 Connection ~ 1800 4450
 Wire Wire Line
 	2300 4900 2300 5050
@@ -689,7 +709,11 @@ F 3 "" H 3650 6700 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3650 6700 3650 7050
+	3650 6700 3650 6800
+Wire Wire Line
+	3650 6800 3650 6950
+Wire Wire Line
+	3650 6950 3650 7050
 $Comp
 L GND #PWR017
 U 1 1 580B6EA3
@@ -747,7 +771,9 @@ $EndComp
 Wire Wire Line
 	4700 6800 4850 6800
 Wire Wire Line
-	4850 6700 4850 7050
+	4850 6700 4850 6800
+Wire Wire Line
+	4850 6800 4850 7050
 Wire Wire Line
 	4850 7350 4850 7450
 $Comp
@@ -784,7 +810,13 @@ $EndComp
 Wire Wire Line
 	900  1700 800  1700
 Wire Wire Line
-	800  1700 800  2100
+	800  1700 800  1800
+Wire Wire Line
+	800  1800 800  1900
+Wire Wire Line
+	800  1900 800  2000
+Wire Wire Line
+	800  2000 800  2100
 Wire Wire Line
 	800  2000 900  2000
 Wire Wire Line
@@ -829,9 +861,9 @@ SWDIO
 Text Label 1900 1700 2    60   ~ 0
 SWCLK
 Wire Wire Line
-	10250 5750 10850 5750
+	10250 5750 10750 5750
 Wire Wire Line
-	10250 5850 10850 5850
+	10250 5850 10750 5850
 Text Label 10750 5750 2    60   ~ 0
 SWDIO
 Text Label 10750 5850 2    60   ~ 0
@@ -883,7 +915,9 @@ $EndComp
 Wire Wire Line
 	2300 1550 2300 1450
 Wire Wire Line
-	2300 1850 2300 2100
+	2300 1850 2300 2000
+Wire Wire Line
+	2300 2000 2300 2100
 $Comp
 L GND #PWR024
 U 1 1 580BC988
@@ -905,7 +939,7 @@ Connection ~ 2300 2000
 Text Label 1900 2000 2    60   ~ 0
 RESET
 Wire Wire Line
-	7350 3950 7850 3950
+	7450 3950 7850 3950
 Text Label 7450 3950 0    60   ~ 0
 RESET
 Wire Wire Line
@@ -974,7 +1008,9 @@ F 3 "" H 5900 3000 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5250 2500 5600 2500
+	5250 2500 5500 2500
+Wire Wire Line
+	5500 2500 5600 2500
 Wire Wire Line
 	5500 2500 5500 2600
 Wire Wire Line
@@ -1030,7 +1066,11 @@ $EndComp
 Wire Wire Line
 	1000 6000 800  6000
 Wire Wire Line
-	800  5900 800  6200
+	800  5900 800  6000
+Wire Wire Line
+	800  6000 800  6100
+Wire Wire Line
+	800  6100 800  6200
 Wire Wire Line
 	800  6100 1000 6100
 Connection ~ 800  6000
@@ -1073,7 +1113,9 @@ Wire Wire Line
 Wire Wire Line
 	2450 6000 2600 6000
 Wire Wire Line
-	2600 5900 2600 6350
+	2600 5900 2600 6000
+Wire Wire Line
+	2600 6000 2600 6350
 Connection ~ 2600 6000
 $Comp
 L R R1
@@ -1111,7 +1153,9 @@ $EndComp
 Wire Wire Line
 	800  7000 800  6900
 Wire Wire Line
-	800  6500 800  6600
+	800  6500 800  6550
+Wire Wire Line
+	800  6550 800  6600
 Connection ~ 800  6100
 Wire Wire Line
 	800  6550 2300 6550
@@ -1258,7 +1302,13 @@ $EndComp
 Wire Wire Line
 	5900 6900 5800 6900
 Wire Wire Line
-	5800 6900 5800 7550
+	5800 6900 5800 7000
+Wire Wire Line
+	5800 7000 5800 7100
+Wire Wire Line
+	5800 7100 5800 7250
+Wire Wire Line
+	5800 7250 5800 7550
 Wire Wire Line
 	5900 7000 5800 7000
 Connection ~ 5800 7000
@@ -1352,7 +1402,11 @@ F 3 "" H 2500 6550 50  0000 C CNN
 	1    0    0    1   
 $EndComp
 Wire Wire Line
-	7750 1500 8800 1500
+	7750 1500 7950 1500
+Wire Wire Line
+	7950 1500 8250 1500
+Wire Wire Line
+	8250 1500 8800 1500
 Wire Wire Line
 	8250 1600 8250 1500
 Connection ~ 8250 1500
@@ -1621,39 +1675,6 @@ Wire Wire Line
 	6400 5100 6400 5200
 Wire Wire Line
 	6050 5100 6050 5200
-$Comp
-L TEST_1P W7
-U 1 1 5817C652
-P 7350 3950
-F 0 "W7" V 7545 4024 50  0000 C CNN
-F 1 "RESET" V 7454 4024 50  0000 C CNN
-F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 7550 3950 50  0001 C CNN
-F 3 "" H 7550 3950 50  0000 C CNN
-	1    7350 3950
-	0    -1   -1   0   
-$EndComp
-$Comp
-L TEST_1P W13
-U 1 1 5817E778
-P 10850 5750
-F 0 "W13" V 10804 5938 50  0000 L CNN
-F 1 "SWDIO" V 10895 5938 50  0000 L CNN
-F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 11050 5750 50  0001 C CNN
-F 3 "" H 11050 5750 50  0000 C CNN
-	1    10850 5750
-	0    1    1    0   
-$EndComp
-$Comp
-L TEST_1P W14
-U 1 1 5817F7BB
-P 10850 5850
-F 0 "W14" V 10804 6038 50  0000 L CNN
-F 1 "SWCLK" V 10895 6038 50  0000 L CNN
-F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 11050 5850 50  0001 C CNN
-F 3 "" H 11050 5850 50  0000 C CNN
-	1    10850 5850
-	0    1    1    0   
-$EndComp
 $Comp
 L TEST_1P W11
 U 1 1 5818060C
