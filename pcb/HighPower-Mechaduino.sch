@@ -610,7 +610,7 @@ U 1 1 580B492B
 P 1450 4450
 F 0 "F1" H 1450 4690 50  0000 C CNN
 F 1 "12A" H 1450 4599 50  0000 C CNN
-F 2 "Fuse_Holders_and_Fuses:Fuseholder5x20_horiz_open_inline_Type-I" H 1450 4450 50  0001 C CNN
+F 2 "Fuse_Holders_and_Fuses_local:Fuse_0679H" H 1450 4450 50  0001 C CNN
 F 3 "" H 1450 4450 50  0000 C CNN
 	1    1450 4450
 	1    0    0    -1  

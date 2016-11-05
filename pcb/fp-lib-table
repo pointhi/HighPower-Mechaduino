@@ -1,4 +1,5 @@
 (fp_lib_table
   (lib (name Jumpers_SMD)(type KiCad)(uri "$(KIPRJMOD)/Jumpers_SMD.pretty")(options "")(descr ""))
   (lib (name Inductors_local)(type KiCad)(uri "$(KIPRJMOD)/Inductors.pretty")(options "")(descr ""))
+  (lib (name Fuse_Holders_and_Fuses_local)(type KiCad)(uri "$(KIPRJMOD)/Fuse_Holders_and_Fuses.pretty")(options "")(descr ""))
 )
