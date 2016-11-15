@@ -38,7 +38,7 @@ A big thanks to the [Shuttleworth Foundation](https://shuttleworthfoundation.org
 
 ### various informations
 
-* BOM can be created using [KiBoM](https://github.com/SchrodingersGat/KiBoM)
+* [BOM](https://rawgit.com/pointhi/HighPower-Mechaduino/master/pcb/HighPower-Mechaduino.html) can be created using [KiBoM](https://github.com/SchrodingersGat/KiBoM)
 
 
 ## License
