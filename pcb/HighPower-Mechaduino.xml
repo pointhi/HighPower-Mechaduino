@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>/home/thomas/Projekte/HighPower-Mechaduino/pcb/HighPower-Mechaduino.sch</source>
-    <date>Die 15 Nov 2016 11:43:31 CET</date>
+    <date>Die 15 Nov 2016 12:16:18 CET</date>
     <tool>Eeschema (2016-11-05 revision 3af551c)-master</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -135,8 +135,8 @@
       <value>4k7</value>
       <footprint>Resistors_SMD:R_0603</footprint>
       <fields>
-        <field name="Digi-Key Part Number">311-4.70KHRTR-ND</field>
-        <field name="Digi-Key Minimum Quantity">5000</field>
+        <field name="Digi-Key Part Number">311-4.70KHRCT-ND</field>
+        <field name="Digi-Key Minimum Quantity">1</field>
       </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
@@ -146,8 +146,8 @@
       <value>4k7</value>
       <footprint>Resistors_SMD:R_0603</footprint>
       <fields>
-        <field name="Digi-Key Part Number">311-4.70KHRTR-ND</field>
-        <field name="Digi-Key Minimum Quantity">5000</field>
+        <field name="Digi-Key Part Number">311-4.70KHRCT-ND</field>
+        <field name="Digi-Key Minimum Quantity">1</field>
       </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
@@ -186,8 +186,8 @@
       <value>1k</value>
       <footprint>Resistors_SMD:R_0603</footprint>
       <fields>
-        <field name="Digi-Key Part Number">311-1.00KHRTR-ND</field>
-        <field name="Digi-Key Minimum Quantity">5000</field>
+        <field name="Digi-Key Part Number">311-1.00KHRCT-ND</field>
+        <field name="Digi-Key Minimum Quantity">1</field>
       </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
@@ -197,8 +197,8 @@
       <value>1k</value>
       <footprint>Resistors_SMD:R_0603</footprint>
       <fields>
-        <field name="Digi-Key Part Number">311-1.00KHRTR-ND</field>
-        <field name="Digi-Key Minimum Quantity">5000</field>
+        <field name="Digi-Key Part Number">311-1.00KHRCT-ND</field>
+        <field name="Digi-Key Minimum Quantity">1</field>
       </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
@@ -274,8 +274,8 @@
       <value>39R</value>
       <footprint>Resistors_SMD:R_0603</footprint>
       <fields>
-        <field name="Digi-Key Part Number">311-39GRTR-ND</field>
-        <field name="Digi-Key Minimum Quantity">5000</field>
+        <field name="Digi-Key Part Number">311-39GRCT-ND</field>
+        <field name="Digi-Key Minimum Quantity">1</field>
       </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
@@ -285,8 +285,8 @@
       <value>22k</value>
       <footprint>Resistors_SMD:R_0603</footprint>
       <fields>
-        <field name="Digi-Key Part Number">311-22.0KHRTR-ND</field>
-        <field name="Digi-Key Minimum Quantity">5000</field>
+        <field name="Digi-Key Part Number">311-22.0KHRCT-ND</field>
+        <field name="Digi-Key Minimum Quantity">1</field>
       </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
@@ -308,8 +308,8 @@
       <value>22k</value>
       <footprint>Resistors_SMD:R_0603</footprint>
       <fields>
-        <field name="Digi-Key Part Number">311-22.0KHRTR-ND</field>
-        <field name="Digi-Key Minimum Quantity">5000</field>
+        <field name="Digi-Key Part Number">311-22.0KHRCT-ND</field>
+        <field name="Digi-Key Minimum Quantity">1</field>
       </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
@@ -319,8 +319,8 @@
       <value>330R</value>
       <footprint>Resistors_SMD:R_0603</footprint>
       <fields>
-        <field name="Digi-Key Part Number">311-330GRTR-ND</field>
-        <field name="Digi-Key Minimum Quantity">5000</field>
+        <field name="Digi-Key Part Number">311-330GRCT-ND</field>
+        <field name="Digi-Key Minimum Quantity">1</field>
       </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
@@ -349,8 +349,8 @@
       <value>22k</value>
       <footprint>Resistors_SMD:R_0603</footprint>
       <fields>
-        <field name="Digi-Key Part Number">311-22.0KHRTR-ND</field>
-        <field name="Digi-Key Minimum Quantity">5000</field>
+        <field name="Digi-Key Part Number">311-22.0KHRCT-ND</field>
+        <field name="Digi-Key Minimum Quantity">1</field>
       </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
@@ -359,6 +359,10 @@
     <comp ref="R2">
       <value>22k</value>
       <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Digi-Key Part Number">311-22.0KHRCT-ND</field>
+        <field name="Digi-Key Minimum Quantity">1</field>
+      </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>580D57B3</tstamp>
@@ -566,8 +570,8 @@
       <value>4k7</value>
       <footprint>Resistors_SMD:R_0603</footprint>
       <fields>
-        <field name="Digi-Key Part Number">311-4.70KHRTR-ND</field>
-        <field name="Digi-Key Minimum Quantity">5000</field>
+        <field name="Digi-Key Part Number">311-4.70KHRCT-ND</field>
+        <field name="Digi-Key Minimum Quantity">1</field>
       </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
@@ -577,8 +581,8 @@
       <value>4k7</value>
       <footprint>Resistors_SMD:R_0603</footprint>
       <fields>
-        <field name="Digi-Key Part Number">311-4.70KHRTR-ND</field>
-        <field name="Digi-Key Minimum Quantity">5000</field>
+        <field name="Digi-Key Part Number">311-4.70KHRCT-ND</field>
+        <field name="Digi-Key Minimum Quantity">1</field>
       </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
@@ -642,8 +646,13 @@
       <tstamp>58028DB4</tstamp>
     </comp>
     <comp ref="L1">
-      <value>INDUCTOR_Small</value>
+      <value>FERRIT_BEAD</value>
       <footprint>Resistors_SMD:R_0603</footprint>
+      <datasheet>http://www.bourns.com/docs/Product-Datasheets/mh.pdf</datasheet>
+      <fields>
+        <field name="Digi-Key Part Number">MH1608-471YCT-ND</field>
+        <field name="Digi-Key Minimum Quantity">1</field>
+      </fields>
       <libsource lib="device" part="INDUCTOR_Small"/>
       <sheetpath names="/Arduino_Zero_Base/" tstamps="/58020145/"/>
       <tstamp>580294AF</tstamp>
@@ -685,8 +694,8 @@
       <value>330R</value>
       <footprint>Resistors_SMD:R_0603</footprint>
       <fields>
-        <field name="Digi-Key Part Number">311-330GRTR-ND</field>
-        <field name="Digi-Key Minimum Quantity">5000</field>
+        <field name="Digi-Key Part Number">311-330GRCT-ND</field>
+        <field name="Digi-Key Minimum Quantity">1</field>
       </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/Arduino_Zero_Base/" tstamps="/58020145/"/>
@@ -696,8 +705,8 @@
       <value>4k7</value>
       <footprint>Resistors_SMD:R_0603</footprint>
       <fields>
-        <field name="Digi-Key Part Number">311-4.70KHRTR-ND</field>
-        <field name="Digi-Key Minimum Quantity">5000</field>
+        <field name="Digi-Key Part Number">311-4.70KHRCT-ND</field>
+        <field name="Digi-Key Minimum Quantity">1</field>
       </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/Arduino_Zero_Base/" tstamps="/58020145/"/>
@@ -707,8 +716,8 @@
       <value>4k7</value>
       <footprint>Resistors_SMD:R_0603</footprint>
       <fields>
-        <field name="Digi-Key Part Number">311-4.70KHRTR-ND</field>
-        <field name="Digi-Key Minimum Quantity">5000</field>
+        <field name="Digi-Key Part Number">311-4.70KHRCT-ND</field>
+        <field name="Digi-Key Minimum Quantity">1</field>
       </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/Arduino_Zero_Base/" tstamps="/58020145/"/>
@@ -763,8 +772,8 @@
       <value>22k</value>
       <footprint>Resistors_SMD:R_0603</footprint>
       <fields>
-        <field name="Digi-Key Part Number">311-22.0KHRTR-ND</field>
-        <field name="Digi-Key Minimum Quantity">5000</field>
+        <field name="Digi-Key Part Number">311-22.0KHRCT-ND</field>
+        <field name="Digi-Key Minimum Quantity">1</field>
       </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/PWM_Bridge_A4955-A/" tstamps="/58077727/"/>
@@ -869,8 +878,8 @@
       <value>22k</value>
       <footprint>Resistors_SMD:R_0603</footprint>
       <fields>
-        <field name="Digi-Key Part Number">311-22.0KHRTR-ND</field>
-        <field name="Digi-Key Minimum Quantity">5000</field>
+        <field name="Digi-Key Part Number">311-22.0KHRCT-ND</field>
+        <field name="Digi-Key Minimum Quantity">1</field>
       </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/PWM_Bridge_A4955-A/" tstamps="/58077727/"/>
@@ -951,8 +960,8 @@
       <value>22k</value>
       <footprint>Resistors_SMD:R_0603</footprint>
       <fields>
-        <field name="Digi-Key Part Number">311-22.0KHRTR-ND</field>
-        <field name="Digi-Key Minimum Quantity">5000</field>
+        <field name="Digi-Key Part Number">311-22.0KHRCT-ND</field>
+        <field name="Digi-Key Minimum Quantity">1</field>
       </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/PWM_Bridge_A4955-B/" tstamps="/58084D17/"/>
@@ -1057,8 +1066,8 @@
       <value>22k</value>
       <footprint>Resistors_SMD:R_0603</footprint>
       <fields>
-        <field name="Digi-Key Part Number">311-22.0KHRTR-ND</field>
-        <field name="Digi-Key Minimum Quantity">5000</field>
+        <field name="Digi-Key Part Number">311-22.0KHRCT-ND</field>
+        <field name="Digi-Key Minimum Quantity">1</field>
       </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/PWM_Bridge_A4955-B/" tstamps="/58084D17/"/>
@@ -1139,6 +1148,11 @@
     <comp ref="L2">
       <value>FERRIT_BEAD</value>
       <footprint>Resistors_SMD:R_0603</footprint>
+      <datasheet>http://www.bourns.com/docs/Product-Datasheets/mh.pdf</datasheet>
+      <fields>
+        <field name="Digi-Key Part Number">MH1608-471YCT-ND</field>
+        <field name="Digi-Key Minimum Quantity">1</field>
+      </fields>
       <libsource lib="device" part="INDUCTOR_Small"/>
       <sheetpath names="/Protected_USB_Supply/" tstamps="/580C14EB/"/>
       <tstamp>580C1770</tstamp>
@@ -1146,6 +1160,11 @@
     <comp ref="F2">
       <value>500mA</value>
       <footprint>Resistors_SMD:R_1206</footprint>
+      <datasheet>http://www.belfuse.com/pdfs/0ZCJ.pdf</datasheet>
+      <fields>
+        <field name="Digi-Key Part Number">507-1802-1-ND</field>
+        <field name="Digi-Key Minimum Quantity">1</field>
+      </fields>
       <libsource lib="device" part="THERMISTOR"/>
       <sheetpath names="/Protected_USB_Supply/" tstamps="/580C14EB/"/>
       <tstamp>580C1793</tstamp>
@@ -1153,6 +1172,11 @@
     <comp ref="L3">
       <value>FERRIT_BEAD</value>
       <footprint>Resistors_SMD:R_0603</footprint>
+      <datasheet>http://www.bourns.com/docs/Product-Datasheets/mh.pdf</datasheet>
+      <fields>
+        <field name="Digi-Key Part Number">MH1608-471YCT-ND</field>
+        <field name="Digi-Key Minimum Quantity">1</field>
+      </fields>
       <libsource lib="device" part="INDUCTOR_Small"/>
       <sheetpath names="/Protected_USB_Supply/" tstamps="/580C14EB/"/>
       <tstamp>580C179A</tstamp>
@@ -1235,8 +1259,8 @@
       <value>22k</value>
       <footprint>Resistors_SMD:R_0603</footprint>
       <fields>
-        <field name="Digi-Key Part Number">311-22.0KHRTR-ND</field>
-        <field name="Digi-Key Minimum Quantity">5000</field>
+        <field name="Digi-Key Part Number">311-22.0KHRCT-ND</field>
+        <field name="Digi-Key Minimum Quantity">1</field>
       </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/MCP16331_5V/" tstamps="/580D8CA5/"/>
@@ -1246,8 +1270,8 @@
       <value>4k7</value>
       <footprint>Resistors_SMD:R_0603</footprint>
       <fields>
-        <field name="Digi-Key Part Number">311-4.70KHRTR-ND</field>
-        <field name="Digi-Key Minimum Quantity">5000</field>
+        <field name="Digi-Key Part Number">311-4.70KHRCT-ND</field>
+        <field name="Digi-Key Minimum Quantity">1</field>
       </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/MCP16331_5V/" tstamps="/580D8CA5/"/>
@@ -1297,8 +1321,8 @@
       <value>22k</value>
       <footprint>Resistors_SMD:R_0603</footprint>
       <fields>
-        <field name="Digi-Key Part Number">311-22.0KHRTR-ND</field>
-        <field name="Digi-Key Minimum Quantity">5000</field>
+        <field name="Digi-Key Part Number">311-22.0KHRCT-ND</field>
+        <field name="Digi-Key Minimum Quantity">1</field>
       </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/PoStep25-32_galvanic/" tstamps="/58105B0F/"/>
@@ -1862,11 +1886,11 @@
     <library logical="conn">
       <uri>/home/thomas/Projekte/Kicad/kicad-library/library/conn.lib</uri>
     </library>
-    <library logical="dc-dc">
-      <uri>/home/thomas/Projekte/Kicad/kicad-library/library/dc-dc.lib</uri>
-    </library>
     <library logical="device">
       <uri>/home/thomas/Projekte/Kicad/kicad-library/library/device.lib</uri>
+    </library>
+    <library logical="dc-dc">
+      <uri>/home/thomas/Projekte/Kicad/kicad-library/library/dc-dc.lib</uri>
     </library>
     <library logical="ESD_Protection">
       <uri>/home/thomas/Projekte/Kicad/kicad-library/library/ESD_Protection.lib</uri>

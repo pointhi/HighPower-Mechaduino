@@ -283,9 +283,11 @@ L INDUCTOR_Small L1
 U 1 1 580294AF
 P 4600 1800
 F 0 "L1" H 4648 1846 50  0000 L CNN
-F 1 "INDUCTOR_Small" H 4648 1755 50  0000 L CNN
+F 1 "FERRIT_BEAD" H 4648 1755 50  0000 L CNN
 F 2 "Resistors_SMD:R_0603" H 4600 1800 50  0001 C CNN
-F 3 "" H 4600 1800 50  0000 C CNN
+F 3 "http://www.bourns.com/docs/Product-Datasheets/mh.pdf" H 4600 1800 50  0001 C CNN
+F 4 "MH1608-471YCT-ND" H 4600 1800 60  0001 C CNN "Digi-Key Part Number"
+F 5 "1" H 4600 1800 60  0001 C CNN "Digi-Key Minimum Quantity"
 	1    4600 1800
 	1    0    0    -1  
 $EndComp
@@ -410,8 +412,8 @@ F 0 "R11" H 2870 2696 50  0000 L CNN
 F 1 "330R" H 2870 2605 50  0000 L CNN
 F 2 "Resistors_SMD:R_0603" V 2730 2650 50  0001 C CNN
 F 3 "" H 2800 2650 50  0000 C CNN
-F 4 "311-330GRTR-ND" H 2800 2650 60  0001 C CNN "Digi-Key Part Number"
-F 5 "5000" H 2800 2650 60  0001 C CNN "Digi-Key Minimum Quantity"
+F 4 "311-330GRCT-ND" H 2800 2650 60  0001 C CNN "Digi-Key Part Number"
+F 5 "1" H 2800 2650 60  0001 C CNN "Digi-Key Minimum Quantity"
 	1    2800 2650
 	0    -1   -1   0   
 $EndComp
@@ -497,8 +499,8 @@ F 0 "R13" H 8970 4646 50  0000 L CNN
 F 1 "4k7" H 8970 4555 50  0000 L CNN
 F 2 "Resistors_SMD:R_0603" V 8830 4600 50  0001 C CNN
 F 3 "" H 8900 4600 50  0000 C CNN
-F 4 "311-4.70KHRTR-ND" H 8900 4600 60  0001 C CNN "Digi-Key Part Number"
-F 5 "5000" H 8900 4600 60  0001 C CNN "Digi-Key Minimum Quantity"
+F 4 "311-4.70KHRCT-ND" H 8900 4600 60  0001 C CNN "Digi-Key Part Number"
+F 5 "1" H 8900 4600 60  0001 C CNN "Digi-Key Minimum Quantity"
 	1    8900 4600
 	1    0    0    -1  
 $EndComp
@@ -510,8 +512,8 @@ F 0 "R12" H 8670 4646 50  0000 L CNN
 F 1 "4k7" H 8670 4555 50  0000 L CNN
 F 2 "Resistors_SMD:R_0603" V 8530 4600 50  0001 C CNN
 F 3 "" H 8600 4600 50  0000 C CNN
-F 4 "311-4.70KHRTR-ND" H 8600 4600 60  0001 C CNN "Digi-Key Part Number"
-F 5 "5000" H 8600 4600 60  0001 C CNN "Digi-Key Minimum Quantity"
+F 4 "311-4.70KHRCT-ND" H 8600 4600 60  0001 C CNN "Digi-Key Part Number"
+F 5 "1" H 8600 4600 60  0001 C CNN "Digi-Key Minimum Quantity"
 	1    8600 4600
 	1    0    0    -1  
 $EndComp

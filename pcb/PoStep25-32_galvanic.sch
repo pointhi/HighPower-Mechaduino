@@ -162,8 +162,8 @@ F 0 "R22" H 5070 3896 50  0000 L CNN
 F 1 "22k" H 5070 3805 50  0000 L CNN
 F 2 "Resistors_SMD:R_0603" V 4930 3850 50  0001 C CNN
 F 3 "" H 5000 3850 50  0000 C CNN
-F 4 "311-22.0KHRTR-ND" H 5000 3850 60  0001 C CNN "Digi-Key Part Number"
-F 5 "5000" H 5000 3850 60  0001 C CNN "Digi-Key Minimum Quantity"
+F 4 "311-22.0KHRCT-ND" H 5000 3850 60  0001 C CNN "Digi-Key Part Number"
+F 5 "1" H 5000 3850 60  0001 C CNN "Digi-Key Minimum Quantity"
 	1    5000 3850
 	1    0    0    -1  
 $EndComp

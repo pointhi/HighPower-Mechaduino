@@ -131,7 +131,9 @@ P 4200 4100
 F 0 "L2" H 4247 4146 50  0000 L CNN
 F 1 "FERRIT_BEAD" H 4247 4055 50  0000 L CNN
 F 2 "Resistors_SMD:R_0603" H 4200 4100 50  0001 C CNN
-F 3 "" H 4200 4100 50  0000 C CNN
+F 3 "http://www.bourns.com/docs/Product-Datasheets/mh.pdf" H 4200 4100 50  0001 C CNN
+F 4 "MH1608-471YCT-ND" H 4200 4100 60  0001 C CNN "Digi-Key Part Number"
+F 5 "1" H 4200 4100 60  0001 C CNN "Digi-Key Minimum Quantity"
 	1    4200 4100
 	1    0    0    -1  
 $EndComp
@@ -196,7 +198,9 @@ P 6400 2900
 F 0 "F2" V 6158 2900 50  0000 C CNN
 F 1 "500mA" V 6249 2900 50  0000 C CNN
 F 2 "Resistors_SMD:R_1206" H 6400 2900 50  0001 C CNN
-F 3 "" H 6400 2900 50  0000 C CNN
+F 3 "http://www.belfuse.com/pdfs/0ZCJ.pdf" H 6400 2900 50  0001 C CNN
+F 4 "507-1802-1-ND" H 6400 2900 60  0001 C CNN "Digi-Key Part Number"
+F 5 "1" H 6400 2900 60  0001 C CNN "Digi-Key Minimum Quantity"
 	1    6400 2900
 	0    1    1    0   
 $EndComp
@@ -207,7 +211,9 @@ P 6800 2900
 F 0 "L3" V 6985 2900 50  0000 C CNN
 F 1 "FERRIT_BEAD" V 6894 2900 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603" H 6800 2900 50  0001 C CNN
-F 3 "" H 6800 2900 50  0000 C CNN
+F 3 "http://www.bourns.com/docs/Product-Datasheets/mh.pdf" H 6800 2900 50  0001 C CNN
+F 4 "MH1608-471YCT-ND" H 6800 2900 60  0001 C CNN "Digi-Key Part Number"
+F 5 "1" H 6800 2900 60  0001 C CNN "Digi-Key Minimum Quantity"
 	1    6800 2900
 	0    -1   -1   0   
 $EndComp
