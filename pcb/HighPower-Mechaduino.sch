@@ -177,6 +177,8 @@ F 0 "C4" V 3848 1300 50  0000 C CNN
 F 1 "100n" V 3939 1300 50  0000 C CNN
 F 2 "Capacitors_SMD:C_0603" H 4138 1150 50  0001 C CNN
 F 3 "" H 4100 1300 50  0000 C CNN
+F 4 "311-1343-1-ND" H 4100 1300 60  0001 C CNN "Digi-Key Part Number"
+F 5 "1" H 4100 1300 60  0001 C CNN "Digi-Key Minimum Quantity"
 	1    4100 1300
 	0    1    1    0   
 $EndComp
@@ -188,6 +190,8 @@ F 0 "C2" V 3198 1300 50  0000 C CNN
 F 1 "1µ" V 3289 1300 50  0000 C CNN
 F 2 "Capacitors_SMD:C_0603" H 3488 1150 50  0001 C CNN
 F 3 "" H 3450 1300 50  0000 C CNN
+F 4 "311-1343-1-ND" H 3450 1300 60  0001 C CNN "Digi-Key Part Number"
+F 5 "1" H 3450 1300 60  0001 C CNN "Digi-Key Minimum Quantity"
 	1    3450 1300
 	0    1    1    0   
 $EndComp
@@ -317,6 +321,8 @@ F 0 "R7" V 7500 1500 50  0000 C CNN
 F 1 "4k7" V 7700 1500 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603" V 7530 1500 50  0001 C CNN
 F 3 "" H 7600 1500 50  0000 C CNN
+F 4 "311-4.70KHRTR-ND" H 7600 1500 60  0001 C CNN "Digi-Key Part Number"
+F 5 "5000" H 7600 1500 60  0001 C CNN "Digi-Key Minimum Quantity"
 	1    7600 1500
 	0    1    1    0   
 $EndComp
@@ -328,6 +334,8 @@ F 0 "R8" V 7500 2800 50  0000 C CNN
 F 1 "4k7" V 7700 2800 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603" V 7530 2800 50  0001 C CNN
 F 3 "" H 7600 2800 50  0000 C CNN
+F 4 "311-4.70KHRTR-ND" H 7600 2800 60  0001 C CNN "Digi-Key Part Number"
+F 5 "5000" H 7600 2800 60  0001 C CNN "Digi-Key Minimum Quantity"
 	1    7600 2800
 	0    1    1    0   
 $EndComp
@@ -347,6 +355,8 @@ F 0 "C7" H 8135 1704 50  0000 R CNN
 F 1 "100n" H 8135 1795 50  0000 R CNN
 F 2 "Capacitors_SMD:C_0603" H 8288 1600 50  0001 C CNN
 F 3 "" H 8250 1750 50  0000 C CNN
+F 4 "311-1343-1-ND" H 8250 1750 60  0001 C CNN "Digi-Key Part Number"
+F 5 "1" H 8250 1750 60  0001 C CNN "Digi-Key Minimum Quantity"
 	1    8250 1750
 	-1   0    0    1   
 $EndComp
@@ -358,6 +368,8 @@ F 0 "C8" H 8135 3004 50  0000 R CNN
 F 1 "100n" H 8135 3095 50  0000 R CNN
 F 2 "Capacitors_SMD:C_0603" H 8288 2900 50  0001 C CNN
 F 3 "" H 8250 3050 50  0000 C CNN
+F 4 "311-1343-1-ND" H 8250 3050 60  0001 C CNN "Digi-Key Part Number"
+F 5 "1" H 8250 3050 60  0001 C CNN "Digi-Key Minimum Quantity"
 	1    8250 3050
 	-1   0    0    1   
 $EndComp
@@ -412,6 +424,8 @@ F 0 "R9" V 7850 1750 50  0000 C CNN
 F 1 "1k" V 8050 1750 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603" V 7880 1750 50  0001 C CNN
 F 3 "" H 7950 1750 50  0000 C CNN
+F 4 "311-1.00KHRTR-ND" H 7950 1750 60  0001 C CNN "Digi-Key Part Number"
+F 5 "5000" H 7950 1750 60  0001 C CNN "Digi-Key Minimum Quantity"
 	1    7950 1750
 	-1   0    0    1   
 $EndComp
@@ -434,6 +448,8 @@ F 0 "R10" V 7850 3050 50  0000 C CNN
 F 1 "1k" V 8050 3050 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603" V 7880 3050 50  0001 C CNN
 F 3 "" H 7950 3050 50  0000 C CNN
+F 4 "311-1.00KHRTR-ND" H 7950 3050 60  0001 C CNN "Digi-Key Part Number"
+F 5 "5000" H 7950 3050 60  0001 C CNN "Digi-Key Minimum Quantity"
 	1    7950 3050
 	-1   0    0    1   
 $EndComp
@@ -502,6 +518,8 @@ F 0 "C1" H 2185 4704 50  0000 R CNN
 F 1 "100n" H 2185 4795 50  0000 R CNN
 F 2 "Capacitors_SMD:C_0603" H 2338 4600 50  0001 C CNN
 F 3 "" H 2300 4750 50  0000 C CNN
+F 4 "311-1343-1-ND" H 2300 4750 60  0001 C CNN "Digi-Key Part Number"
+F 5 "1" H 2300 4750 60  0001 C CNN "Digi-Key Minimum Quantity"
 	1    2300 4750
 	-1   0    0    1   
 $EndComp
@@ -613,7 +631,7 @@ P 1150 1800
 F 0 "P1" H 1150 2215 50  0000 C CNN
 F 1 "SWD" H 1150 2124 50  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_2x05_Pitch1.27mm" H 1150 600 50  0001 C CNN
-F 3 "http://portal.fciconnect.com/Comergent//fci/drawing/20021111.pdf" H 1150 600 50  0000 C CNN
+F 3 "http://portal.fciconnect.com/Comergent//fci/drawing/20021111.pdf" H 1150 600 50  0001 C CNN
 F 4 "609-3712-ND" H 1150 1800 60  0001 C CNN "Digi-Key Part Number"
 F 5 "1" H 1150 1800 60  0001 C CNN "Digi-Key Minimum Quantity"
 	1    1150 1800
@@ -670,6 +688,8 @@ F 0 "R4" V 2200 2250 50  0000 C CNN
 F 1 "39R" V 2400 2250 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603" V 2230 2250 50  0001 C CNN
 F 3 "" H 2300 2250 50  0000 C CNN
+F 4 "311-39GRTR-ND" H 2300 2250 60  0001 C CNN "Digi-Key Part Number"
+F 5 "5000" H 2300 2250 60  0001 C CNN "Digi-Key Minimum Quantity"
 	1    2300 2250
 	-1   0    0    1   
 $EndComp
@@ -681,6 +701,8 @@ F 0 "R3" V 2200 1700 50  0000 C CNN
 F 1 "22k" V 2400 1700 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603" V 2230 1700 50  0001 C CNN
 F 3 "" H 2300 1700 50  0000 C CNN
+F 4 "311-22.0KHRTR-ND" H 2300 1700 60  0001 C CNN "Digi-Key Part Number"
+F 5 "5000" H 2300 1700 60  0001 C CNN "Digi-Key Minimum Quantity"
 	1    2300 1700
 	-1   0    0    1   
 $EndComp
@@ -737,6 +759,8 @@ F 0 "R5" V 5400 2750 50  0000 C CNN
 F 1 "22k" V 5600 2750 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603" V 5430 2750 50  0001 C CNN
 F 3 "" H 5500 2750 50  0000 C CNN
+F 4 "311-22.0KHRTR-ND" H 5500 2750 60  0001 C CNN "Digi-Key Part Number"
+F 5 "5000" H 5500 2750 60  0001 C CNN "Digi-Key Minimum Quantity"
 	1    5500 2750
 	-1   0    0    1   
 $EndComp
@@ -748,6 +772,8 @@ F 0 "R6" V 5800 2000 50  0000 C CNN
 F 1 "330R" V 6000 2000 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603" V 5830 2000 50  0001 C CNN
 F 3 "" H 5900 2000 50  0000 C CNN
+F 4 "311-330GRTR-ND" H 5900 2000 60  0001 C CNN "Digi-Key Part Number"
+F 5 "5000" H 5900 2000 60  0001 C CNN "Digi-Key Minimum Quantity"
 	1    5900 2000
 	-1   0    0    1   
 $EndComp
@@ -843,9 +869,11 @@ L R R1
 U 1 1 580D5247
 P 800 6350
 F 0 "R1" V 700 6350 50  0000 C CNN
-F 1 "100k" V 900 6350 50  0000 C CNN
+F 1 "22k" V 900 6350 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603" V 730 6350 50  0001 C CNN
 F 3 "" H 800 6350 50  0000 C CNN
+F 4 "311-22.0KHRTR-ND" H 800 6350 60  0001 C CNN "Digi-Key Part Number"
+F 5 "5000" H 800 6350 60  0001 C CNN "Digi-Key Minimum Quantity"
 	1    800  6350
 	-1   0    0    1   
 $EndComp
@@ -854,7 +882,7 @@ L R R2
 U 1 1 580D57B3
 P 800 6750
 F 0 "R2" V 700 6750 50  0000 C CNN
-F 1 "100k" V 900 6750 50  0000 C CNN
+F 1 "22k" V 900 6750 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603" V 730 6750 50  0001 C CNN
 F 3 "" H 800 6750 50  0000 C CNN
 	1    800  6750
@@ -980,6 +1008,8 @@ F 0 "C6" H 5335 7004 50  0000 R CNN
 F 1 "100n" H 5335 7095 50  0000 R CNN
 F 2 "Capacitors_SMD:C_0603" H 5488 6900 50  0001 C CNN
 F 3 "" H 5450 7050 50  0000 C CNN
+F 4 "311-1343-1-ND" H 5450 7050 60  0001 C CNN "Digi-Key Part Number"
+F 5 "1" H 5450 7050 60  0001 C CNN "Digi-Key Minimum Quantity"
 	1    5450 7050
 	-1   0    0    1   
 $EndComp
@@ -1013,6 +1043,8 @@ F 0 "C3" H 3535 7154 50  0000 R CNN
 F 1 "1µ" H 3535 7245 50  0000 R CNN
 F 2 "Capacitors_SMD:C_0603" H 3688 7050 50  0001 C CNN
 F 3 "" H 3650 7200 50  0000 C CNN
+F 4 "311-1343-1-ND" H 3650 7200 60  0001 C CNN "Digi-Key Part Number"
+F 5 "1" H 3650 7200 60  0001 C CNN "Digi-Key Minimum Quantity"
 	1    3650 7200
 	-1   0    0    1   
 $EndComp
@@ -1024,6 +1056,8 @@ F 0 "C5" H 4735 7154 50  0000 R CNN
 F 1 "1µ" H 4735 7245 50  0000 R CNN
 F 2 "Capacitors_SMD:C_0603" H 4888 7050 50  0001 C CNN
 F 3 "" H 4850 7200 50  0000 C CNN
+F 4 "311-1343-1-ND" H 4850 7200 60  0001 C CNN "Digi-Key Part Number"
+F 5 "1" H 4850 7200 60  0001 C CNN "Digi-Key Minimum Quantity"
 	1    4850 7200
 	-1   0    0    1   
 $EndComp
@@ -1157,6 +1191,8 @@ F 0 "C35" H 2868 4796 50  0000 L CNN
 F 1 "100µ" H 2868 4705 50  0000 L CNN
 F 2 "Capacitors_SMD:c_elec_10x10" H 2788 4600 50  0001 C CNN
 F 3 "" H 2750 4750 50  0000 C CNN
+F 4 "493-7453-1-ND" H 2750 4750 60  0001 C CNN "Digi-Key Part Number"
+F 5 "1" H 2750 4750 60  0001 C CNN "Digi-Key Minimum Quantity"
 	1    2750 4750
 	1    0    0    -1  
 $EndComp
@@ -1740,6 +1776,8 @@ F 0 "R23" V 10750 3950 50  0000 C CNN
 F 1 "4k7" V 10950 3950 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603" V 10780 3950 50  0001 C CNN
 F 3 "" H 10850 3950 50  0000 C CNN
+F 4 "311-4.70KHRTR-ND" H 10850 3950 60  0001 C CNN "Digi-Key Part Number"
+F 5 "5000" H 10850 3950 60  0001 C CNN "Digi-Key Minimum Quantity"
 	1    10850 3950
 	-1   0    0    1   
 $EndComp
@@ -1751,6 +1789,8 @@ F 0 "R24" V 10950 3950 50  0000 C CNN
 F 1 "4k7" V 11150 3950 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603" V 10980 3950 50  0001 C CNN
 F 3 "" H 11050 3950 50  0000 C CNN
+F 4 "311-4.70KHRTR-ND" H 11050 3950 60  0001 C CNN "Digi-Key Part Number"
+F 5 "5000" H 11050 3950 60  0001 C CNN "Digi-Key Minimum Quantity"
 	1    11050 3950
 	-1   0    0    1   
 $EndComp

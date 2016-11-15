@@ -193,6 +193,8 @@ F 0 "C32" V 6202 3050 50  0000 C CNN
 F 1 "100n" V 6111 3050 50  0000 C CNN
 F 2 "Capacitors_SMD:C_0603" H 5988 2900 50  0001 C CNN
 F 3 "" H 5950 3050 50  0000 C CNN
+F 4 "311-1343-1-ND" H 5950 3050 60  0001 C CNN "Digi-Key Part Number"
+F 5 "1" H 5950 3050 60  0001 C CNN "Digi-Key Minimum Quantity"
 	1    5950 3050
 	0    -1   -1   0   
 $EndComp
@@ -265,6 +267,8 @@ F 0 "R20" V 6050 3600 50  0000 C CNN
 F 1 "22k" V 6250 3600 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603" V 6080 3600 50  0001 C CNN
 F 3 "" H 6150 3600 50  0000 C CNN
+F 4 "311-22.0KHRTR-ND" H 6150 3600 60  0001 C CNN "Digi-Key Part Number"
+F 5 "5000" H 6150 3600 60  0001 C CNN "Digi-Key Minimum Quantity"
 	1    6150 3600
 	-1   0    0    1   
 $EndComp
@@ -276,6 +280,8 @@ F 0 "R21" V 6050 4000 50  0000 C CNN
 F 1 "4k7" V 6250 4000 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603" V 6080 4000 50  0001 C CNN
 F 3 "" H 6150 4000 50  0000 C CNN
+F 4 "311-4.70KHRTR-ND" H 6150 4000 60  0001 C CNN "Digi-Key Part Number"
+F 5 "5000" H 6150 4000 60  0001 C CNN "Digi-Key Minimum Quantity"
 	1    6150 4000
 	-1   0    0    1   
 $EndComp

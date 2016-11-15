@@ -1,0 +1,2457 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/thomas/Projekte/HighPower-Mechaduino/pcb/HighPower-Mechaduino.sch</source>
+    <date>Die 15 Nov 2016 11:43:31 CET</date>
+    <tool>Eeschema (2016-11-05 revision 3af551c)-master</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company>Thomas Pointhuber</company>
+        <rev>0.1</rev>
+        <date>2016-10-15</date>
+        <source>HighPower-Mechaduino.sch</source>
+        <comment number="1" value="Mechaduino based board with better drivers and some additional improvements"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/Arduino_Zero_Base/" tstamps="/58020145/">
+      <title_block>
+        <title>Arduino Zero base schematic</title>
+        <company>Thomas Pointhuber</company>
+        <rev>0.1</rev>
+        <date>2016-10-15</date>
+        <source>Arduino_Zero_Base.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value="Minimal Schematic to create an Arduino Zero compatible board"/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/PWM_Bridge_A4955-A/" tstamps="/58077727/">
+      <title_block>
+        <title>A4955 PWM Bridge</title>
+        <company>Thomas Pointhuber</company>
+        <rev>0.1</rev>
+        <date>2016-10-22</date>
+        <source>PWM_Bridge_A4955.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="4" name="/PWM_Bridge_A4955-B/" tstamps="/58084D17/">
+      <title_block>
+        <title>A4955 PWM Bridge</title>
+        <company>Thomas Pointhuber</company>
+        <rev>0.1</rev>
+        <date>2016-10-22</date>
+        <source>PWM_Bridge_A4955.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="5" name="/Protected_USB_Supply/" tstamps="/580C14EB/">
+      <title_block>
+        <title>USB input including protection circuit</title>
+        <company>Thomas Pointhuber</company>
+        <rev>0.1</rev>
+        <date>2016-10-22</date>
+        <source>Protected_USB_Supply.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="6" name="/MCP16331_5V/" tstamps="/580D8CA5/">
+      <title_block>
+        <title>Step Down with input range of 10V-50V</title>
+        <company>Thomas Pointhuber</company>
+        <rev>0.1</rev>
+        <date>2016-10-22</date>
+        <source>MCP16331_5V.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="7" name="/PoStep25-32_galvanic/" tstamps="/58105B0F/">
+      <title_block>
+        <title>ProStep25-32 input including optional galvanic separation</title>
+        <company>Thomas Pointhuber</company>
+        <rev>0.1</rev>
+        <date>2016-10-22</date>
+        <source>PoStep25-32_galvanic.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="U1">
+      <value>AS5047D</value>
+      <footprint>Housings_SSOP:TSSOP-14_4.4x5mm_Pitch0.65mm</footprint>
+      <datasheet>http://ams.com/eng/content/download/595083/1609657/320155</datasheet>
+      <fields>
+        <field name="Digi-Key Part Number">AS5047D-ATSMCT-ND</field>
+        <field name="Digi-Key Minimum Quantity">1</field>
+      </fields>
+      <libsource lib="sensors" part="AS5047D"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5804D984</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>100n</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Digi-Key Part Number">311-1343-1-ND</field>
+        <field name="Digi-Key Minimum Quantity">1</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58055AFC</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>1µ</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Digi-Key Part Number">311-1343-1-ND</field>
+        <field name="Digi-Key Minimum Quantity">1</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58056280</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>4k7</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Digi-Key Part Number">311-4.70KHRTR-ND</field>
+        <field name="Digi-Key Minimum Quantity">5000</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5808D60A</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>4k7</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Digi-Key Part Number">311-4.70KHRTR-ND</field>
+        <field name="Digi-Key Minimum Quantity">5000</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5808E23B</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>100n</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Digi-Key Part Number">311-1343-1-ND</field>
+        <field name="Digi-Key Minimum Quantity">1</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58096344</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>100n</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Digi-Key Part Number">311-1343-1-ND</field>
+        <field name="Digi-Key Minimum Quantity">1</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58097D21</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>STEPPER</value>
+      <footprint>Connectors_Terminal_Blocks:TerminalBlock_Pheonix_MPT-2.54mm_4pol</footprint>
+      <libsource lib="conn" part="Screw_Terminal_1x04"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5809CF6A</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>1k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Digi-Key Part Number">311-1.00KHRTR-ND</field>
+        <field name="Digi-Key Minimum Quantity">5000</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>580A69D9</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>1k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Digi-Key Part Number">311-1.00KHRTR-ND</field>
+        <field name="Digi-Key Minimum Quantity">5000</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>580A7B2C</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>SUPPLY</value>
+      <footprint>Connectors_Terminal_Blocks:TerminalBlock_Pheonix_MPT-2.54mm_2pol</footprint>
+      <libsource lib="conn" part="Screw_Terminal_1x02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>580B1708</tstamp>
+    </comp>
+    <comp ref="F1">
+      <value>12A</value>
+      <footprint>Fuse_Holders_and_Fuses_local:Fuse_0679H</footprint>
+      <datasheet>http://belfuse.com/pdfs/0679H.pdf</datasheet>
+      <fields>
+        <field name="Digi-Key Part Number">507-2059-6-ND</field>
+        <field name="Digi-Key Minimum Quantity">1</field>
+      </fields>
+      <libsource lib="device" part="FUSE"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>580B492B</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>100n</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Digi-Key Part Number">311-1343-1-ND</field>
+        <field name="Digi-Key Minimum Quantity">1</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>580B681B</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>AP2112K-3.3TRG1</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-23-5</footprint>
+      <datasheet>http://www.diodes.com/_files/datasheets/AP2112.pdf</datasheet>
+      <fields>
+        <field name="Digi-Key Part Number">AP2112K-3.3TRG1DICT-ND</field>
+        <field name="Digi-Key Minimum Quantity">1</field>
+      </fields>
+      <libsource lib="ap2112k-3.3trg1" part="AP2112K-3.3TRG1"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58093871</tstamp>
+    </comp>
+    <comp ref="P1">
+      <value>SWD</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_2x05_Pitch1.27mm</footprint>
+      <datasheet>http://portal.fciconnect.com/Comergent//fci/drawing/20021111.pdf</datasheet>
+      <fields>
+        <field name="Digi-Key Part Number">609-3712-ND</field>
+        <field name="Digi-Key Minimum Quantity">1</field>
+      </fields>
+      <libsource lib="conn" part="CONN_02X05"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>580AD259</tstamp>
+    </comp>
+    <comp ref="SW1">
+      <value>SW_PUSH</value>
+      <footprint>Buttons_Switches_SMD:SW_SPST_B3U-1000P</footprint>
+      <datasheet>http://www.omron.com/ecb/products/pdf/en-b3u.pdf</datasheet>
+      <fields>
+        <field name="Digi-Key Part Number">SW1020CT-ND</field>
+        <field name="Digi-Key Minimum Quantity">1</field>
+      </fields>
+      <libsource lib="device" part="SW_PUSH_Small_Horizontal"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>580B7DA5</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>39R</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Digi-Key Part Number">311-39GRTR-ND</field>
+        <field name="Digi-Key Minimum Quantity">5000</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>580B9F34</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>22k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Digi-Key Part Number">311-22.0KHRTR-ND</field>
+        <field name="Digi-Key Minimum Quantity">5000</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>580BAB8A</tstamp>
+    </comp>
+    <comp ref="Q2">
+      <value>BSS138</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-23</footprint>
+      <datasheet>http://www.infineon.com/dgdl/Infineon-BSS138N-DS-v02_86-en.pdf?fileId=db3a304330f68606013104d944d53efb</datasheet>
+      <fields>
+        <field name="Digi-Key Part Number">BSS138NH6327XTSA2CT-ND</field>
+        <field name="Digi-Key Minimum Quantity">1</field>
+      </fields>
+      <libsource lib="transistors" part="BSS138"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>580D5CAF</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>22k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Digi-Key Part Number">311-22.0KHRTR-ND</field>
+        <field name="Digi-Key Minimum Quantity">5000</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>580D82B5</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>330R</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Digi-Key Part Number">311-330GRTR-ND</field>
+        <field name="Digi-Key Minimum Quantity">5000</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>580D8A98</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>LED</value>
+      <footprint>LEDs:LED_0805</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>580DA58F</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>RB160M-60</value>
+      <footprint>Diodes_SMD:SOD-123</footprint>
+      <datasheet>http://rohmfs.rohm.com/en/products/databook/datasheet/discrete/diode/schottky_barrier/rb160m-60.pdf</datasheet>
+      <fields>
+        <field name="Digi-Key Part Number">RB160M-90DKR-ND</field>
+        <field name="Digi-Key Minimum Quantity">1</field>
+      </fields>
+      <libsource lib="device" part="D_Schottky"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>580AC809</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>22k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Digi-Key Part Number">311-22.0KHRTR-ND</field>
+        <field name="Digi-Key Minimum Quantity">5000</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>580D5247</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>22k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>580D57B3</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>AT24CS64-SSHM</value>
+      <footprint>Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm</footprint>
+      <datasheet>http://www.atmel.com/Images/Atmel-8861-SEEPROM-Atmel-Value-Added-Serial-EEPROM-Products-AT24MAC-AT24CS-Brochure.pdf</datasheet>
+      <fields>
+        <field name="Digi-Key Part Number">AT24CS64-SSHM-TCT-ND</field>
+        <field name="Digi-Key Minimum Quantity">1</field>
+      </fields>
+      <libsource lib="memory" part="AT24CS64-XHM"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5811EF76</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>100n</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Digi-Key Part Number">311-1343-1-ND</field>
+        <field name="Digi-Key Minimum Quantity">1</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>581288F8</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>1µ</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Digi-Key Part Number">311-1343-1-ND</field>
+        <field name="Digi-Key Minimum Quantity">1</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58137323</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>1µ</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Digi-Key Part Number">311-1343-1-ND</field>
+        <field name="Digi-Key Minimum Quantity">1</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58138025</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>RB160M-60</value>
+      <footprint>Diodes_SMD:SOD-123</footprint>
+      <datasheet>http://rohmfs.rohm.com/en/products/databook/datasheet/discrete/diode/schottky_barrier/rb160m-60.pdf</datasheet>
+      <fields>
+        <field name="Digi-Key Part Number">RB160M-90DKR-ND</field>
+        <field name="Digi-Key Minimum Quantity">1</field>
+      </fields>
+      <libsource lib="device" part="D_Schottky"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58147D22</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>SSM3J328R</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-23</footprint>
+      <datasheet>https://toshiba.semicon-storage.com/info/docget.jsp?did=2429&amp;prodName=SSM3J328R</datasheet>
+      <fields>
+        <field name="Digi-Key Part Number">SSM3J328RLFCT-ND</field>
+        <field name="Digi-Key Minimum Quantity">1</field>
+      </fields>
+      <libsource lib="device" part="Q_PMOS_GSD"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5814A5FF</tstamp>
+    </comp>
+    <comp ref="P4">
+      <value>-</value>
+      <footprint>Mounting_Holes_local:MountingHole_4.3x6.2mm_M4_Pad_Via</footprint>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5815773D</tstamp>
+    </comp>
+    <comp ref="P5">
+      <value>-</value>
+      <footprint>Mounting_Holes_local:MountingHole_4.3x6.2mm_M4_Pad_Via</footprint>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58158BF4</tstamp>
+    </comp>
+    <comp ref="P6">
+      <value>-</value>
+      <footprint>Mounting_Holes_local:MountingHole_4.3x6.2mm_M4_Pad_Via</footprint>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58158DFB</tstamp>
+    </comp>
+    <comp ref="P7">
+      <value>-</value>
+      <footprint>Mounting_Holes_local:MountingHole_4.3x6.2mm_M4_Pad_Via</footprint>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58159001</tstamp>
+    </comp>
+    <comp ref="C35">
+      <value>100µ</value>
+      <footprint>Capacitors_SMD:c_elec_10x10</footprint>
+      <fields>
+        <field name="Digi-Key Part Number">493-7453-1-ND</field>
+        <field name="Digi-Key Minimum Quantity">1</field>
+      </fields>
+      <libsource lib="device" part="CP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5815E54E</tstamp>
+    </comp>
+    <comp ref="W1">
+      <value>SUPPLY</value>
+      <footprint>Measurement_Points:Measurement_Point_Round-SMD-Pad_Small</footprint>
+      <libsource lib="conn" part="TEST_1P"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5816D94F</tstamp>
+    </comp>
+    <comp ref="W2">
+      <value>VDD</value>
+      <footprint>Measurement_Points:Measurement_Point_Round-SMD-Pad_Small</footprint>
+      <libsource lib="conn" part="TEST_1P"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5816DE63</tstamp>
+    </comp>
+    <comp ref="W8">
+      <value>TXD</value>
+      <footprint>Measurement_Points:Measurement_Point_Round-SMD-Pad_Small</footprint>
+      <libsource lib="conn" part="TEST_1P"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5816F3EA</tstamp>
+    </comp>
+    <comp ref="W9">
+      <value>RXD</value>
+      <footprint>Measurement_Points:Measurement_Point_Round-SMD-Pad_Small</footprint>
+      <libsource lib="conn" part="TEST_1P"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>581716F2</tstamp>
+    </comp>
+    <comp ref="W5">
+      <value>+3V3</value>
+      <footprint>Measurement_Points:Measurement_Point_Round-SMD-Pad_Small</footprint>
+      <libsource lib="conn" part="TEST_1P"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58173A55</tstamp>
+    </comp>
+    <comp ref="W3">
+      <value>+5V</value>
+      <footprint>Measurement_Points:Measurement_Point_Round-SMD-Pad_Small</footprint>
+      <libsource lib="conn" part="TEST_1P"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58177743</tstamp>
+    </comp>
+    <comp ref="W11">
+      <value>SDA</value>
+      <footprint>Measurement_Points:Measurement_Point_Round-SMD-Pad_Small</footprint>
+      <libsource lib="conn" part="TEST_1P"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5818060C</tstamp>
+    </comp>
+    <comp ref="W12">
+      <value>SCL</value>
+      <footprint>Measurement_Points:Measurement_Point_Round-SMD-Pad_Small</footprint>
+      <libsource lib="conn" part="TEST_1P"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58180841</tstamp>
+    </comp>
+    <comp ref="W15">
+      <value>MISO</value>
+      <footprint>Measurement_Points:Measurement_Point_Round-SMD-Pad_Small</footprint>
+      <libsource lib="conn" part="TEST_1P"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58181529</tstamp>
+    </comp>
+    <comp ref="W16">
+      <value>MOSI</value>
+      <footprint>Measurement_Points:Measurement_Point_Round-SMD-Pad_Small</footprint>
+      <libsource lib="conn" part="TEST_1P"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58181966</tstamp>
+    </comp>
+    <comp ref="W17">
+      <value>SCK</value>
+      <footprint>Measurement_Points:Measurement_Point_Round-SMD-Pad_Small</footprint>
+      <libsource lib="conn" part="TEST_1P"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58181B98</tstamp>
+    </comp>
+    <comp ref="W6">
+      <value>GND</value>
+      <footprint>Measurement_Points:Measurement_Point_Round-SMD-Pad_Small</footprint>
+      <libsource lib="conn" part="TEST_1P"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58185336</tstamp>
+    </comp>
+    <comp ref="W4">
+      <value>GND</value>
+      <footprint>Measurement_Points:Measurement_Point_Round-SMD-Pad_Small</footprint>
+      <libsource lib="conn" part="TEST_1P"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5818597A</tstamp>
+    </comp>
+    <comp ref="R23">
+      <value>4k7</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Digi-Key Part Number">311-4.70KHRTR-ND</field>
+        <field name="Digi-Key Minimum Quantity">5000</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>581F0CE8</tstamp>
+    </comp>
+    <comp ref="R24">
+      <value>4k7</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Digi-Key Part Number">311-4.70KHRTR-ND</field>
+        <field name="Digi-Key Minimum Quantity">5000</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>581F164E</tstamp>
+    </comp>
+    <comp ref="U4">
+      <value>SAMD21G18A-A</value>
+      <footprint>Housings_QFP:TQFP-48_7x7mm_Pitch0.5mm</footprint>
+      <datasheet>http://www.atmel.com/Images/Atmel-42181-SAM-D21_Datasheet.pdf</datasheet>
+      <fields>
+        <field name="Digi-Key Part Number">ATSAMD21G18A-AUTCT-ND</field>
+        <field name="Digi-Key Minimum Quantity">1</field>
+      </fields>
+      <libsource lib="atmel" part="SAMD21G18A-A"/>
+      <sheetpath names="/Arduino_Zero_Base/" tstamps="/58020145/"/>
+      <tstamp>58025E1B</tstamp>
+    </comp>
+    <comp ref="Y1">
+      <value>32.768kHz</value>
+      <footprint>Crystals:Crystal_SMD_G8</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Pericom%20PDFs/G83270022_Ver.A.pdf</datasheet>
+      <fields>
+        <field name="Digi-Key Part Number">G83270022CT-ND</field>
+        <field name="Digi-Key Minimum Quantity">1</field>
+      </fields>
+      <libsource lib="device" part="CRYSTAL_Small"/>
+      <sheetpath names="/Arduino_Zero_Base/" tstamps="/58020145/"/>
+      <tstamp>58026D73</tstamp>
+    </comp>
+    <comp ref="C16">
+      <value>22p</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Digi-Key Part Number">311-1062-1-ND</field>
+        <field name="Digi-Key Minimum Quantity">1</field>
+      </fields>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/Arduino_Zero_Base/" tstamps="/58020145/"/>
+      <tstamp>5802702B</tstamp>
+    </comp>
+    <comp ref="C15">
+      <value>22p</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Digi-Key Part Number">311-1062-1-ND</field>
+        <field name="Digi-Key Minimum Quantity">1</field>
+      </fields>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/Arduino_Zero_Base/" tstamps="/58020145/"/>
+      <tstamp>5802715E</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>100n</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Digi-Key Part Number">311-1343-1-ND</field>
+        <field name="Digi-Key Minimum Quantity">1</field>
+      </fields>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/Arduino_Zero_Base/" tstamps="/58020145/"/>
+      <tstamp>58028DB4</tstamp>
+    </comp>
+    <comp ref="L1">
+      <value>INDUCTOR_Small</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="device" part="INDUCTOR_Small"/>
+      <sheetpath names="/Arduino_Zero_Base/" tstamps="/58020145/"/>
+      <tstamp>580294AF</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>100n</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Digi-Key Part Number">311-1343-1-ND</field>
+        <field name="Digi-Key Minimum Quantity">1</field>
+      </fields>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/Arduino_Zero_Base/" tstamps="/58020145/"/>
+      <tstamp>58029539</tstamp>
+    </comp>
+    <comp ref="C11">
+      <value>100n</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Digi-Key Part Number">311-1343-1-ND</field>
+        <field name="Digi-Key Minimum Quantity">1</field>
+      </fields>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/Arduino_Zero_Base/" tstamps="/58020145/"/>
+      <tstamp>58029CF7</tstamp>
+    </comp>
+    <comp ref="C13">
+      <value>100n</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Digi-Key Part Number">311-1343-1-ND</field>
+        <field name="Digi-Key Minimum Quantity">1</field>
+      </fields>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/Arduino_Zero_Base/" tstamps="/58020145/"/>
+      <tstamp>58029D90</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>330R</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Digi-Key Part Number">311-330GRTR-ND</field>
+        <field name="Digi-Key Minimum Quantity">5000</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Arduino_Zero_Base/" tstamps="/58020145/"/>
+      <tstamp>5802B47D</tstamp>
+    </comp>
+    <comp ref="R13">
+      <value>4k7</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Digi-Key Part Number">311-4.70KHRTR-ND</field>
+        <field name="Digi-Key Minimum Quantity">5000</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Arduino_Zero_Base/" tstamps="/58020145/"/>
+      <tstamp>58034AB1</tstamp>
+    </comp>
+    <comp ref="R12">
+      <value>4k7</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Digi-Key Part Number">311-4.70KHRTR-ND</field>
+        <field name="Digi-Key Minimum Quantity">5000</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Arduino_Zero_Base/" tstamps="/58020145/"/>
+      <tstamp>58034BFB</tstamp>
+    </comp>
+    <comp ref="C14">
+      <value>100n</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Digi-Key Part Number">311-1343-1-ND</field>
+        <field name="Digi-Key Minimum Quantity">1</field>
+      </fields>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/Arduino_Zero_Base/" tstamps="/58020145/"/>
+      <tstamp>580391C1</tstamp>
+    </comp>
+    <comp ref="C12">
+      <value>100n</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Digi-Key Part Number">311-1343-1-ND</field>
+        <field name="Digi-Key Minimum Quantity">1</field>
+      </fields>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/Arduino_Zero_Base/" tstamps="/58020145/"/>
+      <tstamp>5807F414</tstamp>
+    </comp>
+    <comp ref="U5">
+      <value>A4955GLPTR-T</value>
+      <footprint>Housings_SSOP:TSSOP-20_4.4x6.5mm_Pitch0.65mm</footprint>
+      <datasheet>http://www.allegromicro.com/~/media/Files/Datasheets/A4955-Datasheet.ashx?la=en</datasheet>
+      <fields>
+        <field name="Digi-Key Part Number">620-1770-1-ND</field>
+        <field name="Digi-Key Minimum Quantity">1</field>
+      </fields>
+      <libsource lib="a4955glptr-t" part="A4955GLPTR-T"/>
+      <sheetpath names="/PWM_Bridge_A4955-A/" tstamps="/58077727/"/>
+      <tstamp>58077F1C</tstamp>
+    </comp>
+    <comp ref="C18">
+      <value>100n</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Digi-Key Part Number">311-1343-1-ND</field>
+        <field name="Digi-Key Minimum Quantity">1</field>
+      </fields>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/PWM_Bridge_A4955-A/" tstamps="/58077727/"/>
+      <tstamp>5807829A</tstamp>
+    </comp>
+    <comp ref="R14">
+      <value>22k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Digi-Key Part Number">311-22.0KHRTR-ND</field>
+        <field name="Digi-Key Minimum Quantity">5000</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/PWM_Bridge_A4955-A/" tstamps="/58077727/"/>
+      <tstamp>58078520</tstamp>
+    </comp>
+    <comp ref="C22">
+      <value>2.2n</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Digi-Key Part Number">311-1081-1-ND</field>
+        <field name="Digi-Key Minimum Quantity">1</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/PWM_Bridge_A4955-A/" tstamps="/58077727/"/>
+      <tstamp>5807867B</tstamp>
+    </comp>
+    <comp ref="R16">
+      <value>0R005</value>
+      <footprint>Resistors_SMD:R_2512</footprint>
+      <datasheet>http://www.bourns.com/docs/Product-Datasheets/CRE.pdf</datasheet>
+      <fields>
+        <field name="Digi-Key Part Number">CRE2512-FZ-R005E-3CT-ND</field>
+        <field name="Digi-Key Minimum Quantity">1</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/PWM_Bridge_A4955-A/" tstamps="/58077727/"/>
+      <tstamp>580789CE</tstamp>
+    </comp>
+    <comp ref="Q3">
+      <value>IPD220N06L3</value>
+      <footprint>TO_SOT_Packages_SMD:TO-252-2Lead</footprint>
+      <libsource lib="device" part="Q_NMOS_GDS"/>
+      <sheetpath names="/PWM_Bridge_A4955-A/" tstamps="/58077727/"/>
+      <tstamp>58078C46</tstamp>
+    </comp>
+    <comp ref="Q5">
+      <value>IPD220N06L3</value>
+      <footprint>TO_SOT_Packages_SMD:TO-252-2Lead</footprint>
+      <libsource lib="device" part="Q_NMOS_GDS"/>
+      <sheetpath names="/PWM_Bridge_A4955-A/" tstamps="/58077727/"/>
+      <tstamp>58078E80</tstamp>
+    </comp>
+    <comp ref="Q6">
+      <value>IPD220N06L3</value>
+      <footprint>TO_SOT_Packages_SMD:TO-252-2Lead</footprint>
+      <libsource lib="device" part="Q_NMOS_GDS"/>
+      <sheetpath names="/PWM_Bridge_A4955-A/" tstamps="/58077727/"/>
+      <tstamp>58078ED9</tstamp>
+    </comp>
+    <comp ref="Q4">
+      <value>IPD220N06L3</value>
+      <footprint>TO_SOT_Packages_SMD:TO-252-2Lead</footprint>
+      <libsource lib="device" part="Q_NMOS_GDS"/>
+      <sheetpath names="/PWM_Bridge_A4955-A/" tstamps="/58077727/"/>
+      <tstamp>58078F3F</tstamp>
+    </comp>
+    <comp ref="C19">
+      <value>100n</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Digi-Key Part Number">311-1343-1-ND</field>
+        <field name="Digi-Key Minimum Quantity">1</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/PWM_Bridge_A4955-A/" tstamps="/58077727/"/>
+      <tstamp>5807A394</tstamp>
+    </comp>
+    <comp ref="C21">
+      <value>100µ</value>
+      <footprint>Capacitors_SMD:c_elec_10x10</footprint>
+      <fields>
+        <field name="Digi-Key Part Number">493-7453-1-ND</field>
+        <field name="Digi-Key Minimum Quantity">1</field>
+      </fields>
+      <libsource lib="device" part="CP"/>
+      <sheetpath names="/PWM_Bridge_A4955-A/" tstamps="/58077727/"/>
+      <tstamp>5807A62E</tstamp>
+    </comp>
+    <comp ref="C17">
+      <value>100n</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Digi-Key Part Number">311-1343-1-ND</field>
+        <field name="Digi-Key Minimum Quantity">1</field>
+      </fields>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/PWM_Bridge_A4955-A/" tstamps="/58077727/"/>
+      <tstamp>5807BEA4</tstamp>
+    </comp>
+    <comp ref="C20">
+      <value>1µ</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Digi-Key Part Number">311-1343-1-ND</field>
+        <field name="Digi-Key Minimum Quantity">1</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/PWM_Bridge_A4955-A/" tstamps="/58077727/"/>
+      <tstamp>5809AC71</tstamp>
+    </comp>
+    <comp ref="R15">
+      <value>22k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Digi-Key Part Number">311-22.0KHRTR-ND</field>
+        <field name="Digi-Key Minimum Quantity">5000</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/PWM_Bridge_A4955-A/" tstamps="/58077727/"/>
+      <tstamp>580A461C</tstamp>
+    </comp>
+    <comp ref="D6">
+      <value>RB160M-60</value>
+      <footprint>Diodes_SMD:SOD-123</footprint>
+      <datasheet>http://rohmfs.rohm.com/en/products/databook/datasheet/discrete/diode/schottky_barrier/rb160m-60.pdf</datasheet>
+      <fields>
+        <field name="Digi-Key Part Number">RB160M-90DKR-ND</field>
+        <field name="Digi-Key Minimum Quantity">1</field>
+      </fields>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/PWM_Bridge_A4955-A/" tstamps="/58077727/"/>
+      <tstamp>58151ECD</tstamp>
+    </comp>
+    <comp ref="D7">
+      <value>RB160M-60</value>
+      <footprint>Diodes_SMD:SOD-123</footprint>
+      <datasheet>http://rohmfs.rohm.com/en/products/databook/datasheet/discrete/diode/schottky_barrier/rb160m-60.pdf</datasheet>
+      <fields>
+        <field name="Digi-Key Part Number">RB160M-90DKR-ND</field>
+        <field name="Digi-Key Minimum Quantity">1</field>
+      </fields>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/PWM_Bridge_A4955-A/" tstamps="/58077727/"/>
+      <tstamp>581537FD</tstamp>
+    </comp>
+    <comp ref="D9">
+      <value>RB160M-60</value>
+      <footprint>Diodes_SMD:SOD-123</footprint>
+      <datasheet>http://rohmfs.rohm.com/en/products/databook/datasheet/discrete/diode/schottky_barrier/rb160m-60.pdf</datasheet>
+      <fields>
+        <field name="Digi-Key Part Number">RB160M-90DKR-ND</field>
+        <field name="Digi-Key Minimum Quantity">1</field>
+      </fields>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/PWM_Bridge_A4955-A/" tstamps="/58077727/"/>
+      <tstamp>58153EBB</tstamp>
+    </comp>
+    <comp ref="D8">
+      <value>RB160M-60</value>
+      <footprint>Diodes_SMD:SOD-123</footprint>
+      <datasheet>http://rohmfs.rohm.com/en/products/databook/datasheet/discrete/diode/schottky_barrier/rb160m-60.pdf</datasheet>
+      <fields>
+        <field name="Digi-Key Part Number">RB160M-90DKR-ND</field>
+        <field name="Digi-Key Minimum Quantity">1</field>
+      </fields>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/PWM_Bridge_A4955-A/" tstamps="/58077727/"/>
+      <tstamp>58153F12</tstamp>
+    </comp>
+    <comp ref="U6">
+      <value>A4955GLPTR-T</value>
+      <footprint>Housings_SSOP:TSSOP-20_4.4x6.5mm_Pitch0.65mm</footprint>
+      <datasheet>http://www.allegromicro.com/~/media/Files/Datasheets/A4955-Datasheet.ashx?la=en</datasheet>
+      <fields>
+        <field name="Digi-Key Part Number">620-1770-1-ND</field>
+        <field name="Digi-Key Minimum Quantity">1</field>
+      </fields>
+      <libsource lib="a4955glptr-t" part="A4955GLPTR-T"/>
+      <sheetpath names="/PWM_Bridge_A4955-B/" tstamps="/58084D17/"/>
+      <tstamp>58077F1C</tstamp>
+    </comp>
+    <comp ref="C24">
+      <value>100n</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Digi-Key Part Number">311-1343-1-ND</field>
+        <field name="Digi-Key Minimum Quantity">1</field>
+      </fields>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/PWM_Bridge_A4955-B/" tstamps="/58084D17/"/>
+      <tstamp>5807829A</tstamp>
+    </comp>
+    <comp ref="R17">
+      <value>22k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Digi-Key Part Number">311-22.0KHRTR-ND</field>
+        <field name="Digi-Key Minimum Quantity">5000</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/PWM_Bridge_A4955-B/" tstamps="/58084D17/"/>
+      <tstamp>58078520</tstamp>
+    </comp>
+    <comp ref="C28">
+      <value>2.2n</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Digi-Key Part Number">311-1081-1-ND</field>
+        <field name="Digi-Key Minimum Quantity">1</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/PWM_Bridge_A4955-B/" tstamps="/58084D17/"/>
+      <tstamp>5807867B</tstamp>
+    </comp>
+    <comp ref="R19">
+      <value>0R005</value>
+      <footprint>Resistors_SMD:R_2512</footprint>
+      <datasheet>http://www.bourns.com/docs/Product-Datasheets/CRE.pdf</datasheet>
+      <fields>
+        <field name="Digi-Key Part Number">CRE2512-FZ-R005E-3CT-ND</field>
+        <field name="Digi-Key Minimum Quantity">1</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/PWM_Bridge_A4955-B/" tstamps="/58084D17/"/>
+      <tstamp>580789CE</tstamp>
+    </comp>
+    <comp ref="Q7">
+      <value>IPD220N06L3</value>
+      <footprint>TO_SOT_Packages_SMD:TO-252-2Lead</footprint>
+      <libsource lib="device" part="Q_NMOS_GDS"/>
+      <sheetpath names="/PWM_Bridge_A4955-B/" tstamps="/58084D17/"/>
+      <tstamp>58078C46</tstamp>
+    </comp>
+    <comp ref="Q9">
+      <value>IPD220N06L3</value>
+      <footprint>TO_SOT_Packages_SMD:TO-252-2Lead</footprint>
+      <libsource lib="device" part="Q_NMOS_GDS"/>
+      <sheetpath names="/PWM_Bridge_A4955-B/" tstamps="/58084D17/"/>
+      <tstamp>58078E80</tstamp>
+    </comp>
+    <comp ref="Q10">
+      <value>IPD220N06L3</value>
+      <footprint>TO_SOT_Packages_SMD:TO-252-2Lead</footprint>
+      <libsource lib="device" part="Q_NMOS_GDS"/>
+      <sheetpath names="/PWM_Bridge_A4955-B/" tstamps="/58084D17/"/>
+      <tstamp>58078ED9</tstamp>
+    </comp>
+    <comp ref="Q8">
+      <value>IPD220N06L3</value>
+      <footprint>TO_SOT_Packages_SMD:TO-252-2Lead</footprint>
+      <libsource lib="device" part="Q_NMOS_GDS"/>
+      <sheetpath names="/PWM_Bridge_A4955-B/" tstamps="/58084D17/"/>
+      <tstamp>58078F3F</tstamp>
+    </comp>
+    <comp ref="C25">
+      <value>100n</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Digi-Key Part Number">311-1343-1-ND</field>
+        <field name="Digi-Key Minimum Quantity">1</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/PWM_Bridge_A4955-B/" tstamps="/58084D17/"/>
+      <tstamp>5807A394</tstamp>
+    </comp>
+    <comp ref="C27">
+      <value>100µ</value>
+      <footprint>Capacitors_SMD:c_elec_10x10</footprint>
+      <fields>
+        <field name="Digi-Key Part Number">493-7453-1-ND</field>
+        <field name="Digi-Key Minimum Quantity">1</field>
+      </fields>
+      <libsource lib="device" part="CP"/>
+      <sheetpath names="/PWM_Bridge_A4955-B/" tstamps="/58084D17/"/>
+      <tstamp>5807A62E</tstamp>
+    </comp>
+    <comp ref="C23">
+      <value>100n</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Digi-Key Part Number">311-1343-1-ND</field>
+        <field name="Digi-Key Minimum Quantity">1</field>
+      </fields>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/PWM_Bridge_A4955-B/" tstamps="/58084D17/"/>
+      <tstamp>5807BEA4</tstamp>
+    </comp>
+    <comp ref="C26">
+      <value>1µ</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Digi-Key Part Number">311-1343-1-ND</field>
+        <field name="Digi-Key Minimum Quantity">1</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/PWM_Bridge_A4955-B/" tstamps="/58084D17/"/>
+      <tstamp>5809AC71</tstamp>
+    </comp>
+    <comp ref="R18">
+      <value>22k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Digi-Key Part Number">311-22.0KHRTR-ND</field>
+        <field name="Digi-Key Minimum Quantity">5000</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/PWM_Bridge_A4955-B/" tstamps="/58084D17/"/>
+      <tstamp>580A461C</tstamp>
+    </comp>
+    <comp ref="D10">
+      <value>RB160M-60</value>
+      <footprint>Diodes_SMD:SOD-123</footprint>
+      <datasheet>http://rohmfs.rohm.com/en/products/databook/datasheet/discrete/diode/schottky_barrier/rb160m-60.pdf</datasheet>
+      <fields>
+        <field name="Digi-Key Part Number">RB160M-90DKR-ND</field>
+        <field name="Digi-Key Minimum Quantity">1</field>
+      </fields>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/PWM_Bridge_A4955-B/" tstamps="/58084D17/"/>
+      <tstamp>58151ECD</tstamp>
+    </comp>
+    <comp ref="D11">
+      <value>RB160M-60</value>
+      <footprint>Diodes_SMD:SOD-123</footprint>
+      <datasheet>http://rohmfs.rohm.com/en/products/databook/datasheet/discrete/diode/schottky_barrier/rb160m-60.pdf</datasheet>
+      <fields>
+        <field name="Digi-Key Part Number">RB160M-90DKR-ND</field>
+        <field name="Digi-Key Minimum Quantity">1</field>
+      </fields>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/PWM_Bridge_A4955-B/" tstamps="/58084D17/"/>
+      <tstamp>581537FD</tstamp>
+    </comp>
+    <comp ref="D13">
+      <value>RB160M-60</value>
+      <footprint>Diodes_SMD:SOD-123</footprint>
+      <datasheet>http://rohmfs.rohm.com/en/products/databook/datasheet/discrete/diode/schottky_barrier/rb160m-60.pdf</datasheet>
+      <fields>
+        <field name="Digi-Key Part Number">RB160M-90DKR-ND</field>
+        <field name="Digi-Key Minimum Quantity">1</field>
+      </fields>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/PWM_Bridge_A4955-B/" tstamps="/58084D17/"/>
+      <tstamp>58153EBB</tstamp>
+    </comp>
+    <comp ref="D12">
+      <value>RB160M-60</value>
+      <footprint>Diodes_SMD:SOD-123</footprint>
+      <datasheet>http://rohmfs.rohm.com/en/products/databook/datasheet/discrete/diode/schottky_barrier/rb160m-60.pdf</datasheet>
+      <fields>
+        <field name="Digi-Key Part Number">RB160M-90DKR-ND</field>
+        <field name="Digi-Key Minimum Quantity">1</field>
+      </fields>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/PWM_Bridge_A4955-B/" tstamps="/58084D17/"/>
+      <tstamp>58153F12</tstamp>
+    </comp>
+    <comp ref="U7">
+      <value>USBLC6-2SC6</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-23-6</footprint>
+      <datasheet>http://www.st.com/content/ccc/resource/technical/document/datasheet/06/1d/48/9c/6c/20/4a/b2/CD00050750.pdf/files/CD00050750.pdf/jcr:content/translations/en.CD00050750.pdf</datasheet>
+      <fields>
+        <field name="Digi-Key Part Number">497-5235-1-ND</field>
+        <field name="Digi-Key Minimum Quantity">1</field>
+      </fields>
+      <libsource lib="ESD_Protection" part="USBLC6-2SC6"/>
+      <sheetpath names="/Protected_USB_Supply/" tstamps="/580C14EB/"/>
+      <tstamp>580C1762</tstamp>
+    </comp>
+    <comp ref="P2">
+      <value>USB</value>
+      <footprint>Connectors:USB_Micro-B_10103594-0001LF</footprint>
+      <datasheet>http://portal.fciconnect.com/Comergent//fci/drawing/10103594.pdf</datasheet>
+      <fields>
+        <field name="Digi-Key Part Number">609-4050-1-ND</field>
+        <field name="Digi-Key Minimum Quantity">1</field>
+      </fields>
+      <libsource lib="conn" part="USB_OTG"/>
+      <sheetpath names="/Protected_USB_Supply/" tstamps="/580C14EB/"/>
+      <tstamp>580C1769</tstamp>
+    </comp>
+    <comp ref="L2">
+      <value>FERRIT_BEAD</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="device" part="INDUCTOR_Small"/>
+      <sheetpath names="/Protected_USB_Supply/" tstamps="/580C14EB/"/>
+      <tstamp>580C1770</tstamp>
+    </comp>
+    <comp ref="F2">
+      <value>500mA</value>
+      <footprint>Resistors_SMD:R_1206</footprint>
+      <libsource lib="device" part="THERMISTOR"/>
+      <sheetpath names="/Protected_USB_Supply/" tstamps="/580C14EB/"/>
+      <tstamp>580C1793</tstamp>
+    </comp>
+    <comp ref="L3">
+      <value>FERRIT_BEAD</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="device" part="INDUCTOR_Small"/>
+      <sheetpath names="/Protected_USB_Supply/" tstamps="/580C14EB/"/>
+      <tstamp>580C179A</tstamp>
+    </comp>
+    <comp ref="C29">
+      <value>100n</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Digi-Key Part Number">311-1343-1-ND</field>
+        <field name="Digi-Key Minimum Quantity">1</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/Protected_USB_Supply/" tstamps="/580C14EB/"/>
+      <tstamp>580C17A1</tstamp>
+    </comp>
+    <comp ref="U8">
+      <value>MCP16331T</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-23-6</footprint>
+      <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/20005308B.pdf</datasheet>
+      <fields>
+        <field name="Digi-Key Part Number">MCP16331T-E/CHCT-ND</field>
+        <field name="Digi-Key Minimum Quantity">1</field>
+      </fields>
+      <libsource lib="dc-dc" part="MCP16301"/>
+      <sheetpath names="/MCP16331_5V/" tstamps="/580D8CA5/"/>
+      <tstamp>580BA373</tstamp>
+    </comp>
+    <comp ref="L4">
+      <value>22µ</value>
+      <footprint>Inductors_local:Inductor_Würth_SPC_4818</footprint>
+      <datasheet>http://katalog.we-online.de/pbs/datasheet/744773122.pdf</datasheet>
+      <fields>
+        <field name="Digi-Key Part Number">732-1258-1-ND</field>
+        <field name="Digi-Key Minimum Quantity">1</field>
+      </fields>
+      <libsource lib="device" part="INDUCTOR_Small"/>
+      <sheetpath names="/MCP16331_5V/" tstamps="/580D8CA5/"/>
+      <tstamp>580BA381</tstamp>
+    </comp>
+    <comp ref="C31">
+      <value>10µ</value>
+      <footprint>SMD_Packages:SMD-1206_Pol</footprint>
+      <libsource lib="device" part="CP"/>
+      <sheetpath names="/MCP16331_5V/" tstamps="/580D8CA5/"/>
+      <tstamp>580BA390</tstamp>
+    </comp>
+    <comp ref="C30">
+      <value>10µ</value>
+      <footprint>SMD_Packages:SMD-1206_Pol</footprint>
+      <libsource lib="device" part="CP"/>
+      <sheetpath names="/MCP16331_5V/" tstamps="/580D8CA5/"/>
+      <tstamp>580BA397</tstamp>
+    </comp>
+    <comp ref="C32">
+      <value>100n</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Digi-Key Part Number">311-1343-1-ND</field>
+        <field name="Digi-Key Minimum Quantity">1</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/MCP16331_5V/" tstamps="/580D8CA5/"/>
+      <tstamp>580BA3AF</tstamp>
+    </comp>
+    <comp ref="C33">
+      <value>10µ</value>
+      <footprint>SMD_Packages:SMD-1206_Pol</footprint>
+      <libsource lib="device" part="CP"/>
+      <sheetpath names="/MCP16331_5V/" tstamps="/580D8CA5/"/>
+      <tstamp>580BA3BD</tstamp>
+    </comp>
+    <comp ref="C34">
+      <value>10µ</value>
+      <footprint>SMD_Packages:SMD-1206_Pol</footprint>
+      <libsource lib="device" part="CP"/>
+      <sheetpath names="/MCP16331_5V/" tstamps="/580D8CA5/"/>
+      <tstamp>580BA3C4</tstamp>
+    </comp>
+    <comp ref="R20">
+      <value>22k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Digi-Key Part Number">311-22.0KHRTR-ND</field>
+        <field name="Digi-Key Minimum Quantity">5000</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/MCP16331_5V/" tstamps="/580D8CA5/"/>
+      <tstamp>580BA3DD</tstamp>
+    </comp>
+    <comp ref="R21">
+      <value>4k7</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Digi-Key Part Number">311-4.70KHRTR-ND</field>
+        <field name="Digi-Key Minimum Quantity">5000</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/MCP16331_5V/" tstamps="/580D8CA5/"/>
+      <tstamp>580BA3E4</tstamp>
+    </comp>
+    <comp ref="D4">
+      <value>RB160M-60</value>
+      <footprint>Diodes_SMD:SOD-123</footprint>
+      <libsource lib="device" part="D_Schottky"/>
+      <sheetpath names="/MCP16331_5V/" tstamps="/580D8CA5/"/>
+      <tstamp>580BA3F6</tstamp>
+    </comp>
+    <comp ref="D5">
+      <value>RB160M-60</value>
+      <footprint>Diodes_SMD:SOD-123</footprint>
+      <libsource lib="device" part="D_Schottky"/>
+      <sheetpath names="/MCP16331_5V/" tstamps="/580D8CA5/"/>
+      <tstamp>580BA407</tstamp>
+    </comp>
+    <comp ref="W18">
+      <value>SW</value>
+      <footprint>Measurement_Points:Measurement_Point_Round-SMD-Pad_Small</footprint>
+      <libsource lib="conn" part="TEST_1P"/>
+      <sheetpath names="/MCP16331_5V/" tstamps="/580D8CA5/"/>
+      <tstamp>5817A2DF</tstamp>
+    </comp>
+    <comp ref="P3">
+      <value>PoStep25-32</value>
+      <footprint>Connectors_Multicomp:Multicomp_MC9A12-1034_2x05x2.54mm_Straight</footprint>
+      <libsource lib="conn" part="CONN_02X05"/>
+      <sheetpath names="/PoStep25-32_galvanic/" tstamps="/58105B0F/"/>
+      <tstamp>581072A8</tstamp>
+    </comp>
+    <comp ref="Q11">
+      <value>BSS138</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-23</footprint>
+      <datasheet>http://www.infineon.com/dgdl/Infineon-BSS138N-DS-v02_86-en.pdf?fileId=db3a304330f68606013104d944d53efb</datasheet>
+      <fields>
+        <field name="Digi-Key Part Number">BSS138NH6327XTSA2CT-ND</field>
+        <field name="Digi-Key Minimum Quantity">1</field>
+      </fields>
+      <libsource lib="transistors" part="BSS138"/>
+      <sheetpath names="/PoStep25-32_galvanic/" tstamps="/58105B0F/"/>
+      <tstamp>58114CB7</tstamp>
+    </comp>
+    <comp ref="R22">
+      <value>22k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Digi-Key Part Number">311-22.0KHRTR-ND</field>
+        <field name="Digi-Key Minimum Quantity">5000</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/PoStep25-32_galvanic/" tstamps="/58105B0F/"/>
+      <tstamp>58115D25</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="a4955glptr-t" part="A4955GLPTR-T">
+      <description>Full-Bridge PWM Gate Driver</description>
+      <docs>http://datasheet.octopart.com/A4955GLPTR-T-Allegro-datasheet-59799940.pdf</docs>
+      <footprints>
+        <fp>Housings_SSOP:TSSOP-20_4.4x6.5mm_Pitch0.65mm.kicad_mod</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">A4955GLPTR-T</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="AIOUT" type="output"/>
+        <pin num="3" name="OCLn" type="openEm"/>
+        <pin num="4" name="VREF" type="input"/>
+        <pin num="5" name="IN2" type="input"/>
+        <pin num="6" name="IN1" type="input"/>
+        <pin num="7" name="RC" type="BiDi"/>
+        <pin num="8" name="ISET" type="BiDi"/>
+        <pin num="9" name="SLEEPn" type="input"/>
+        <pin num="10" name="SENSE" type="input"/>
+        <pin num="11" name="GLB" type="output"/>
+        <pin num="12" name="GLA" type="output"/>
+        <pin num="13" name="GHB" type="output"/>
+        <pin num="14" name="SB" type="input"/>
+        <pin num="15" name="GHA" type="output"/>
+        <pin num="16" name="SA" type="input"/>
+        <pin num="17" name="VCP" type="BiDi"/>
+        <pin num="18" name="CP2" type="BiDi"/>
+        <pin num="19" name="VBB" type="power_in"/>
+        <pin num="20" name="CP1" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="ap2112k-3.3trg1" part="AP2112K-3.3TRG1">
+      <description>300 mA Low Dropout Voltage Regulator, Fixed Output 1.2V, SOT-23-5</description>
+      <docs>http://www.a-powerusa.com/docs/APE8865-3.pdf</docs>
+      <footprints>
+        <fp>SOT*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">AP2112K-3.3TRG1</field>
+        <field name="Footprint">SOT-23-5</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VIN" type="input"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="EN" type="input"/>
+        <pin num="5" name="VOUT" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="sensors" part="AS5047D">
+      <description>Magnetic position sensor, 14-bit, PWM output, SPI Interface</description>
+      <docs>http://ams.com/eng/content/download/438523/1341157/file/AS5048_Datasheet.pdf</docs>
+      <footprints>
+        <fp>SSOP*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">AS5047D</field>
+        <field name="Footprint">SSOP_Packages:TSSOP-14_4.4x5mm_Pitch0.65mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~CSn" type="input"/>
+        <pin num="2" name="CLK" type="input"/>
+        <pin num="3" name="MISO" type="output"/>
+        <pin num="4" name="MOSI" type="input"/>
+        <pin num="5" name="TEST" type="passive"/>
+        <pin num="6" name="B" type="output"/>
+        <pin num="7" name="A" type="output"/>
+        <pin num="8" name="W/pWM" type="output"/>
+        <pin num="9" name="V" type="output"/>
+        <pin num="10" name="U" type="output"/>
+        <pin num="11" name="VDD" type="power_in"/>
+        <pin num="12" name="VDD3V" type="power_in"/>
+        <pin num="13" name="GND" type="power_in"/>
+        <pin num="14" name="I/PWM" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="memory" part="AT24CS64-XHM">
+      <description>64Kb (8192x8) Serial EEPROM with Unique Serial Number, TSSOP8</description>
+      <docs>http://www.atmel.com/Images/Atmel-8870-SEEPROM-AT24CS64-Datasheet.pdf</docs>
+      <footprints>
+        <fp>TSSOP8*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">AT24CS64-XHM</field>
+        <field name="Footprint">TSSOP8</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A0" type="input"/>
+        <pin num="2" name="A1" type="input"/>
+        <pin num="3" name="A2" type="input"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="SDA" type="BiDi"/>
+        <pin num="6" name="SCL" type="input"/>
+        <pin num="7" name="WP" type="input"/>
+        <pin num="8" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="transistors" part="BSS138">
+      <aliases>
+        <alias>2N7002</alias>
+      </aliases>
+      <description>50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23</description>
+      <docs>http://www.fairchildsemi.com/ds/BS/BSS138.pdf</docs>
+      <footprints>
+        <fp>SOT-23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">BSS138</field>
+        <field name="Footprint">TO_SOT_Packages_SMD:SOT-23</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="passive"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="C">
+      <description>Unpolarized capacitor</description>
+      <footprints>
+        <fp>C?</fp>
+        <fp>C_????_*</fp>
+        <fp>C_????</fp>
+        <fp>SMD*_c</fp>
+        <fp>Capacitor*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X01">
+      <description>Connector, single row, 01x01</description>
+      <footprints>
+        <fp>Pin_Header_Straight_1X01</fp>
+        <fp>Pin_Header_Angled_1X01</fp>
+        <fp>Socket_Strip_Straight_1X01</fp>
+        <fp>Socket_Strip_Angled_1X01</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X01</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_02X05">
+      <description>Connector, double row, 02x05</description>
+      <footprints>
+        <fp>Pin_Header_Straight_2X05</fp>
+        <fp>Pin_Header_Angled_2X05</fp>
+        <fp>Socket_Strip_Straight_2X05</fp>
+        <fp>Socket_Strip_Angled_2X05</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_02X05</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+        <pin num="5" name="P5" type="passive"/>
+        <pin num="6" name="P6" type="passive"/>
+        <pin num="7" name="P7" type="passive"/>
+        <pin num="8" name="P8" type="passive"/>
+        <pin num="9" name="P9" type="passive"/>
+        <pin num="10" name="P10" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="CP">
+      <description>Polarised capacitor</description>
+      <footprints>
+        <fp>CP*</fp>
+        <fp>C_Axial*</fp>
+        <fp>C_Radial*</fp>
+        <fp>TantalC*</fp>
+        <fp>C*elec</fp>
+        <fp>c_elec*</fp>
+        <fp>SMD*_Pol</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="CRYSTAL_Small">
+      <description>Two pin crystal, small symbol</description>
+      <footprints>
+        <fp>Crystal_</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Y</field>
+        <field name="Value">CRYSTAL_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="C_Small">
+      <description>Unpolarized capacitor</description>
+      <footprints>
+        <fp>C?</fp>
+        <fp>C_????_*</fp>
+        <fp>C_????</fp>
+        <fp>SMD*_c</fp>
+        <fp>Capacitor*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="D">
+      <description>Diode</description>
+      <footprints>
+        <fp>Diode_*</fp>
+        <fp>D-Pak_TO252AA</fp>
+        <fp>*SingleDiode</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="D_Schottky">
+      <description>Schottky diode</description>
+      <footprints>
+        <fp>D-Pak_TO252AA</fp>
+        <fp>Diode_*</fp>
+        <fp>*SingleDiode</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>*_Diode_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Schottky</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="FUSE">
+      <description>Fuse, generic</description>
+      <fields>
+        <field name="Reference">F</field>
+        <field name="Value">FUSE</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="input"/>
+        <pin num="2" name="~" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="INDUCTOR_Small">
+      <description>Inductor, small symbol</description>
+      <footprints>
+        <fp>Choke_*</fp>
+        <fp>*Coil*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">INDUCTOR_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="LED">
+      <description>LED generic</description>
+      <footprints>
+        <fp>LED-*</fp>
+        <fp>LED_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="dc-dc" part="MCP16301">
+      <aliases>
+        <alias>MCP16301H</alias>
+      </aliases>
+      <description>4.0 to 30V Input, 1A output, integrated switch step-down regulator, SOT-23-6 package</description>
+      <docs>http://ww1.microchip.com/downloads/en/DeviceDoc/20005004D.pdf</docs>
+      <footprints>
+        <fp>SOT-23-*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MCP16301</field>
+        <field name="Footprint">TO_SOT_Packages_SMD:SOT-23-6</field>
+      </fields>
+      <pins>
+        <pin num="1" name="BOOST" type="output"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="Vfb" type="input"/>
+        <pin num="4" name="EN" type="input"/>
+        <pin num="5" name="Vin" type="power_in"/>
+        <pin num="6" name="SW" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="Q_NMOS_GDS">
+      <description>Transistor N-MOSFET (general)</description>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">Q_NMOS_GDS</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="D" type="passive"/>
+        <pin num="3" name="S" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="Q_PMOS_GSD">
+      <description>Transistor P-MOSFET (general)</description>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">Q_PMOS_GSD</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="R">
+      <description>Resistor</description>
+      <footprints>
+        <fp>R_*</fp>
+        <fp>Resistor_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="atmel" part="SAMD21G18A-A">
+      <aliases>
+        <alias>SAMD21G15A-A</alias>
+        <alias>SAMD21G16A-A</alias>
+        <alias>SAMD21G17A-A</alias>
+        <alias>SAMD21G15B-A</alias>
+        <alias>SAMD21G16B-A</alias>
+      </aliases>
+      <description>TQFP48, 256K Flash, 32K RAM, 48MHz, CortexM0+</description>
+      <docs>http://www.atmel.com/Images/Atmel-42181-SAM-D21_Datasheet.pdf</docs>
+      <footprints>
+        <fp>TQFP48</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">SAMD21G18A-A</field>
+        <field name="Footprint">TQFP48</field>
+      </fields>
+      <pins>
+        <pin num="1" name="XIN32/TC2WO0/SERCOM1P0/PA00" type="BiDi"/>
+        <pin num="2" name="XOUT32/TC2WO1/SERCOM1P1/PA01" type="BiDi"/>
+        <pin num="3" name="VOUT/Y0/AIN0/PA02" type="BiDi"/>
+        <pin num="4" name="Y1/AIN1/VREFA/PA03" type="BiDi"/>
+        <pin num="5" name="GNDANA" type="power_in"/>
+        <pin num="6" name="VDDANA" type="power_in"/>
+        <pin num="7" name="PB08/AIN2/Y14/SERCOM4P0/TC4WO0" type="BiDi"/>
+        <pin num="8" name="PB09/AIN3/Y15/SERCOM4P1/TC4WO1" type="BiDi"/>
+        <pin num="9" name="TC0WO0/SERCOM0P0/Y2/AIN0/AIN4/VREFB/PA04" type="BiDi"/>
+        <pin num="10" name="TC0W01/SERCOM0P1/Y3/AIN1/AIN5/PA05" type="BiDi"/>
+        <pin num="11" name="TC1WO0/SERCOM0P2/Y4/AIN2/AIN6/PA06" type="BiDi"/>
+        <pin num="12" name="I2SSD0/TC1WO1/SERCOM0P3/Y5/AIN3/AIN7/PA07" type="BiDi"/>
+        <pin num="13" name="I2SSD1/TC0WO0/SERCOM2P0/SERCOM0P0/X0/AIN16/NMI/PA08" type="BiDi"/>
+        <pin num="14" name="I2SMCK0/TC0WO1/SERCOM2P1/SERCOM0P1/X1/AIN17/PA09" type="BiDi"/>
+        <pin num="15" name="I2SSCK0/GCLKIO4/TC1WO0/SERCOM2P2/SERCOM0P2/X2/AIN18/PA10" type="BiDi"/>
+        <pin num="16" name="I2SFS0/GCLKIO5/TC1WO1/SERCOM2P3/SERCOM0P3/X3/AIN19/PA11" type="BiDi"/>
+        <pin num="17" name="VDDIO" type="power_in"/>
+        <pin num="18" name="GND" type="power_in"/>
+        <pin num="19" name="PB10/SECOM4P2/TC5WO0/GCLKIO4/I2SMCK1" type="BiDi"/>
+        <pin num="20" name="PB11/SERCOM4P3/TC5WO1/GCLKIO5/I2SSCK1" type="BiDi"/>
+        <pin num="21" name="ACCMP0/TC2WO0/SERCOM4P0/SERCOM2P0/PA12" type="BiDi"/>
+        <pin num="22" name="ACCMP1/TC2WO1/SERCOM4P1/SERCOM2P1/PA13" type="BiDi"/>
+        <pin num="23" name="XIN/GCLKIO0/TC3WO0/SERCOM4P2/SERCOM2P2/PA14" type="BiDi"/>
+        <pin num="24" name="XOUT/GCLKIO1/TC3WO1/SERCOM4P3/SERCOM2P3/PA15" type="BiDi"/>
+        <pin num="25" name="GCLKIO2/TC2WO0/SERCOM3P0/SERCOM1P0/X4/PA16" type="BiDi"/>
+        <pin num="26" name="GCLKIO3/TC2WO1/SERCOM3P1/SERCOM1P1/X5/PA17" type="BiDi"/>
+        <pin num="27" name="ACCMP0/TC3WO0/SERCOM3P2/SERCOM1P2/X6/PA18" type="BiDi"/>
+        <pin num="28" name="I2SSD0/ACCMP1/TC3WO1/SERCOM3P3/SERCOM1P3/X7/PA19" type="BiDi"/>
+        <pin num="29" name="I2SSCK0/GCLKIO4/TC7WO0/SERCOM3P2/SERCOM5P2/X8/PA20" type="BiDi"/>
+        <pin num="30" name="I2SFS0/GCLKIO5/TC7WO1/SERCOM3P3/SERCOM5P3/X9/PA21" type="BiDi"/>
+        <pin num="31" name="GCLKIO6/TC4WO0/SERCOM5P0/SERCOM3P0/X10/PA22" type="BiDi"/>
+        <pin num="32" name="GCLKIO7/USBSOF/TC4WO1/SERCOM5P1/SERCOM3P1/X11/PA23" type="BiDi"/>
+        <pin num="33" name="USBDM/TC5WO0/SERCOM5P2/SERCOM3P2/PA24" type="BiDi"/>
+        <pin num="34" name="USBDP/TC5WO1/SERCOM5P3/SERCOM3P3/PA25" type="BiDi"/>
+        <pin num="35" name="GND" type="power_in"/>
+        <pin num="36" name="VDDIO" type="power_in"/>
+        <pin num="37" name="PB22/SERCOM5P2/TC7WO0/GCLKIO0" type="BiDi"/>
+        <pin num="38" name="PB23/SERCOM5P3/TC7WO1/GCLKIO1" type="BiDi"/>
+        <pin num="39" name="GCLKIO0/PA27" type="BiDi"/>
+        <pin num="40" name="~RESET~" type="input"/>
+        <pin num="41" name="GCLKIO0/PA28" type="BiDi"/>
+        <pin num="42" name="GND" type="power_in"/>
+        <pin num="43" name="VDDCORE" type="passive"/>
+        <pin num="44" name="VDDIN" type="power_in"/>
+        <pin num="45" name="SWCLK/GCLKIO0/SWCLK/TC1WO0/SERCOM1P2/PA30" type="BiDi"/>
+        <pin num="46" name="SWDIO/SWDIO/TC1WO1/SERCOM1P3/PA31" type="BiDi"/>
+        <pin num="47" name="PB02/AIN10/Y8/SERCOM5P0/TC6WO0" type="BiDi"/>
+        <pin num="48" name="PB03/AIN11/Y9/SERCOM5P1/TC6WO1" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="SW_PUSH_Small_Horizontal">
+      <description>Push button switch, generic, small symbol, two pins</description>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_PUSH_Small_Horizontal</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="Screw_Terminal_1x02">
+      <description>2-pin screw terminal connector</description>
+      <footprints>
+        <fp>bornier2</fp>
+        <fp>TerminalBlock*2pol</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Screw_Terminal_1x02</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="Screw_Terminal_1x04">
+      <description>4-pin screw terminal connector</description>
+      <footprints>
+        <fp>bornier4</fp>
+        <fp>TerminalBlock*4pol</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Screw_Terminal_1x04</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
+        <pin num="4" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="TEST_1P">
+      <description>point</description>
+      <fields>
+        <field name="Reference">W</field>
+        <field name="Value">TEST_1P</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="THERMISTOR">
+      <description>Thermistor, temperature-dependent resistor</description>
+      <footprints>
+        <fp>R?</fp>
+        <fp>SM0603</fp>
+        <fp>SM0805</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">TH</field>
+        <field name="Value">THERMISTOR</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ESD_Protection" part="USBLC6-2SC6">
+      <description>Bidirectional ESD Protection Diode, SOT-23-6</description>
+      <docs>http://www2.st.com/resource/en/datasheet/CD00050750.pdf</docs>
+      <footprints>
+        <fp>SOT-23-*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">USBLC6-2SC6</field>
+        <field name="Footprint">TO_SOT_Packages_SMD:SOT-23-6</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IO1" type="passive"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="IO2" type="passive"/>
+        <pin num="4" name="IO2" type="passive"/>
+        <pin num="5" name="VBUS" type="passive"/>
+        <pin num="6" name="IO1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="USB_OTG">
+      <description>USB micro/mini connector</description>
+      <footprints>
+        <fp>USB*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">USB_OTG</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VBUS" type="power_out"/>
+        <pin num="2" name="D-" type="passive"/>
+        <pin num="3" name="D+" type="passive"/>
+        <pin num="4" name="ID" type="power_in"/>
+        <pin num="5" name="GND" type="power_in"/>
+        <pin num="6" name="shield" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="atmel">
+      <uri>/home/thomas/Projekte/Kicad/kicad-library/library/atmel.lib</uri>
+    </library>
+    <library logical="conn">
+      <uri>/home/thomas/Projekte/Kicad/kicad-library/library/conn.lib</uri>
+    </library>
+    <library logical="dc-dc">
+      <uri>/home/thomas/Projekte/Kicad/kicad-library/library/dc-dc.lib</uri>
+    </library>
+    <library logical="device">
+      <uri>/home/thomas/Projekte/Kicad/kicad-library/library/device.lib</uri>
+    </library>
+    <library logical="ESD_Protection">
+      <uri>/home/thomas/Projekte/Kicad/kicad-library/library/ESD_Protection.lib</uri>
+    </library>
+    <library logical="sensors">
+      <uri>/home/thomas/Projekte/Kicad/kicad-library/library/sensors.lib</uri>
+    </library>
+    <library logical="memory">
+      <uri>/home/thomas/Projekte/Kicad/kicad-library/library/memory.lib</uri>
+    </library>
+    <library logical="transistors">
+      <uri>/home/thomas/Projekte/Kicad/kicad-library/library/transistors.lib</uri>
+    </library>
+    <library logical="a4955glptr-t">
+      <uri>/home/thomas/Projekte/HighPower-Mechaduino/pcb/a4955glptr-t.lib</uri>
+    </library>
+    <library logical="ap2112k-3.3trg1">
+      <uri>/home/thomas/Projekte/HighPower-Mechaduino/pcb/ap2112k-3.3trg1.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/IN3">
+      <node ref="U4" pin="24"/>
+      <node ref="U6" pin="6"/>
+    </net>
+    <net code="2" name="VDD">
+      <node ref="U8" pin="4"/>
+      <node ref="D1" pin="1"/>
+      <node ref="Q3" pin="2"/>
+      <node ref="W2" pin="1"/>
+      <node ref="Q5" pin="2"/>
+      <node ref="C35" pin="1"/>
+      <node ref="U5" pin="19"/>
+      <node ref="C18" pin="1"/>
+      <node ref="C20" pin="1"/>
+      <node ref="D6" pin="1"/>
+      <node ref="U8" pin="5"/>
+      <node ref="D8" pin="1"/>
+      <node ref="C19" pin="1"/>
+      <node ref="C21" pin="1"/>
+      <node ref="C31" pin="1"/>
+      <node ref="C30" pin="1"/>
+      <node ref="D12" pin="1"/>
+      <node ref="D10" pin="1"/>
+      <node ref="C1" pin="2"/>
+      <node ref="R1" pin="2"/>
+      <node ref="F1" pin="2"/>
+      <node ref="C26" pin="1"/>
+      <node ref="U6" pin="19"/>
+      <node ref="Q9" pin="2"/>
+      <node ref="Q7" pin="2"/>
+      <node ref="C24" pin="1"/>
+      <node ref="C27" pin="1"/>
+      <node ref="C25" pin="1"/>
+    </net>
+    <net code="3" name="/IN1">
+      <node ref="U4" pin="11"/>
+      <node ref="U5" pin="6"/>
+    </net>
+    <net code="4" name="/IN2">
+      <node ref="U5" pin="5"/>
+      <node ref="U4" pin="30"/>
+    </net>
+    <net code="5" name="/IN4">
+      <node ref="U6" pin="5"/>
+      <node ref="U4" pin="29"/>
+    </net>
+    <net code="6" name="/AIOUT2">
+      <node ref="U6" pin="2"/>
+      <node ref="U4" pin="8"/>
+    </net>
+    <net code="7" name="/SPI_SCK">
+      <node ref="U1" pin="2"/>
+      <node ref="W17" pin="1"/>
+      <node ref="U4" pin="20"/>
+    </net>
+    <net code="8" name="/SPI_CS0">
+      <node ref="U4" pin="10"/>
+      <node ref="U1" pin="1"/>
+    </net>
+    <net code="9" name="Net-(C4-Pad2)">
+      <node ref="U1" pin="11"/>
+      <node ref="C4" pin="2"/>
+    </net>
+    <net code="10" name="/SLEEP">
+      <node ref="U6" pin="9"/>
+      <node ref="U5" pin="9"/>
+    </net>
+    <net code="11" name="/PWM_Bridge_A4955-B/OUT1">
+      <node ref="U6" pin="16"/>
+      <node ref="J2" pin="3"/>
+      <node ref="D13" pin="1"/>
+      <node ref="D12" pin="2"/>
+      <node ref="Q9" pin="3"/>
+      <node ref="Q10" pin="2"/>
+    </net>
+    <net code="12" name="/PWM_Bridge_A4955-B/OUT2">
+      <node ref="D10" pin="2"/>
+      <node ref="D11" pin="1"/>
+      <node ref="Q7" pin="3"/>
+      <node ref="Q8" pin="2"/>
+      <node ref="J2" pin="4"/>
+      <node ref="U6" pin="14"/>
+    </net>
+    <net code="13" name="/VREF2">
+      <node ref="R8" pin="2"/>
+      <node ref="U4" pin="13"/>
+    </net>
+    <net code="14" name="/VREF1">
+      <node ref="U4" pin="12"/>
+      <node ref="R7" pin="2"/>
+    </net>
+    <net code="15" name="/PWM_Bridge_A4955-B/VREF">
+      <node ref="R8" pin="1"/>
+      <node ref="U6" pin="4"/>
+      <node ref="R10" pin="2"/>
+      <node ref="C8" pin="2"/>
+    </net>
+    <net code="16" name="/Arduino_Zero_Base/Arduino_AREF">
+      <node ref="U4" pin="4"/>
+      <node ref="C14" pin="1"/>
+    </net>
+    <net code="17" name="/PWM_Bridge_A4955-A/OUT1">
+      <node ref="Q6" pin="2"/>
+      <node ref="Q5" pin="3"/>
+      <node ref="J2" pin="1"/>
+      <node ref="D9" pin="1"/>
+      <node ref="D8" pin="2"/>
+      <node ref="U5" pin="16"/>
+    </net>
+    <net code="18" name="/PWM_Bridge_A4955-A/OUT2">
+      <node ref="Q3" pin="3"/>
+      <node ref="D7" pin="1"/>
+      <node ref="D6" pin="2"/>
+      <node ref="J2" pin="2"/>
+      <node ref="Q4" pin="2"/>
+      <node ref="U5" pin="14"/>
+    </net>
+    <net code="19" name="/Protected_USB_Supply/VBUS">
+      <node ref="Q1" pin="3"/>
+      <node ref="L3" pin="2"/>
+    </net>
+    <net code="20" name="/AIOUT1">
+      <node ref="U4" pin="7"/>
+      <node ref="U5" pin="2"/>
+    </net>
+    <net code="21" name="GND">
+      <node ref="P1" pin="3"/>
+      <node ref="P1" pin="5"/>
+      <node ref="U2" pin="2"/>
+      <node ref="P1" pin="7"/>
+      <node ref="C22" pin="2"/>
+      <node ref="R14" pin="2"/>
+      <node ref="C1" pin="1"/>
+      <node ref="R17" pin="2"/>
+      <node ref="SW1" pin="1"/>
+      <node ref="C28" pin="2"/>
+      <node ref="J1" pin="1"/>
+      <node ref="R10" pin="1"/>
+      <node ref="C9" pin="1"/>
+      <node ref="C20" pin="2"/>
+      <node ref="C10" pin="2"/>
+      <node ref="C19" pin="2"/>
+      <node ref="U4" pin="35"/>
+      <node ref="C21" pin="2"/>
+      <node ref="U4" pin="18"/>
+      <node ref="C15" pin="1"/>
+      <node ref="C12" pin="1"/>
+      <node ref="R15" pin="2"/>
+      <node ref="U4" pin="42"/>
+      <node ref="U4" pin="5"/>
+      <node ref="D7" pin="2"/>
+      <node ref="D9" pin="2"/>
+      <node ref="C16" pin="1"/>
+      <node ref="P1" pin="9"/>
+      <node ref="C14" pin="2"/>
+      <node ref="C11" pin="1"/>
+      <node ref="C13" pin="1"/>
+      <node ref="U5" pin="1"/>
+      <node ref="R16" pin="2"/>
+      <node ref="U8" pin="2"/>
+      <node ref="C34" pin="2"/>
+      <node ref="C33" pin="2"/>
+      <node ref="R22" pin="2"/>
+      <node ref="Q11" pin="2"/>
+      <node ref="D4" pin="2"/>
+      <node ref="R21" pin="1"/>
+      <node ref="C30" pin="2"/>
+      <node ref="C31" pin="2"/>
+      <node ref="R19" pin="2"/>
+      <node ref="P6" pin="1"/>
+      <node ref="P5" pin="1"/>
+      <node ref="P4" pin="1"/>
+      <node ref="P3" pin="10"/>
+      <node ref="P7" pin="1"/>
+      <node ref="C35" pin="2"/>
+      <node ref="W4" pin="1"/>
+      <node ref="W6" pin="1"/>
+      <node ref="P3" pin="2"/>
+      <node ref="P3" pin="4"/>
+      <node ref="P3" pin="6"/>
+      <node ref="P3" pin="8"/>
+      <node ref="D1" pin="2"/>
+      <node ref="C5" pin="1"/>
+      <node ref="C3" pin="1"/>
+      <node ref="C6" pin="1"/>
+      <node ref="U7" pin="2"/>
+      <node ref="C29" pin="1"/>
+      <node ref="R2" pin="1"/>
+      <node ref="C26" pin="2"/>
+      <node ref="R9" pin="1"/>
+      <node ref="P2" pin="5"/>
+      <node ref="Q2" pin="2"/>
+      <node ref="L2" pin="2"/>
+      <node ref="R5" pin="1"/>
+      <node ref="D11" pin="2"/>
+      <node ref="U1" pin="5"/>
+      <node ref="D13" pin="2"/>
+      <node ref="U1" pin="13"/>
+      <node ref="R18" pin="2"/>
+      <node ref="C7" pin="1"/>
+      <node ref="C8" pin="1"/>
+      <node ref="U3" pin="4"/>
+      <node ref="U6" pin="1"/>
+      <node ref="C4" pin="1"/>
+      <node ref="C25" pin="2"/>
+      <node ref="C27" pin="2"/>
+      <node ref="U3" pin="3"/>
+      <node ref="U3" pin="7"/>
+      <node ref="C2" pin="2"/>
+      <node ref="U3" pin="1"/>
+      <node ref="U3" pin="2"/>
+    </net>
+    <net code="22" name="/SCL">
+      <node ref="U4" pin="32"/>
+      <node ref="R13" pin="2"/>
+      <node ref="U3" pin="6"/>
+      <node ref="W12" pin="1"/>
+    </net>
+    <net code="23" name="+3V3">
+      <node ref="C11" pin="2"/>
+      <node ref="U2" pin="5"/>
+      <node ref="U3" pin="8"/>
+      <node ref="D3" pin="2"/>
+      <node ref="C2" pin="1"/>
+      <node ref="P1" pin="1"/>
+      <node ref="R3" pin="2"/>
+      <node ref="U1" pin="12"/>
+      <node ref="W5" pin="1"/>
+      <node ref="C5" pin="2"/>
+      <node ref="C6" pin="2"/>
+      <node ref="C13" pin="2"/>
+      <node ref="R12" pin="1"/>
+      <node ref="U4" pin="36"/>
+      <node ref="U4" pin="44"/>
+      <node ref="U4" pin="17"/>
+      <node ref="L1" pin="1"/>
+      <node ref="C12" pin="2"/>
+      <node ref="R13" pin="1"/>
+      <node ref="R23" pin="2"/>
+      <node ref="R24" pin="2"/>
+    </net>
+    <net code="24" name="+5V">
+      <node ref="Q1" pin="2"/>
+      <node ref="U2" pin="1"/>
+      <node ref="U2" pin="3"/>
+      <node ref="C3" pin="2"/>
+      <node ref="W3" pin="1"/>
+      <node ref="D2" pin="1"/>
+    </net>
+    <net code="25" name="/Arduino_Zero_Base/Arduino_RXD">
+      <node ref="W9" pin="1"/>
+      <node ref="U4" pin="38"/>
+    </net>
+    <net code="26" name="/Arduino_Zero_Base/Arduino_TXD">
+      <node ref="U4" pin="37"/>
+      <node ref="W8" pin="1"/>
+    </net>
+    <net code="27" name="/Arduino_Zero_Base/Arduino_USB_HOST_ENABLED">
+      <node ref="U4" pin="41"/>
+    </net>
+    <net code="28" name="/Arduino_Zero_Base/Arduino_D3">
+      <node ref="U4" pin="14"/>
+    </net>
+    <net code="29" name="/Arduino_Zero_Base/Arduino_D1">
+      <node ref="U4" pin="15"/>
+    </net>
+    <net code="30" name="/Arduino_Zero_Base/Arduino_D0">
+      <node ref="U4" pin="16"/>
+    </net>
+    <net code="31" name="/Arduino_Zero_Base/Arduino_A5">
+      <node ref="U4" pin="47"/>
+    </net>
+    <net code="32" name="/Arduino_Zero_Base/Arduino_TX_LED">
+      <node ref="U4" pin="39"/>
+    </net>
+    <net code="33" name="/Arduino_Zero_Base/Arduino_RX_LED">
+      <node ref="U4" pin="48"/>
+    </net>
+    <net code="34" name="/PWM_Bridge_A4955-A/VREF">
+      <node ref="U5" pin="4"/>
+      <node ref="R7" pin="1"/>
+      <node ref="C7" pin="2"/>
+      <node ref="R9" pin="2"/>
+    </net>
+    <net code="35" name="/STP_STEP">
+      <node ref="U4" pin="28"/>
+      <node ref="P3" pin="5"/>
+    </net>
+    <net code="36" name="/STP_EN">
+      <node ref="U4" pin="27"/>
+      <node ref="P3" pin="1"/>
+    </net>
+    <net code="37" name="/STP_DIR">
+      <node ref="P3" pin="3"/>
+      <node ref="U4" pin="25"/>
+    </net>
+    <net code="38" name="/STP_ERROR">
+      <node ref="U4" pin="23"/>
+      <node ref="R22" pin="1"/>
+      <node ref="Q11" pin="1"/>
+    </net>
+    <net code="39" name="/OCLn1">
+      <node ref="R23" pin="1"/>
+      <node ref="U5" pin="3"/>
+      <node ref="U4" pin="3"/>
+    </net>
+    <net code="40" name="/OCLn2">
+      <node ref="U4" pin="9"/>
+      <node ref="R24" pin="1"/>
+      <node ref="U6" pin="3"/>
+    </net>
+    <net code="41" name="Net-(Q1-Pad1)">
+      <node ref="R1" pin="1"/>
+      <node ref="Q1" pin="1"/>
+      <node ref="R2" pin="2"/>
+    </net>
+    <net code="42" name="Net-(F1-Pad1)">
+      <node ref="F1" pin="1"/>
+      <node ref="W1" pin="1"/>
+      <node ref="J1" pin="2"/>
+    </net>
+    <net code="43" name="/SWDIO">
+      <node ref="P1" pin="2"/>
+      <node ref="U4" pin="46"/>
+    </net>
+    <net code="44" name="/SWCLK">
+      <node ref="P1" pin="4"/>
+      <node ref="U4" pin="45"/>
+    </net>
+    <net code="45" name="/MCP16331_5V/VOUT">
+      <node ref="D5" pin="2"/>
+      <node ref="L4" pin="2"/>
+      <node ref="C34" pin="1"/>
+      <node ref="C33" pin="1"/>
+      <node ref="D2" pin="2"/>
+    </net>
+    <net code="46" name="/USB_D+">
+      <node ref="P2" pin="3"/>
+      <node ref="U7" pin="6"/>
+      <node ref="U7" pin="1"/>
+      <node ref="U4" pin="34"/>
+    </net>
+    <net code="47" name="/USB_D-">
+      <node ref="U7" pin="3"/>
+      <node ref="U7" pin="4"/>
+      <node ref="P2" pin="2"/>
+      <node ref="U4" pin="33"/>
+    </net>
+    <net code="48" name="/LED_D13">
+      <node ref="U4" pin="26"/>
+      <node ref="R5" pin="2"/>
+      <node ref="Q2" pin="1"/>
+    </net>
+    <net code="49" name="Net-(D3-Pad1)">
+      <node ref="R6" pin="2"/>
+      <node ref="D3" pin="1"/>
+    </net>
+    <net code="50" name="Net-(Q2-Pad3)">
+      <node ref="R6" pin="1"/>
+      <node ref="Q2" pin="3"/>
+    </net>
+    <net code="51" name="Net-(R4-Pad1)">
+      <node ref="SW1" pin="2"/>
+      <node ref="R4" pin="1"/>
+    </net>
+    <net code="52" name="Net-(U1-Pad6)">
+      <node ref="U1" pin="6"/>
+    </net>
+    <net code="53" name="Net-(U1-Pad10)">
+      <node ref="U1" pin="10"/>
+    </net>
+    <net code="54" name="Net-(U1-Pad9)">
+      <node ref="U1" pin="9"/>
+    </net>
+    <net code="55" name="Net-(U1-Pad8)">
+      <node ref="U1" pin="8"/>
+    </net>
+    <net code="56" name="Net-(U1-Pad14)">
+      <node ref="U1" pin="14"/>
+    </net>
+    <net code="57" name="Net-(U1-Pad7)">
+      <node ref="U1" pin="7"/>
+    </net>
+    <net code="58" name="/SPI_MOSI">
+      <node ref="U4" pin="19"/>
+      <node ref="U1" pin="4"/>
+      <node ref="W16" pin="1"/>
+    </net>
+    <net code="59" name="/SPI_MISO">
+      <node ref="U4" pin="21"/>
+      <node ref="W15" pin="1"/>
+      <node ref="U1" pin="3"/>
+    </net>
+    <net code="60" name="/Protected_USB_Supply/ID">
+      <node ref="P2" pin="4"/>
+    </net>
+    <net code="61" name="/SDA">
+      <node ref="W11" pin="1"/>
+      <node ref="R12" pin="2"/>
+      <node ref="U4" pin="31"/>
+      <node ref="U3" pin="5"/>
+    </net>
+    <net code="62" name="Net-(P1-Pad8)">
+      <node ref="P1" pin="8"/>
+    </net>
+    <net code="63" name="Net-(P1-Pad6)">
+      <node ref="P1" pin="6"/>
+    </net>
+    <net code="64" name="/RESET">
+      <node ref="R3" pin="1"/>
+      <node ref="R4" pin="2"/>
+      <node ref="P1" pin="10"/>
+      <node ref="R11" pin="1"/>
+    </net>
+    <net code="65" name="Net-(R11-Pad2)">
+      <node ref="U4" pin="40"/>
+      <node ref="R11" pin="2"/>
+    </net>
+    <net code="66" name="Net-(C10-Pad1)">
+      <node ref="U4" pin="43"/>
+      <node ref="C10" pin="1"/>
+    </net>
+    <net code="67" name="Net-(U4-Pad22)">
+      <node ref="U4" pin="22"/>
+    </net>
+    <net code="68" name="Net-(C15-Pad2)">
+      <node ref="Y1" pin="1"/>
+      <node ref="U4" pin="2"/>
+      <node ref="C15" pin="2"/>
+    </net>
+    <net code="69" name="Net-(C16-Pad2)">
+      <node ref="C16" pin="2"/>
+      <node ref="Y1" pin="2"/>
+      <node ref="U4" pin="1"/>
+    </net>
+    <net code="70" name="Net-(C9-Pad2)">
+      <node ref="C9" pin="2"/>
+      <node ref="L1" pin="2"/>
+      <node ref="U4" pin="6"/>
+    </net>
+    <net code="71" name="Net-(Q3-Pad1)">
+      <node ref="Q3" pin="1"/>
+      <node ref="U5" pin="13"/>
+    </net>
+    <net code="72" name="Net-(Q6-Pad1)">
+      <node ref="Q6" pin="1"/>
+      <node ref="U5" pin="12"/>
+    </net>
+    <net code="73" name="Net-(Q5-Pad1)">
+      <node ref="Q5" pin="1"/>
+      <node ref="U5" pin="15"/>
+    </net>
+    <net code="74" name="Net-(C22-Pad1)">
+      <node ref="U5" pin="7"/>
+      <node ref="R14" pin="1"/>
+      <node ref="C22" pin="1"/>
+    </net>
+    <net code="75" name="Net-(Q4-Pad3)">
+      <node ref="U5" pin="10"/>
+      <node ref="Q4" pin="3"/>
+      <node ref="Q6" pin="3"/>
+      <node ref="R16" pin="1"/>
+    </net>
+    <net code="76" name="Net-(Q4-Pad1)">
+      <node ref="Q4" pin="1"/>
+      <node ref="U5" pin="11"/>
+    </net>
+    <net code="77" name="Net-(R15-Pad1)">
+      <node ref="U5" pin="8"/>
+      <node ref="R15" pin="1"/>
+    </net>
+    <net code="78" name="Net-(C17-Pad1)">
+      <node ref="U5" pin="20"/>
+      <node ref="C17" pin="1"/>
+    </net>
+    <net code="79" name="Net-(C17-Pad2)">
+      <node ref="C17" pin="2"/>
+      <node ref="U5" pin="18"/>
+    </net>
+    <net code="80" name="Net-(C18-Pad2)">
+      <node ref="U5" pin="17"/>
+      <node ref="C18" pin="2"/>
+    </net>
+    <net code="81" name="Net-(Q10-Pad1)">
+      <node ref="Q10" pin="1"/>
+      <node ref="U6" pin="12"/>
+    </net>
+    <net code="82" name="Net-(Q7-Pad1)">
+      <node ref="U6" pin="13"/>
+      <node ref="Q7" pin="1"/>
+    </net>
+    <net code="83" name="Net-(Q9-Pad1)">
+      <node ref="Q9" pin="1"/>
+      <node ref="U6" pin="15"/>
+    </net>
+    <net code="84" name="Net-(Q10-Pad3)">
+      <node ref="U6" pin="10"/>
+      <node ref="Q10" pin="3"/>
+      <node ref="Q8" pin="3"/>
+      <node ref="R19" pin="1"/>
+    </net>
+    <net code="85" name="Net-(C28-Pad1)">
+      <node ref="C28" pin="1"/>
+      <node ref="R17" pin="1"/>
+      <node ref="U6" pin="7"/>
+    </net>
+    <net code="86" name="Net-(Q8-Pad1)">
+      <node ref="U6" pin="11"/>
+      <node ref="Q8" pin="1"/>
+    </net>
+    <net code="87" name="Net-(R18-Pad1)">
+      <node ref="U6" pin="8"/>
+      <node ref="R18" pin="1"/>
+    </net>
+    <net code="88" name="Net-(C23-Pad1)">
+      <node ref="C23" pin="1"/>
+      <node ref="U6" pin="20"/>
+    </net>
+    <net code="89" name="Net-(C23-Pad2)">
+      <node ref="C23" pin="2"/>
+      <node ref="U6" pin="18"/>
+    </net>
+    <net code="90" name="Net-(C24-Pad2)">
+      <node ref="U6" pin="17"/>
+      <node ref="C24" pin="2"/>
+    </net>
+    <net code="91" name="Net-(F2-Pad1)">
+      <node ref="F2" pin="1"/>
+      <node ref="L3" pin="1"/>
+    </net>
+    <net code="92" name="Net-(C29-Pad2)">
+      <node ref="F2" pin="2"/>
+      <node ref="P2" pin="1"/>
+      <node ref="C29" pin="2"/>
+      <node ref="U7" pin="5"/>
+    </net>
+    <net code="93" name="Net-(L2-Pad1)">
+      <node ref="L2" pin="1"/>
+      <node ref="P2" pin="6"/>
+    </net>
+    <net code="94" name="Net-(R20-Pad1)">
+      <node ref="R21" pin="2"/>
+      <node ref="R20" pin="1"/>
+      <node ref="U8" pin="3"/>
+    </net>
+    <net code="95" name="Net-(C32-Pad2)">
+      <node ref="D4" pin="1"/>
+      <node ref="D5" pin="1"/>
+      <node ref="C32" pin="2"/>
+      <node ref="R20" pin="2"/>
+      <node ref="L4" pin="1"/>
+      <node ref="W18" pin="1"/>
+      <node ref="U8" pin="6"/>
+    </net>
+    <net code="96" name="Net-(C32-Pad1)">
+      <node ref="U8" pin="1"/>
+      <node ref="C32" pin="1"/>
+    </net>
+    <net code="97" name="Net-(P3-Pad7)">
+      <node ref="Q11" pin="3"/>
+      <node ref="P3" pin="7"/>
+    </net>
+    <net code="98" name="Net-(P3-Pad9)">
+      <node ref="P3" pin="9"/>
+    </net>
+  </nets>
+</export>

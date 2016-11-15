@@ -219,6 +219,8 @@ F 0 "C29" V 5752 4100 50  0000 C CNN
 F 1 "100n" V 5661 4100 50  0000 C CNN
 F 2 "Capacitors_SMD:C_0603" H 5538 3950 50  0001 C CNN
 F 3 "" H 5500 4100 50  0000 C CNN
+F 4 "311-1343-1-ND" H 5500 4100 60  0001 C CNN "Digi-Key Part Number"
+F 5 "1" H 5500 4100 60  0001 C CNN "Digi-Key Minimum Quantity"
 	1    5500 4100
 	0    -1   -1   0   
 $EndComp
