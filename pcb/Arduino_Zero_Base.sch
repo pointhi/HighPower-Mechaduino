@@ -127,7 +127,9 @@ P 5250 4150
 F 0 "U4" H 3200 5800 50  0000 C CNN
 F 1 "SAMD21G18A-A" H 7050 2500 50  0000 C CNN
 F 2 "Housings_QFP:TQFP-48_7x7mm_Pitch0.5mm" H 5250 3000 50  0001 C CIN
-F 3 "" H 5250 4400 50  0000 C CNN
+F 3 "http://www.atmel.com/Images/Atmel-42181-SAM-D21_Datasheet.pdf" H 5250 4400 50  0001 C CNN
+F 4 "ATSAMD21G18A-AUTCT-ND" H 5250 4150 60  0001 C CNN "Digi-Key Part Number"
+F 5 "1" H 5250 4150 60  0001 C CNN "Digi-Key Minimum Quantity"
 	1    5250 4150
 	1    0    0    -1  
 $EndComp
@@ -138,7 +140,9 @@ P 9000 2950
 F 0 "Y1" H 9000 3175 50  0000 C CNN
 F 1 "32.768kHz" H 9000 3084 50  0000 C CNN
 F 2 "Crystals:Crystal_SMD_G8" H 9000 2950 50  0001 C CNN
-F 3 "" H 9000 2950 50  0000 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Pericom%20PDFs/G83270022_Ver.A.pdf" H 9000 2950 50  0001 C CNN
+F 4 "G83270022CT-ND" H 9000 2950 60  0001 C CNN "Digi-Key Part Number"
+F 5 "1" H 9000 2950 60  0001 C CNN "Digi-Key Minimum Quantity"
 	1    9000 2950
 	1    0    0    -1  
 $EndComp

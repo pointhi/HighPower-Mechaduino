@@ -105,7 +105,9 @@ P 5500 3450
 F 0 "U7" H 5500 2983 50  0000 C CNN
 F 1 "USBLC6-2SC6" H 5500 3074 50  0000 C CNN
 F 2 "TO_SOT_Packages_SMD:SOT-23-6" H 6150 3800 50  0001 C CNN
-F 3 "" H 5250 3800 50  0001 C CNN
+F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/06/1d/48/9c/6c/20/4a/b2/CD00050750.pdf/files/CD00050750.pdf/jcr:content/translations/en.CD00050750.pdf" H 5250 3800 50  0001 C CNN
+F 4 "497-5235-1-ND" H 5500 3450 60  0001 C CNN "Digi-Key Part Number"
+F 5 "1" H 5500 3450 60  0001 C CNN "Digi-Key Minimum Quantity"
 	1    5500 3450
 	1    0    0    1   
 $EndComp
@@ -116,7 +118,9 @@ P 4300 3500
 F 0 "P2" V 3875 3424 50  0000 C CNN
 F 1 "USB" V 3966 3424 50  0000 C CNN
 F 2 "Connectors:USB_Micro-B_10103594-0001LF" V 4250 3400 50  0001 C CNN
-F 3 "" V 4250 3400 50  0000 C CNN
+F 3 "http://portal.fciconnect.com/Comergent//fci/drawing/10103594.pdf" V 4250 3400 50  0001 C CNN
+F 4 "609-4050-1-ND" V 4300 3500 60  0001 C CNN "Digi-Key Part Number"
+F 5 "1" V 4300 3500 60  0001 C CNN "Digi-Key Minimum Quantity"
 	1    4300 3500
 	0    -1   1    0   
 $EndComp

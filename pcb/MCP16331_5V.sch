@@ -105,7 +105,9 @@ P 5300 3650
 F 0 "U8" H 5300 4217 50  0000 C CNN
 F 1 "MCP16331T" H 5300 4126 50  0000 C CNN
 F 2 "TO_SOT_Packages_SMD:SOT-23-6" H 5300 3150 50  0001 C CNN
-F 3 "" H 5000 4200 50  0000 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20005308B.pdf" H 5000 4200 50  0001 C CNN
+F 4 "MCP16331T-E/CHCT-ND" H 5300 3650 60  0001 C CNN "Digi-Key Part Number"
+F 5 "1" H 5300 3650 60  0001 C CNN "Digi-Key Minimum Quantity"
 	1    5300 3650
 	1    0    0    -1  
 $EndComp
@@ -129,7 +131,9 @@ P 6450 3450
 F 0 "L4" V 6635 3450 50  0000 C CNN
 F 1 "22µ" V 6544 3450 50  0000 C CNN
 F 2 "Inductors_local:Inductor_Würth_SPC_4818" H 6450 3450 50  0001 C CNN
-F 3 "" H 6450 3450 50  0000 C CNN
+F 3 "http://katalog.we-online.de/pbs/datasheet/744773122.pdf" H 6450 3450 50  0001 C CNN
+F 4 "732-1258-1-ND" V 6450 3450 60  0001 C CNN "Digi-Key Part Number"
+F 5 "1" V 6450 3450 60  0001 C CNN "Digi-Key Minimum Quantity"
 	1    6450 3450
 	0    -1   -1   0   
 $EndComp

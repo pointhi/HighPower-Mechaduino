@@ -147,7 +147,9 @@ P 3800 2100
 F 0 "U1" H 3400 2600 50  0000 C CNN
 F 1 "AS5047D" H 4100 1600 50  0000 C CNN
 F 2 "Housings_SSOP:TSSOP-14_4.4x5mm_Pitch0.65mm" H 3800 1350 50  0001 C CNN
-F 3 "" H 1650 3700 50  0000 C CNN
+F 3 "http://ams.com/eng/content/download/595083/1609657/320155" H 1650 3700 50  0000 C CNN
+F 4 "AS5047D-ATSMCT-ND" H 3800 2100 60  0001 C CNN "Digi-Key Part Number"
+F 5 "1" H 3800 2100 60  0001 C CNN "Digi-Key Minimum Quantity"
 	1    3800 2100
 	1    0    0    -1  
 $EndComp
@@ -486,7 +488,9 @@ P 1450 4450
 F 0 "F1" H 1450 4690 50  0000 C CNN
 F 1 "12A" H 1450 4599 50  0000 C CNN
 F 2 "Fuse_Holders_and_Fuses_local:Fuse_0679H" H 1450 4450 50  0001 C CNN
-F 3 "" H 1450 4450 50  0000 C CNN
+F 3 "http://belfuse.com/pdfs/0679H.pdf" H 1450 4450 50  0001 C CNN
+F 4 "507-2059-6-ND" H 1450 4450 60  0001 C CNN "Digi-Key Part Number"
+F 5 "1" H 1450 4450 60  0001 C CNN "Digi-Key Minimum Quantity"
 	1    1450 4450
 	1    0    0    -1  
 $EndComp
@@ -563,7 +567,9 @@ P 4250 6850
 F 0 "U2" H 4250 7200 50  0000 C CNN
 F 1 "AP2112K-3.3TRG1" H 4250 7100 50  0000 C CNN
 F 2 "TO_SOT_Packages_SMD:SOT-23-5" H 4250 7076 50  0001 C CIN
-F 3 "" H 4250 6850 50  0000 C CNN
+F 3 "http://www.diodes.com/_files/datasheets/AP2112.pdf" H 4250 6850 50  0001 C CNN
+F 4 "AP2112K-3.3TRG1DICT-ND" H 4250 6850 60  0001 C CNN "Digi-Key Part Number"
+F 5 "1" H 4250 6850 60  0001 C CNN "Digi-Key Minimum Quantity"
 	1    4250 6850
 	1    0    0    -1  
 $EndComp
@@ -648,7 +654,9 @@ P 2300 2650
 F 0 "SW1" H 2300 2875 50  0000 C CNN
 F 1 "SW_PUSH" H 2300 2784 50  0000 C CNN
 F 2 "Buttons_Switches_SMD:SW_SPST_B3U-1000P" H 2300 2850 50  0001 C CNN
-F 3 "" H 2300 2850 50  0000 C CNN
+F 3 "http://www.omron.com/ecb/products/pdf/en-b3u.pdf" H 2300 2850 50  0001 C CNN
+F 4 "SW1020CT-ND" H 2300 2650 60  0001 C CNN "Digi-Key Part Number"
+F 5 "1" H 2300 2650 60  0001 C CNN "Digi-Key Minimum Quantity"
 	1    2300 2650
 	0    -1   -1   0   
 $EndComp
@@ -911,7 +919,9 @@ P 6300 7050
 F 0 "U3" H 6100 7300 50  0000 C CNN
 F 1 "AT24CS64-SSHM" H 6650 6750 50  0000 C CNN
 F 2 "Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm" H 6300 7050 50  0001 C CIN
-F 3 "" H 6300 7050 50  0000 C CNN
+F 3 "http://www.atmel.com/Images/Atmel-8861-SEEPROM-Atmel-Value-Added-Serial-EEPROM-Products-AT24MAC-AT24CS-Brochure.pdf" H 6300 7050 50  0001 C CNN
+F 4 "AT24CS64-SSHM-TCT-ND" H 6300 7050 60  0001 C CNN "Digi-Key Part Number"
+F 5 "1" H 6300 7050 60  0001 C CNN "Digi-Key Minimum Quantity"
 	1    6300 7050
 	1    0    0    -1  
 $EndComp
