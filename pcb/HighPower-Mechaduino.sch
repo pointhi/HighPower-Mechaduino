@@ -147,7 +147,7 @@ P 3800 2100
 F 0 "U1" H 3400 2600 50  0000 C CNN
 F 1 "AS5047D" H 4100 1600 50  0000 C CNN
 F 2 "Housings_SSOP:TSSOP-14_4.4x5mm_Pitch0.65mm" H 3800 1350 50  0001 C CNN
-F 3 "http://ams.com/eng/content/download/595083/1609657/320155" H 1650 3700 50  0000 C CNN
+F 3 "http://ams.com/eng/content/download/595083/1609657/320155" H 1650 3700 50  0001 C CNN
 F 4 "AS5047D-ATSMCT-ND" H 3800 2100 60  0001 C CNN "Digi-Key Part Number"
 F 5 "1" H 3800 2100 60  0001 C CNN "Digi-Key Minimum Quantity"
 	1    3800 2100
@@ -613,7 +613,9 @@ P 1150 1800
 F 0 "P1" H 1150 2215 50  0000 C CNN
 F 1 "SWD" H 1150 2124 50  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_2x05_Pitch1.27mm" H 1150 600 50  0001 C CNN
-F 3 "" H 1150 600 50  0000 C CNN
+F 3 "http://portal.fciconnect.com/Comergent//fci/drawing/20021111.pdf" H 1150 600 50  0000 C CNN
+F 4 "609-3712-ND" H 1150 1800 60  0001 C CNN "Digi-Key Part Number"
+F 5 "1" H 1150 1800 60  0001 C CNN "Digi-Key Minimum Quantity"
 	1    1150 1800
 	1    0    0    -1  
 $EndComp
@@ -721,7 +723,9 @@ P 5800 2450
 F 0 "Q2" H 5991 2496 50  0000 L CNN
 F 1 "BSS138" H 5991 2405 50  0000 L CNN
 F 2 "TO_SOT_Packages_SMD:SOT-23" H 6000 2375 50  0001 L CIN
-F 3 "" H 5800 2450 50  0000 L CNN
+F 3 "http://www.infineon.com/dgdl/Infineon-BSS138N-DS-v02_86-en.pdf?fileId=db3a304330f68606013104d944d53efb" H 5800 2450 50  0001 L CNN
+F 4 "BSS138NH6327XTSA2CT-ND" H 5800 2450 60  0001 C CNN "Digi-Key Part Number"
+F 5 "1" H 5800 2450 60  0001 C CNN "Digi-Key Minimum Quantity"
 	1    5800 2450
 	1    0    0    -1  
 $EndComp
@@ -802,7 +806,9 @@ P 2300 6000
 F 0 "D2" V 2250 6100 50  0000 L CNN
 F 1 "RB160M-60" V 2350 6100 50  0000 L CNN
 F 2 "Diodes_SMD:SOD-123" H 2300 6000 50  0001 C CNN
-F 3 "" H 2300 6000 50  0000 C CNN
+F 3 "http://rohmfs.rohm.com/en/products/databook/datasheet/discrete/diode/schottky_barrier/rb160m-60.pdf" H 2300 6000 50  0001 C CNN
+F 4 "RB160M-90DKR-ND" H 2300 6000 60  0001 C CNN "Digi-Key Part Number"
+F 5 "1" H 2300 6000 60  0001 C CNN "Digi-Key Minimum Quantity"
 	1    2300 6000
 	-1   0    0    1   
 $EndComp
@@ -1028,7 +1034,9 @@ P 1800 4750
 F 0 "D1" V 1750 4850 50  0000 L CNN
 F 1 "RB160M-60" V 1850 4850 50  0000 L CNN
 F 2 "Diodes_SMD:SOD-123" H 1800 4750 50  0001 C CNN
-F 3 "" H 1800 4750 50  0000 C CNN
+F 3 "http://rohmfs.rohm.com/en/products/databook/datasheet/discrete/diode/schottky_barrier/rb160m-60.pdf" H 1800 4750 50  0001 C CNN
+F 4 "RB160M-90DKR-ND" H 1800 4750 60  0001 C CNN "Digi-Key Part Number"
+F 5 "1" H 1800 4750 60  0001 C CNN "Digi-Key Minimum Quantity"
 	1    1800 4750
 	0    1    1    0   
 $EndComp
@@ -1039,7 +1047,9 @@ P 2500 6550
 F 0 "Q1" H 2691 6504 50  0000 L CNN
 F 1 "SSM3J328R" H 2691 6595 50  0000 L CNN
 F 2 "TO_SOT_Packages_SMD:SOT-23" H 2700 6650 50  0001 C CNN
-F 3 "" H 2500 6550 50  0000 C CNN
+F 3 "https://toshiba.semicon-storage.com/info/docget.jsp?did=2429&prodName=SSM3J328R" H 2500 6550 50  0001 C CNN
+F 4 "SSM3J328RLFCT-ND" H 2500 6550 60  0001 C CNN "Digi-Key Part Number"
+F 5 "1" H 2500 6550 60  0001 C CNN "Digi-Key Minimum Quantity"
 	1    2500 6550
 	1    0    0    1   
 $EndComp

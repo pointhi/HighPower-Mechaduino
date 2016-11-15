@@ -36,6 +36,11 @@ A big thanks to the [Shuttleworth Foundation](https://shuttleworthfoundation.org
 * board in the size of NEMA 23 (56x56xmm) or NEMA 24 (60x60mm)
 
 
+### various informations
+
+* BOM can be created using [KiBoM](https://github.com/SchrodingersGat/KiBoM)
+
+
 ## License
 
 Hardware including documentation is licensed under [CERN OHL v.1.2. license](http://www.ohwr.org/licenses/cern-ohl/v1.2)
