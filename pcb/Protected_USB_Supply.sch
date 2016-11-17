@@ -124,19 +124,6 @@ F 5 "1" V 4300 3500 60  0001 C CNN "Digi-Key Minimum Quantity"
 	1    4300 3500
 	0    -1   1    0   
 $EndComp
-$Comp
-L INDUCTOR_Small L2
-U 1 1 580C1770
-P 4200 4100
-F 0 "L2" H 4247 4146 50  0000 L CNN
-F 1 "FERRIT_BEAD" H 4247 4055 50  0000 L CNN
-F 2 "Resistors_SMD:R_0603" H 4200 4100 50  0001 C CNN
-F 3 "http://www.bourns.com/docs/Product-Datasheets/mh.pdf" H 4200 4100 50  0001 C CNN
-F 4 "MH1608-471YCT-ND" H 4200 4100 60  0001 C CNN "Digi-Key Part Number"
-F 5 "1" H 4200 4100 60  0001 C CNN "Digi-Key Minimum Quantity"
-	1    4200 4100
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	5000 3450 4900 3450
 Wire Wire Line
@@ -169,20 +156,20 @@ Wire Wire Line
 $Comp
 L GND #PWR082
 U 1 1 580C1786
-P 4200 4300
-F 0 "#PWR082" H 4200 4050 50  0001 C CNN
-F 1 "GND" H 4205 4127 50  0000 C CNN
-F 2 "" H 4200 4300 50  0000 C CNN
-F 3 "" H 4200 4300 50  0000 C CNN
-	1    4200 4300
+P 4200 4400
+F 0 "#PWR082" H 4200 4150 50  0001 C CNN
+F 1 "GND" H 4205 4227 50  0000 C CNN
+F 2 "" H 4200 4400 50  0000 C CNN
+F 3 "" H 4200 4400 50  0000 C CNN
+	1    4200 4400
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	4200 3900 4200 4000
 Wire Wire Line
-	4200 4200 4200 4300
+	4200 4300 4200 4400
 Wire Wire Line
-	4700 2900 6200 2900
+	4700 2900 6250 2900
 Wire Wire Line
 	6100 2900 6100 4100
 Wire Wire Line
@@ -191,32 +178,6 @@ Wire Wire Line
 	4700 2900 4700 3300
 Wire Wire Line
 	4700 3300 4600 3300
-$Comp
-L THERMISTOR F2
-U 1 1 580C1793
-P 6400 2900
-F 0 "F2" V 6158 2900 50  0000 C CNN
-F 1 "500mA" V 6249 2900 50  0000 C CNN
-F 2 "Resistors_SMD:R_1206" H 6400 2900 50  0001 C CNN
-F 3 "http://www.belfuse.com/pdfs/0ZCJ.pdf" H 6400 2900 50  0001 C CNN
-F 4 "507-1802-1-ND" H 6400 2900 60  0001 C CNN "Digi-Key Part Number"
-F 5 "1" H 6400 2900 60  0001 C CNN "Digi-Key Minimum Quantity"
-	1    6400 2900
-	0    1    1    0   
-$EndComp
-$Comp
-L INDUCTOR_Small L3
-U 1 1 580C179A
-P 6800 2900
-F 0 "L3" V 6985 2900 50  0000 C CNN
-F 1 "FERRIT_BEAD" V 6894 2900 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" H 6800 2900 50  0001 C CNN
-F 3 "http://www.bourns.com/docs/Product-Datasheets/mh.pdf" H 6800 2900 50  0001 C CNN
-F 4 "MH1608-471YCT-ND" H 6800 2900 60  0001 C CNN "Digi-Key Part Number"
-F 5 "1" H 6800 2900 60  0001 C CNN "Digi-Key Minimum Quantity"
-	1    6800 2900
-	0    -1   -1   0   
-$EndComp
 $Comp
 L C C29
 U 1 1 580C17A1
@@ -243,14 +204,14 @@ Connection ~ 6000 3250
 Connection ~ 6000 3650
 Connection ~ 6100 2900
 Wire Wire Line
-	6700 2900 6600 2900
+	6550 2900 6700 2900
 Wire Wire Line
-	6900 2900 7100 2900
+	7000 2900 7200 2900
 Text HLabel 6500 3250 2    60   BiDi ~ 0
 D-
 Text HLabel 6500 3650 2    60   BiDi ~ 0
 D+
-Text HLabel 7100 2900 2    60   Output ~ 0
+Text HLabel 7200 2900 2    60   Output ~ 0
 VBUS
 Wire Wire Line
 	4600 3600 4700 3600
@@ -260,4 +221,43 @@ Wire Wire Line
 	4700 4650 6500 4650
 Text HLabel 6500 4650 2    60   BiDi ~ 0
 ID
+$Comp
+L Polyfuse F2
+U 1 1 582EA403
+P 6400 2900
+F 0 "F2" V 6175 2900 50  0000 C CNN
+F 1 "500mA" V 6266 2900 50  0000 C CNN
+F 2 "Resistors_SMD:R_1206" H 6450 2700 50  0001 L CNN
+F 3 "http://www.belfuse.com/pdfs/0ZCJ.pdf" H 6400 2900 50  0001 C CNN
+F 4 "507-1802-1-ND" H 6400 2900 60  0001 C CNN "Digi-Key Part Number"
+F 5 "1" H 6400 2900 60  0001 C CNN "Digi-Key Minimum Quantity"
+	1    6400 2900
+	0    1    1    0   
+$EndComp
+$Comp
+L Ferrite_Bead L3
+U 1 1 582EAA94
+P 6850 2900
+F 0 "L3" V 6576 2900 50  0000 C CNN
+F 1 "Ferrite_Bead" V 6667 2900 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 6668 2900 50  0001 C CNN
+F 3 "http://www.bourns.com/docs/Product-Datasheets/mh.pdf" V 6667 2900 50  0001 C CNN
+F 4 "MH1608-471YCT-ND" H 6850 2900 60  0001 C CNN "Digi-Key Part Number"
+F 5 "1" H 6850 2900 60  0001 C CNN "Digi-Key Minimum Quantity"
+	1    6850 2900
+	0    1    1    0   
+$EndComp
+$Comp
+L Ferrite_Bead L2
+U 1 1 582EB03B
+P 4200 4150
+F 0 "L2" H 3950 4200 50  0000 L CNN
+F 1 "Ferrite_Bead" H 3550 4100 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603" V 4018 4150 50  0001 C CNN
+F 3 "http://www.bourns.com/docs/Product-Datasheets/mh.pdf" V 4017 4150 50  0001 C CNN
+F 4 "MH1608-471YCT-ND" H 4200 4150 60  0001 C CNN "Digi-Key Part Number"
+F 5 "1" H 4200 4150 60  0001 C CNN "Digi-Key Minimum Quantity"
+	1    4200 4150
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

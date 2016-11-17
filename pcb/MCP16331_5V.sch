@@ -125,19 +125,6 @@ $EndComp
 Wire Wire Line
 	5300 4050 5300 4150
 $Comp
-L INDUCTOR_Small L4
-U 1 1 580BA381
-P 6450 3450
-F 0 "L4" V 6635 3450 50  0000 C CNN
-F 1 "22µ" V 6544 3450 50  0000 C CNN
-F 2 "Inductors_local:Inductor_Würth_SPC_4818" H 6450 3450 50  0001 C CNN
-F 3 "http://katalog.we-online.de/pbs/datasheet/744773122.pdf" H 6450 3450 50  0001 C CNN
-F 4 "732-1258-1-ND" V 6450 3450 60  0001 C CNN "Digi-Key Part Number"
-F 5 "1" V 6450 3450 60  0001 C CNN "Digi-Key Minimum Quantity"
-	1    6450 3450
-	0    -1   -1   0   
-$EndComp
-$Comp
 L CP C31
 U 1 1 580BA390
 P 4750 3750
@@ -199,11 +186,19 @@ F 5 "1" H 5950 3050 60  0001 C CNN "Digi-Key Minimum Quantity"
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	5700 3450 6350 3450
+	5700 3450 5800 3450
 Wire Wire Line
-	6100 3050 6250 3050
+	5800 3450 6150 3450
 Wire Wire Line
-	6150 2700 6150 3450
+	6150 3450 6250 3450
+Wire Wire Line
+	6100 3050 6150 3050
+Wire Wire Line
+	6150 3050 6250 3050
+Wire Wire Line
+	6150 2700 6150 3050
+Wire Wire Line
+	6150 3050 6150 3450
 Connection ~ 6150 3450
 Wire Wire Line
 	5700 3350 5750 3350
@@ -297,7 +292,9 @@ F 3 "" H 6150 4150 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6150 3750 6150 3850
+	6150 3750 6150 3800
+Wire Wire Line
+	6150 3800 6150 3850
 Wire Wire Line
 	5700 3650 5950 3650
 Wire Wire Line
@@ -345,9 +342,15 @@ Connection ~ 6150 3050
 Wire Wire Line
 	6550 3050 7050 3050
 Wire Wire Line
-	7050 3050 7050 3600
+	7050 3050 7050 3450
 Wire Wire Line
-	6550 3450 7350 3450
+	7050 3450 7050 3600
+Wire Wire Line
+	6550 3450 6650 3450
+Wire Wire Line
+	6650 3450 7050 3450
+Wire Wire Line
+	7050 3450 7350 3450
 Wire Wire Line
 	6650 3450 6650 3600
 Connection ~ 7050 3450
@@ -355,7 +358,11 @@ Connection ~ 6650 3450
 Text HLabel 7350 3450 2    60   Output ~ 0
 VOUT
 Wire Wire Line
-	4250 3350 4900 3350
+	4250 3350 4400 3350
+Wire Wire Line
+	4400 3350 4750 3350
+Wire Wire Line
+	4750 3350 4900 3350
 Wire Wire Line
 	4400 3350 4400 3600
 Wire Wire Line
@@ -397,4 +404,17 @@ Wire Notes Line
 	2500 2500 1250 2500
 Wire Notes Line
 	1250 2500 1250 1500
+$Comp
+L L L4
+U 1 1 582ECCE6
+P 6400 3450
+F 0 "L4" V 6590 3450 50  0000 C CNN
+F 1 "22µ" V 6499 3450 50  0000 C CNN
+F 2 "Inductors_local:Inductor_Würth_SPC_4818" V 6498 3450 50  0001 C CNN
+F 3 "http://katalog.we-online.de/pbs/datasheet/744773122.pdf" V 6498 3450 50  0001 C CNN
+F 4 "732-1258-1-ND" H 6400 3450 60  0001 C CNN "Digi-Key Part Number"
+F 5 "1" H 6400 3450 60  0001 C CNN "Digi-Key Minimum Quantity"
+	1    6400 3450
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC

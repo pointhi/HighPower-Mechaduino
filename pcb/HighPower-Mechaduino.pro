@@ -1,4 +1,4 @@
-update=Sam 22 Okt 2016 20:32:02 CEST
+update=Don 17 Nov 2016 19:59:53 CET
 version=1
 last_client=kicad
 [pcbnew]
@@ -25,6 +25,16 @@ version=1
 NetIExt=net
 [general]
 version=1
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceAjustPassiveValues=0
+LabSize=60
+ERC_TestSimilarLabels=1
 [eeschema]
 version=1
 LibDir=/home/thomas/Projekte/Kicad/kicad-library/library
@@ -113,13 +123,3 @@ LibName81=xilinx
 LibName82=Zilog
 LibName83=a4955glptr-t
 LibName84=ap2112k-3.3trg1
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=
-SpiceAjustPassiveValues=0
-LabSize=60
-ERC_TestSimilarLabels=1

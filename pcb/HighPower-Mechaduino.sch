@@ -498,19 +498,6 @@ F 3 "" H 1800 5050 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L FUSE F1
-U 1 1 580B492B
-P 1450 4450
-F 0 "F1" H 1450 4690 50  0000 C CNN
-F 1 "12A" H 1450 4599 50  0000 C CNN
-F 2 "Fuse_Holders_and_Fuses_local:Fuse_0679H" H 1450 4450 50  0001 C CNN
-F 3 "http://belfuse.com/pdfs/0679H.pdf" H 1450 4450 50  0001 C CNN
-F 4 "507-2059-6-ND" H 1450 4450 60  0001 C CNN "Digi-Key Part Number"
-F 5 "1" H 1450 4450 60  0001 C CNN "Digi-Key Minimum Quantity"
-	1    1450 4450
-	1    0    0    -1  
-$EndComp
-$Comp
 L C C1
 U 1 1 580B681B
 P 2300 4750
@@ -798,17 +785,6 @@ F 2 "" H 5900 3000 50  0000 C CNN
 F 3 "" H 5900 3000 50  0000 C CNN
 	1    5900 3000
 	1    0    0    -1  
-$EndComp
-$Comp
-L LED D3
-U 1 1 580DA58F
-P 5900 1550
-F 0 "D3" V 5946 1442 50  0000 R CNN
-F 1 "LED" V 5855 1442 50  0000 R CNN
-F 2 "LEDs:LED_0805" H 5900 1550 50  0001 C CNN
-F 3 "" H 5900 1550 50  0000 C CNN
-	1    5900 1550
-	0    -1   -1   0   
 $EndComp
 $Comp
 L +3V3 #PWR027
@@ -1534,9 +1510,9 @@ Wire Wire Line
 Wire Wire Line
 	1200 4650 1200 5050
 Wire Wire Line
-	1100 4450 1200 4450
+	1100 4450 1300 4450
 Wire Wire Line
-	1700 4450 2750 4450
+	1600 4450 2750 4450
 Wire Wire Line
 	1800 4100 1800 4600
 Wire Wire Line
@@ -1627,9 +1603,9 @@ Wire Wire Line
 Wire Wire Line
 	5900 2250 5900 2150
 Wire Wire Line
-	5900 1850 5900 1750
+	5900 1700 5900 1850
 Wire Wire Line
-	5900 1250 5900 1350
+	5900 1250 5900 1400
 Connection ~ 5500 2500
 Wire Wire Line
 	7850 5650 7450 5650
@@ -1824,4 +1800,28 @@ Text Notes 7800 2750 0    60   ~ 0
 I_MAX = 14A
 Text Notes 7800 1450 0    60   ~ 0
 I_MAX = 14A
+$Comp
+L LED D3
+U 1 1 582E4EB6
+P 5900 1550
+F 0 "D3" V 5938 1433 50  0000 R CNN
+F 1 "LED" V 5847 1433 50  0000 R CNN
+F 2 "LEDs:LED_0805" V 5801 1433 50  0001 R CNN
+F 3 "" H 5900 1550 50  0000 C CNN
+	1    5900 1550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Fuse F1
+U 1 1 582E7448
+P 1450 4450
+F 0 "F1" V 1253 4450 50  0000 C CNN
+F 1 "12A" V 1344 4450 50  0000 C CNN
+F 2 "Fuse_Holders_and_Fuses_local:Fuse_0679H" V 1345 4450 50  0001 C CNN
+F 3 "http://belfuse.com/pdfs/0679H.pdf" V 1345 4450 50  0001 C CNN
+F 4 "507-2059-6-ND" H 1450 4450 60  0001 C CNN "Digi-Key Part Number"
+F 5 "1" H 1450 4450 60  0001 C CNN "Digi-Key Minimum Quantity"
+	1    1450 4450
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC

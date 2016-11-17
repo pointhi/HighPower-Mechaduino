@@ -226,12 +226,12 @@ Wire Wire Line
 $Comp
 L +3V3 #PWR050
 U 1 1 580289B7
-P 4600 1600
-F 0 "#PWR050" H 4600 1450 50  0001 C CNN
-F 1 "+3V3" H 4615 1773 50  0000 C CNN
-F 2 "" H 4600 1600 50  0000 C CNN
-F 3 "" H 4600 1600 50  0000 C CNN
-	1    4600 1600
+P 4600 1500
+F 0 "#PWR050" H 4600 1350 50  0001 C CNN
+F 1 "+3V3" H 4615 1673 50  0000 C CNN
+F 2 "" H 4600 1500 50  0000 C CNN
+F 3 "" H 4600 1500 50  0000 C CNN
+	1    4600 1500
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -279,19 +279,6 @@ F 3 "" H 5550 1950 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L INDUCTOR_Small L1
-U 1 1 580294AF
-P 4600 1800
-F 0 "L1" H 4648 1846 50  0000 L CNN
-F 1 "FERRIT_BEAD" H 4648 1755 50  0000 L CNN
-F 2 "Resistors_SMD:R_0603" H 4600 1800 50  0001 C CNN
-F 3 "http://www.bourns.com/docs/Product-Datasheets/mh.pdf" H 4600 1800 50  0001 C CNN
-F 4 "MH1608-471YCT-ND" H 4600 1800 60  0001 C CNN "Digi-Key Part Number"
-F 5 "1" H 4600 1800 60  0001 C CNN "Digi-Key Minimum Quantity"
-	1    4600 1800
-	1    0    0    -1  
-$EndComp
-$Comp
 L C_Small C9
 U 1 1 58029539
 P 4600 2100
@@ -325,7 +312,7 @@ Wire Wire Line
 	4950 1950 4950 2450
 Connection ~ 4600 1950
 Wire Wire Line
-	4600 1600 4600 1700
+	4600 1500 4600 1600
 $Comp
 L C_Small C11
 U 1 1 58029CF7
@@ -694,4 +681,17 @@ Wire Wire Line
 	6600 1650 6600 1750
 Wire Wire Line
 	6600 1950 6600 2050
+$Comp
+L Ferrite_Bead L1
+U 1 1 582EB9E4
+P 4600 1750
+F 0 "L1" H 4737 1796 50  0000 L CNN
+F 1 "Ferrite_Bead" H 4737 1705 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603" H 4737 1659 50  0001 L CNN
+F 3 "http://www.bourns.com/docs/Product-Datasheets/mh.pdf" H 4737 1659 50  0001 L CNN
+F 4 "MH1608-471YCT-ND" H 4600 1750 60  0001 C CNN "Digi-Key Part Number"
+F 5 "1" H 4600 1750 60  0001 C CNN "Digi-Key Minimum Quantity"
+	1    4600 1750
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
