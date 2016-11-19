@@ -390,7 +390,7 @@ U 1 1 582ECCE6
 P 6400 3450
 F 0 "L4" V 6590 3450 50  0000 C CNN
 F 1 "22µ" V 6499 3450 50  0000 C CNN
-F 2 "Inductors_local:Inductor_Würth_SPC_4818" V 6498 3450 50  0001 C CNN
+F 2 "Inductors_local:Inductor_Würth_WE-PD2_4532" V 6498 3450 50  0001 C CNN
 F 3 "http://katalog.we-online.de/pbs/datasheet/744773122.pdf" V 6498 3450 50  0001 C CNN
 F 4 "732-1258-1-ND" H 6400 3450 60  0001 C CNN "Digi-Key Part Number"
 F 5 "1" H 6400 3450 60  0001 C CNN "Digi-Key Minimum Quantity"
