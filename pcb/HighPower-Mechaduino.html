@@ -6,15 +6,15 @@
 <h2>KiBoM PCB Bill of Materials</h2>
 <table border="1">
 <tr><td>Source File</td><td>/home/thomas/Projekte/HighPower-Mechaduino/pcb/HighPower-Mechaduino.sch</td></tr>
-<tr><td>BoM Date</td><td>Die 15 Nov 2016 12:16:18 CET</td></tr>
+<tr><td>BoM Date</td><td>Sam 19 Nov 2016 22:35:24 CET</td></tr>
 <tr><td>Schematic Version</td><td>0.1</td></tr>
 <tr><td>Schematic Date</td><td>2016-10-15</td></tr>
 <tr><td>KiCad Version</td><td>Eeschema (2016-11-05 revision 3af551c)-master</td></tr>
 <tr><td>Component Groups</td><td>36</td></tr>
-<tr><td>Component Count (per PCB)</td><td>104</td></tr>
-<tr><td>Fitted Components (per PCB)</td><td>104</td></tr>
+<tr><td>Component Count (per PCB)</td><td>107</td></tr>
+<tr><td>Fitted Components (per PCB)</td><td>107</td></tr>
 <tr><td>Number of PCBs</td><td>1</td></tr>
-<tr><td>Total Component Count<br>(for 1 PCBs)</td><td>104</td></tr>
+<tr><td>Total Component Count<br>(for 1 PCBs)</td><td>107</td></tr>
 </table>
 <br>
 <h2>Component Groups</h2>
@@ -39,10 +39,10 @@
 	<td align="center">1</td>
 	<td align="center" bgcolor=#FFE6B3>Unpolarized capacitor</td>
 	<td align="center" bgcolor=#FFE6B3>C</td>
-	<td align="center" bgcolor=#FFE6B3>C1 C4 C6 C7 C8 C9 C10 C11 C12 C13 C14 C17 C18 C19 C23 C24 C25 C29 C32</td>
+	<td align="center" bgcolor=#FFE6B3>C1 C4 C6 C7 C8 C9 C10 C11 C12 C13 C14 C17 C18 C19 C23 C24 C25 C29 C32 C36</td>
 	<td align="center" bgcolor=#FFE6B3>100n</td>
 	<td align="center" bgcolor=#FFE6B3>C_0603</td>
-	<td align="center" bgcolor=#E6FFEE>19</td>
+	<td align="center" bgcolor=#E6FFEE>20</td>
 	<td align="center" bgcolor=#FF8080></td>
 	<td align="center" bgcolor=#E6F9FF>1</td>
 	<td align="center" bgcolor=#E6F9FF>311-1343-1-ND</td>
@@ -146,7 +146,7 @@
 <tr>
 	<td align="center">10</td>
 	<td align="center" bgcolor=#FFE6B3>Fuse, generic</td>
-	<td align="center" bgcolor=#FFE6B3>FUSE</td>
+	<td align="center" bgcolor=#FFE6B3>Fuse</td>
 	<td align="center" bgcolor=#FFE6B3>F1</td>
 	<td align="center" bgcolor=#FFE6B3>12A</td>
 	<td align="center" bgcolor=#FFE6B3>Fuse_0679H</td>
@@ -157,8 +157,8 @@
 </tr>
 <tr>
 	<td align="center">11</td>
-	<td align="center" bgcolor=#FFE6B3>Thermistor, temperature-dependent resistor</td>
-	<td align="center" bgcolor=#FFE6B3>THERMISTOR</td>
+	<td align="center" bgcolor=#FFE6B3>resettable fuse, polymeric positive temperature coefficient (PPTC)</td>
+	<td align="center" bgcolor=#FFE6B3>Polyfuse</td>
 	<td align="center" bgcolor=#FFE6B3>F2</td>
 	<td align="center" bgcolor=#FFE6B3>500mA</td>
 	<td align="center" bgcolor=#FFE6B3>R_1206</td>
@@ -193,8 +193,8 @@
 </tr>
 <tr>
 	<td align="center">14</td>
-	<td align="center" bgcolor=#FFE6B3>Inductor, small symbol</td>
-	<td align="center" bgcolor=#FFE6B3>INDUCTOR_Small</td>
+	<td align="center" bgcolor=#FFE6B3>Inductor</td>
+	<td align="center" bgcolor=#FFE6B3>L</td>
 	<td align="center" bgcolor=#FFE6B3>L4</td>
 	<td align="center" bgcolor=#FFE6B3>22µ</td>
 	<td align="center" bgcolor=#FFE6B3>Inductor_Würth_SPC_4818</td>
@@ -205,10 +205,10 @@
 </tr>
 <tr>
 	<td align="center">15</td>
-	<td align="center" bgcolor=#FFE6B3>Inductor, small symbol</td>
-	<td align="center" bgcolor=#FFE6B3>INDUCTOR_Small</td>
+	<td align="center" bgcolor=#FFE6B3>Ferrite bead</td>
+	<td align="center" bgcolor=#FFE6B3>Ferrite_Bead</td>
 	<td align="center" bgcolor=#FFE6B3>L1 L2 L3</td>
-	<td align="center" bgcolor=#FFE6B3>FERRIT_BEAD</td>
+	<td align="center" bgcolor=#FFE6B3>Ferrite_Bead</td>
 	<td align="center" bgcolor=#FFE6B3>R_0603</td>
 	<td align="center" bgcolor=#E6FFEE>3</td>
 	<td align="center" bgcolor=#FFE6B3><a href="http://www.bourns.com/docs/Product-Datasheets/mh.pdf">http://www.bourns.com/docs/Product-Datasheets/mh.pdf</a></td>
@@ -265,11 +265,11 @@
 </tr>
 <tr>
 	<td align="center">20</td>
-	<td align="center" bgcolor=#FFE6B3>Transistor N-MOSFET (general)</td>
+	<td align="center" bgcolor=#FFE6B3>Transistor N-MOSFET with substrate diode (general)</td>
 	<td align="center" bgcolor=#FFE6B3>Q_NMOS_GDS</td>
 	<td align="center" bgcolor=#FFE6B3>Q3 Q4 Q5 Q6 Q7 Q8 Q9 Q10</td>
 	<td align="center" bgcolor=#FFE6B3>IPD220N06L3</td>
-	<td align="center" bgcolor=#FFE6B3>TO-252-2Lead</td>
+	<td align="center" bgcolor=#FFE6B3>PG-TO-252-3-313</td>
 	<td align="center" bgcolor=#E6FFEE>8</td>
 	<td align="center" bgcolor=#FF8080></td>
 	<td align="center" bgcolor=#FF8080></td>
@@ -277,7 +277,7 @@
 </tr>
 <tr>
 	<td align="center">21</td>
-	<td align="center" bgcolor=#FFE6B3>Transistor P-MOSFET (general)</td>
+	<td align="center" bgcolor=#FFE6B3>Transistor P-MOSFET with substrate diode (general)</td>
 	<td align="center" bgcolor=#FFE6B3>Q_PMOS_GSD</td>
 	<td align="center" bgcolor=#FFE6B3>Q1</td>
 	<td align="center" bgcolor=#FFE6B3>SSM3J328R</td>
@@ -303,10 +303,10 @@
 	<td align="center">23</td>
 	<td align="center" bgcolor=#FFE6B3>Resistor</td>
 	<td align="center" bgcolor=#FFE6B3>R</td>
-	<td align="center" bgcolor=#FFE6B3>R9 R10</td>
+	<td align="center" bgcolor=#FFE6B3>R9 R10 R26</td>
 	<td align="center" bgcolor=#FFE6B3>1k</td>
 	<td align="center" bgcolor=#FFE6B3>R_0603</td>
-	<td align="center" bgcolor=#E6FFEE>2</td>
+	<td align="center" bgcolor=#E6FFEE>3</td>
 	<td align="center" bgcolor=#FF8080></td>
 	<td align="center" bgcolor=#E6F9FF>1</td>
 	<td align="center" bgcolor=#E6F9FF>311-1.00KHRCT-ND</td>
@@ -315,10 +315,10 @@
 	<td align="center">24</td>
 	<td align="center" bgcolor=#FFE6B3>Resistor</td>
 	<td align="center" bgcolor=#FFE6B3>R</td>
-	<td align="center" bgcolor=#FFE6B3>R1 R2 R3 R5 R14 R15 R17 R18 R20 R22</td>
+	<td align="center" bgcolor=#FFE6B3>R1 R2 R3 R5 R14 R15 R17 R18 R20 R22 R25</td>
 	<td align="center" bgcolor=#FFE6B3>22k</td>
 	<td align="center" bgcolor=#FFE6B3>R_0603</td>
-	<td align="center" bgcolor=#E6FFEE>10</td>
+	<td align="center" bgcolor=#E6FFEE>11</td>
 	<td align="center" bgcolor=#FF8080></td>
 	<td align="center" bgcolor=#E6F9FF>1</td>
 	<td align="center" bgcolor=#E6F9FF>311-22.0KHRCT-ND</td>
@@ -361,7 +361,7 @@
 </tr>
 <tr>
 	<td align="center">28</td>
-	<td align="center" bgcolor=#FFE6B3>Push button switch, generic, small symbol, two pins</td>
+	<td align="center" bgcolor=#FF8080></td>
 	<td align="center" bgcolor=#FFE6B3>SW_PUSH_Small_Horizontal</td>
 	<td align="center" bgcolor=#FFE6B3>SW1</td>
 	<td align="center" bgcolor=#FFE6B3>SW_PUSH</td>
@@ -377,7 +377,7 @@
 	<td align="center" bgcolor=#FFE6B3>A4955GLPTR-T</td>
 	<td align="center" bgcolor=#FFE6B3>U5 U6</td>
 	<td align="center" bgcolor=#FFE6B3>A4955GLPTR-T</td>
-	<td align="center" bgcolor=#FFE6B3>TSSOP-20_4.4x6.5mm_Pitch0.65mm</td>
+	<td align="center" bgcolor=#FFE6B3>ETSSOP-20-1EP_4.4x6.5mm_Pitch0.65mm</td>
 	<td align="center" bgcolor=#E6FFEE>2</td>
 	<td align="center" bgcolor=#FFE6B3><a href="http://www.allegromicro.com/~/media/Files/Datasheets/A4955-Datasheet.ashx?la=en">http://www.allegromicro.com/~/media/Files/Datasheets/A4955-Datasheet.ashx?la=en</a></td>
 	<td align="center" bgcolor=#E6F9FF>1</td>
@@ -397,7 +397,7 @@
 </tr>
 <tr>
 	<td align="center">31</td>
-	<td align="center" bgcolor=#FFE6B3>Magnetic position sensor, 14-bit, PWM output, SPI Interface</td>
+	<td align="center" bgcolor=#FF8080></td>
 	<td align="center" bgcolor=#FFE6B3>AS5047D</td>
 	<td align="center" bgcolor=#FFE6B3>U1</td>
 	<td align="center" bgcolor=#FFE6B3>AS5047D</td>
@@ -433,7 +433,7 @@
 </tr>
 <tr>
 	<td align="center">34</td>
-	<td align="center" bgcolor=#FFE6B3>TQFP48, 256K Flash, 32K RAM, 48MHz, CortexM0+</td>
+	<td align="center" bgcolor=#FF8080></td>
 	<td align="center" bgcolor=#FFE6B3>SAMD21G18A-A</td>
 	<td align="center" bgcolor=#FFE6B3>U4</td>
 	<td align="center" bgcolor=#FFE6B3>SAMD21G18A-A</td>
@@ -457,7 +457,7 @@
 </tr>
 <tr>
 	<td align="center">36</td>
-	<td align="center" bgcolor=#FFE6B3>Two pin crystal, small symbol</td>
+	<td align="center" bgcolor=#FF8080></td>
 	<td align="center" bgcolor=#FFE6B3>CRYSTAL_Small</td>
 	<td align="center" bgcolor=#FFE6B3>Y1</td>
 	<td align="center" bgcolor=#FFE6B3>32.768kHz</td>

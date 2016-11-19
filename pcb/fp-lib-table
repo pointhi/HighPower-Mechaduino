@@ -3,4 +3,5 @@
   (lib (name Inductors_local)(type KiCad)(uri "$(KIPRJMOD)/Inductors.pretty")(options "")(descr ""))
   (lib (name Fuse_Holders_and_Fuses_local)(type KiCad)(uri "$(KIPRJMOD)/Fuse_Holders_and_Fuses.pretty")(options "")(descr ""))
   (lib (name Mounting_Holes_local)(type KiCad)(uri "$(KIPRJMOD)/Mounting_Holes.pretty")(options "")(descr ""))
+  (lib (name TO_SOT_Packages_SMD_local)(type KiCad)(uri "$(KIPRJMOD)/TO_SOT_Packages_SMD.pretty")(options "")(descr ""))
 )
