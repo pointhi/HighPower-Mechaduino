@@ -1,4 +1,4 @@
-update=Don 17 Nov 2016 19:59:53 CET
+update=Sam 26 Nov 2016 21:22:31 CET
 version=1
 last_client=kicad
 [pcbnew]
@@ -123,3 +123,5 @@ LibName81=xilinx
 LibName82=Zilog
 LibName83=a4955glptr-t
 LibName84=ap2112k-3.3trg1
+LibName85=lm75bd
+LibName86=mechanical
