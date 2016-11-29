@@ -127,24 +127,15 @@ $EndComp
 Wire Wire Line
 	5300 4050 5300 4250
 $Comp
-L CP C31
-U 1 1 580BA390
-P 4750 3750
-F 0 "C31" H 4868 3796 50  0000 L CNN
-F 1 "10µ" H 4868 3705 50  0000 L CNN
-F 2 "SMD_Packages:SMD-1206_Pol" H 4788 3600 50  0001 C CNN
-F 3 "" H 4750 3750 50  0000 C CNN
-	1    4750 3750
-	1    0    0    -1  
-$EndComp
-$Comp
 L CP C30
 U 1 1 580BA397
 P 4400 3750
 F 0 "C30" H 4518 3796 50  0000 L CNN
 F 1 "10µ" H 4518 3705 50  0000 L CNN
-F 2 "SMD_Packages:SMD-1206_Pol" H 4438 3600 50  0001 C CNN
-F 3 "" H 4400 3750 50  0000 C CNN
+F 2 "Capacitors_SMD:c_elec_6.3x5.8" H 4438 3600 50  0001 C CNN
+F 3 "http://www.chemi-con.co.jp/cgi-bin/CAT_DB/SEARCH/cat_db_al.cgi?e=e&j=p&pdfname=hxb" H 4400 3750 50  0001 C CNN
+F 4 "565-4191-1-ND" H 4400 3750 60  0001 C CNN "Digi-Key Part Number"
+F 5 "1" H 4400 3750 60  0001 C CNN "Digi-Key Minimum Quantity"
 	1    4400 3750
 	1    0    0    -1  
 $EndComp
@@ -170,8 +161,6 @@ F 3 "" H 4400 4250 50  0000 C CNN
 	1    4400 4250
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4750 3900 4750 4250
 Wire Wire Line
 	4400 3900 4400 4250
 $Comp
@@ -201,24 +190,15 @@ Wire Wire Line
 Wire Wire Line
 	5750 3050 5800 3050
 $Comp
-L CP C33
-U 1 1 580BA3BD
-P 6650 3750
-F 0 "C33" H 6768 3796 50  0000 L CNN
-F 1 "10µ" H 6768 3705 50  0000 L CNN
-F 2 "SMD_Packages:SMD-1206_Pol" H 6688 3600 50  0001 C CNN
-F 3 "" H 6650 3750 50  0000 C CNN
-	1    6650 3750
-	1    0    0    -1  
-$EndComp
-$Comp
 L CP C34
 U 1 1 580BA3C4
 P 7050 3750
 F 0 "C34" H 7168 3796 50  0000 L CNN
 F 1 "10µ" H 7168 3705 50  0000 L CNN
-F 2 "SMD_Packages:SMD-1206_Pol" H 7088 3600 50  0001 C CNN
-F 3 "" H 7050 3750 50  0000 C CNN
+F 2 "Capacitors_SMD:c_elec_6.3x5.8" H 7088 3600 50  0001 C CNN
+F 3 "http://www.chemi-con.co.jp/cgi-bin/CAT_DB/SEARCH/cat_db_al.cgi?e=e&j=p&pdfname=hxb" H 7050 3750 50  0001 C CNN
+F 4 "565-4191-1-ND" H 7050 3750 60  0001 C CNN "Digi-Key Part Number"
+F 5 "1" H 7050 3750 60  0001 C CNN "Digi-Key Minimum Quantity"
 	1    7050 3750
 	1    0    0    -1  
 $EndComp
@@ -342,8 +322,6 @@ Wire Wire Line
 	4250 3350 4900 3350
 Wire Wire Line
 	4400 3350 4400 3600
-Wire Wire Line
-	4750 3600 4750 3350
 Connection ~ 4750 3350
 Wire Wire Line
 	4900 3450 4250 3450
@@ -419,4 +397,34 @@ Text Label 6150 3650 2    60   ~ 0
 Vfb
 Text Label 8100 3900 2    60   ~ 0
 Vfb
+Wire Wire Line
+	4750 3900 4750 4250
+$Comp
+L C C31
+U 1 1 583CD3AF
+P 4750 3750
+F 0 "C31" V 5002 3750 50  0000 C CNN
+F 1 "100n" V 4911 3750 50  0000 C CNN
+F 2 "Capacitors_SMD:C_0603" H 4788 3600 50  0001 C CNN
+F 3 "" H 4750 3750 50  0000 C CNN
+F 4 "311-1343-1-ND" H 4750 3750 60  0001 C CNN "Digi-Key Part Number"
+F 5 "1" H 4750 3750 60  0001 C CNN "Digi-Key Minimum Quantity"
+	1    4750 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C33
+U 1 1 583CD4BA
+P 6650 3750
+F 0 "C33" V 6902 3750 50  0000 C CNN
+F 1 "100n" V 6811 3750 50  0000 C CNN
+F 2 "Capacitors_SMD:C_0603" H 6688 3600 50  0001 C CNN
+F 3 "" H 6650 3750 50  0000 C CNN
+F 4 "311-1343-1-ND" H 6650 3750 60  0001 C CNN "Digi-Key Part Number"
+F 5 "1" H 6650 3750 60  0001 C CNN "Digi-Key Minimum Quantity"
+	1    6650 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4750 3600 4750 3350
 $EndSCHEMATC
