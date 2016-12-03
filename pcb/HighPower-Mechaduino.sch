@@ -418,8 +418,6 @@ Text Label 10500 2900 2    60   ~ 0
 OCLn2
 Text Label 10500 3000 2    60   ~ 0
 AIOUT2
-Text Label 7450 2300 0    60   ~ 0
-SLEEP
 $Comp
 L R R9
 U 1 1 580A69D9
@@ -1654,12 +1652,6 @@ Wire Wire Line
 Wire Wire Line
 	8800 2600 8300 2600
 Wire Wire Line
-	8600 3000 8800 3000
-Wire Wire Line
-	8600 1700 8600 3000
-Wire Wire Line
-	8600 1700 8800 1700
-Wire Wire Line
 	7850 5150 7450 5150
 Wire Wire Line
 	7850 5050 7450 5050
@@ -1716,9 +1708,6 @@ Wire Wire Line
 	10100 2900 10500 2900
 Wire Wire Line
 	10100 3000 10500 3000
-Wire Wire Line
-	8600 2300 7450 2300
-Connection ~ 8600 2300
 Wire Wire Line
 	7950 1900 7950 2000
 Wire Wire Line
@@ -2021,4 +2010,6 @@ Wire Wire Line
 	10750 5150 10750 4800
 Wire Wire Line
 	10250 4850 10850 4850
+NoConn ~ 8800 1700
+NoConn ~ 8800 3000
 $EndSCHEMATC
