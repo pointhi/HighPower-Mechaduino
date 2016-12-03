@@ -5,4 +5,5 @@
   (lib (name Mounting_Holes_local)(type KiCad)(uri "$(KIPRJMOD)/Mounting_Holes.pretty")(options "")(descr ""))
   (lib (name TO_SOT_Packages_SMD_local)(type KiCad)(uri "$(KIPRJMOD)/TO_SOT_Packages_SMD.pretty")(options "")(descr ""))
   (lib (name Connectors_On-Shore-Technology)(type KiCad)(uri "$(KIPRJMOD)/Connectors_On-Shore-Technology.pretty")(options "")(descr ""))
+  (lib (name Capacitors_SMD_local)(type KiCad)(uri "$(KIPRJMOD)/Capacitors_SMD.pretty")(options "")(descr ""))
 )

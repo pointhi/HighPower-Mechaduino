@@ -132,7 +132,7 @@ U 1 1 580BA397
 P 4400 3750
 F 0 "C30" H 4518 3796 50  0000 L CNN
 F 1 "10µ" H 4518 3705 50  0000 L CNN
-F 2 "Capacitors_SMD:c_elec_6.3x5.8" H 4438 3600 50  0001 C CNN
+F 2 "Capacitors_SMD_local:c_elec_6.6x5.8" H 4438 3600 50  0001 C CNN
 F 3 "http://www.chemi-con.co.jp/cgi-bin/CAT_DB/SEARCH/cat_db_al.cgi?e=e&j=p&pdfname=hxb" H 4400 3750 50  0001 C CNN
 F 4 "565-4191-1-ND" H 4400 3750 60  0001 C CNN "Digi-Key Part Number"
 F 5 "1" H 4400 3750 60  0001 C CNN "Digi-Key Minimum Quantity"
@@ -195,7 +195,7 @@ U 1 1 580BA3C4
 P 7050 3750
 F 0 "C34" H 7168 3796 50  0000 L CNN
 F 1 "10µ" H 7168 3705 50  0000 L CNN
-F 2 "Capacitors_SMD:c_elec_6.3x5.8" H 7088 3600 50  0001 C CNN
+F 2 "Capacitors_SMD_local:c_elec_6.6x5.8" H 7088 3600 50  0001 C CNN
 F 3 "http://www.chemi-con.co.jp/cgi-bin/CAT_DB/SEARCH/cat_db_al.cgi?e=e&j=p&pdfname=hxb" H 7050 3750 50  0001 C CNN
 F 4 "565-4191-1-ND" H 7050 3750 60  0001 C CNN "Digi-Key Part Number"
 F 5 "1" H 7050 3750 60  0001 C CNN "Digi-Key Minimum Quantity"
