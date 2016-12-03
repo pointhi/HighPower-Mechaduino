@@ -404,7 +404,9 @@ P 11050 2000
 F 0 "J2" H 11131 2542 50  0000 C CNN
 F 1 "STEPPER" H 11131 2451 50  0000 C CNN
 F 2 "Connectors_Terminal_Blocks:TerminalBlock_Pheonix_MPT-2.54mm_4pol" H 11050 1575 50  0001 C CNN
-F 3 "" H 11025 2200 50  0001 C CNN
+F 3 "www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=282834&DocType=Customer+Drawing&DocLang=English" H 11025 2200 50  0001 C CNN
+F 4 "A98335-ND" H 11050 2000 60  0001 C CNN "Digi-Key Part Number"
+F 5 "1" H 11050 2000 60  0001 C CNN "Digi-Key Minimum Quantity"
 	1    11050 2000
 	-1   0    0    -1  
 $EndComp
@@ -473,7 +475,9 @@ P 950 4550
 F 0 "J1" H 1030 4892 50  0000 C CNN
 F 1 "SUPPLY" H 1030 4801 50  0000 C CNN
 F 2 "Connectors_Terminal_Blocks:TerminalBlock_Pheonix_MPT-2.54mm_2pol" H 950 4325 50  0001 C CNN
-F 3 "" H 925 4550 50  0001 C CNN
+F 3 "www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=282834&DocType=Customer+Drawing&DocLang=English" H 925 4550 50  0001 C CNN
+F 4 "A98333-ND" H 950 4550 60  0001 C CNN "Digi-Key Part Number"
+F 5 "1" H 950 4550 60  0001 C CNN "Digi-Key Minimum Quantity"
 	1    950  4550
 	1    0    0    1   
 $EndComp
@@ -1569,7 +1573,9 @@ P 11050 5000
 F 0 "P4" H 11128 5041 50  0000 L CNN
 F 1 "CONN_01X04" H 11128 4950 50  0000 L CNN
 F 2 "Connectors_JST:JST_PH_B4B-PH-K_04x2.00mm_Straight" H 11127 4904 50  0001 L CNN
-F 3 "" H 11050 5000 50  0000 C CNN
+F 3 "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf" H 11050 5000 50  0001 C CNN
+F 4 "455-1706-ND" H 11050 5000 60  0001 C CNN "Digi-Key Part Number"
+F 5 "1" H 11050 5000 60  0001 C CNN "Digi-Key Minimum Quantity"
 	1    11050 5000
 	1    0    0    -1  
 $EndComp

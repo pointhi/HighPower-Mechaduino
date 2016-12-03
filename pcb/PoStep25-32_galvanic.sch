@@ -107,7 +107,7 @@ P 4650 2850
 F 0 "P3" H 4650 3265 50  0000 C CNN
 F 1 "PoStep25-32" H 4650 3174 50  0000 C CNN
 F 2 "Connectors_On-Shore-Technology:On-Shore-Technology_ED1543_2x05x2.54mm_Straight" H 4650 1650 50  0001 C CNN
-F 3 "" H 4650 1650 50  0000 C CNN
+F 3 "http://www.on-shore.com/wp-content/uploads/2015/09/302-sxxx.pdf" H 4650 1650 50  0001 C CNN
 F 4 "ED1543-ND" H 4650 2850 60  0001 C CNN "Digi-Key Part Number"
 F 5 "1" H 4650 2850 60  0001 C CNN "Digi-Key Minimum Quantity"
 	1    4650 2850

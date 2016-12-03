@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>/home/thomas/Projekte/HighPower-Mechaduino/pcb/HighPower-Mechaduino.sch</source>
-    <date>Don 01 Dez 2016 23:00:48 CET</date>
+    <date>Sam 03 Dez 2016 15:49:40 CET</date>
     <tool>Eeschema (2016-11-05 revision 3af551c)-master</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -178,6 +178,11 @@
     <comp ref="J2">
       <value>STEPPER</value>
       <footprint>Connectors_Terminal_Blocks:TerminalBlock_Pheonix_MPT-2.54mm_4pol</footprint>
+      <datasheet>www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=282834&amp;DocType=Customer+Drawing&amp;DocLang=English</datasheet>
+      <fields>
+        <field name="Digi-Key Part Number">A98335-ND</field>
+        <field name="Digi-Key Minimum Quantity">1</field>
+      </fields>
       <libsource lib="conn" part="Screw_Terminal_1x04"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5809CF6A</tstamp>
@@ -207,6 +212,11 @@
     <comp ref="J1">
       <value>SUPPLY</value>
       <footprint>Connectors_Terminal_Blocks:TerminalBlock_Pheonix_MPT-2.54mm_2pol</footprint>
+      <datasheet>www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=282834&amp;DocType=Customer+Drawing&amp;DocLang=English</datasheet>
+      <fields>
+        <field name="Digi-Key Part Number">A98333-ND</field>
+        <field name="Digi-Key Minimum Quantity">1</field>
+      </fields>
       <libsource lib="conn" part="Screw_Terminal_1x02"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>580B1708</tstamp>
@@ -614,6 +624,11 @@
     <comp ref="P4">
       <value>CONN_01X04</value>
       <footprint>Connectors_JST:JST_PH_B4B-PH-K_04x2.00mm_Straight</footprint>
+      <datasheet>http://www.jst-mfg.com/product/pdf/eng/ePH.pdf</datasheet>
+      <fields>
+        <field name="Digi-Key Part Number">455-1706-ND</field>
+        <field name="Digi-Key Minimum Quantity">1</field>
+      </fields>
       <libsource lib="conn" part="CONN_01X04"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>58432674</tstamp>
@@ -1400,7 +1415,8 @@
     </comp>
     <comp ref="P3">
       <value>PoStep25-32</value>
-      <footprint>Connectors_Multicomp:Multicomp_MC9A12-1034_2x05x2.54mm_Straight</footprint>
+      <footprint>Connectors_On-Shore-Technology:On-Shore-Technology_ED1543_2x05x2.54mm_Straight</footprint>
+      <datasheet>http://www.on-shore.com/wp-content/uploads/2015/09/302-sxxx.pdf</datasheet>
       <fields>
         <field name="Digi-Key Part Number">ED1543-ND</field>
         <field name="Digi-Key Minimum Quantity">1</field>
