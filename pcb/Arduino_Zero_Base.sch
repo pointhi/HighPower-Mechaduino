@@ -92,7 +92,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 7
 Title "Arduino Zero base schematic"
-Date "2016-10-15"
+Date "2016-12-03"
 Rev "0.1"
 Comp "Thomas Pointhuber"
 Comment1 ""

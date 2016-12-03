@@ -92,7 +92,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 3 7
 Title "A4955 PWM Bridge"
-Date "2016-10-22"
+Date "2016-12-03"
 Rev "0.1"
 Comp "Thomas Pointhuber"
 Comment1 ""

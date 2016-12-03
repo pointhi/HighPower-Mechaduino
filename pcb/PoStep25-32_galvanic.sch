@@ -92,7 +92,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 7 7
 Title "ProStep25-32 input including optional galvanic separation"
-Date "2016-10-22"
+Date "2016-12-03"
 Rev "0.1"
 Comp "Thomas Pointhuber"
 Comment1 ""
