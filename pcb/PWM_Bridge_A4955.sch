@@ -168,7 +168,7 @@ U 1 1 580787DB
 P 5750 5500
 AR Path="/58077727/580787DB" Ref="#PWR073"  Part="1" 
 AR Path="/58084D17/580787DB" Ref="#PWR083"  Part="1" 
-F 0 "#PWR083" H 5750 5250 50  0001 C CNN
+F 0 "#PWR073" H 5750 5250 50  0001 C CNN
 F 1 "GND" H 5755 5327 50  0000 C CNN
 F 2 "" H 5750 5500 50  0000 C CNN
 F 3 "" H 5750 5500 50  0000 C CNN
@@ -181,7 +181,7 @@ U 1 1 58078835
 P 4750 5500
 AR Path="/58077727/58078835" Ref="#PWR074"  Part="1" 
 AR Path="/58084D17/58078835" Ref="#PWR084"  Part="1" 
-F 0 "#PWR084" H 4750 5250 50  0001 C CNN
+F 0 "#PWR074" H 4750 5250 50  0001 C CNN
 F 1 "GND" H 4755 5327 50  0000 C CNN
 F 2 "" H 4750 5500 50  0000 C CNN
 F 3 "" H 4750 5500 50  0000 C CNN
@@ -209,7 +209,7 @@ U 1 1 58078AB1
 P 7600 5500
 AR Path="/58077727/58078AB1" Ref="#PWR075"  Part="1" 
 AR Path="/58084D17/58078AB1" Ref="#PWR085"  Part="1" 
-F 0 "#PWR085" H 7600 5250 50  0001 C CNN
+F 0 "#PWR075" H 7600 5250 50  0001 C CNN
 F 1 "GND" H 7605 5327 50  0000 C CNN
 F 2 "" H 7600 5500 50  0000 C CNN
 F 3 "" H 7600 5500 50  0000 C CNN
@@ -297,7 +297,7 @@ U 1 1 5807A4C6
 P 4950 2150
 AR Path="/58077727/5807A4C6" Ref="#PWR076"  Part="1" 
 AR Path="/58084D17/5807A4C6" Ref="#PWR086"  Part="1" 
-F 0 "#PWR086" H 4950 1900 50  0001 C CNN
+F 0 "#PWR076" H 4950 1900 50  0001 C CNN
 F 1 "GND" H 4955 1977 50  0000 C CNN
 F 2 "" H 4950 2150 50  0000 C CNN
 F 3 "" H 4950 2150 50  0000 C CNN
@@ -325,7 +325,7 @@ U 1 1 5807A964
 P 5850 2150
 AR Path="/58077727/5807A964" Ref="#PWR077"  Part="1" 
 AR Path="/58084D17/5807A964" Ref="#PWR087"  Part="1" 
-F 0 "#PWR087" H 5850 1900 50  0001 C CNN
+F 0 "#PWR077" H 5850 1900 50  0001 C CNN
 F 1 "GND" H 5855 1977 50  0000 C CNN
 F 2 "" H 5850 2150 50  0000 C CNN
 F 3 "" H 5850 2150 50  0000 C CNN
@@ -384,7 +384,7 @@ U 1 1 5809ACB6
 P 5400 2150
 AR Path="/58084D17/5809ACB6" Ref="#PWR088"  Part="1" 
 AR Path="/58077727/5809ACB6" Ref="#PWR078"  Part="1" 
-F 0 "#PWR088" H 5400 1900 50  0001 C CNN
+F 0 "#PWR078" H 5400 1900 50  0001 C CNN
 F 1 "GND" H 5405 1977 50  0000 C CNN
 F 2 "" H 5400 2150 50  0000 C CNN
 F 3 "" H 5400 2150 50  0000 C CNN
@@ -412,7 +412,7 @@ U 1 1 580A46B3
 P 6300 5500
 AR Path="/58077727/580A46B3" Ref="#PWR079"  Part="1" 
 AR Path="/58084D17/580A46B3" Ref="#PWR089"  Part="1" 
-F 0 "#PWR089" H 6300 5250 50  0001 C CNN
+F 0 "#PWR079" H 6300 5250 50  0001 C CNN
 F 1 "GND" H 6305 5327 50  0000 C CNN
 F 2 "" H 6300 5500 50  0000 C CNN
 F 3 "" H 6300 5500 50  0000 C CNN
@@ -420,72 +420,12 @@ F 3 "" H 6300 5500 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L D D6
-U 1 1 58151ECD
-P 7200 2400
-AR Path="/58077727/58151ECD" Ref="D6"  Part="1" 
-AR Path="/58084D17/58151ECD" Ref="D10"  Part="1" 
-F 0 "D6" V 7154 2478 50  0000 L CNN
-F 1 "RB160M-60" V 7245 2478 50  0000 L CNN
-F 2 "Diodes_SMD:SOD-123" V 7291 2478 50  0001 L CNN
-F 3 "http://rohmfs.rohm.com/en/products/databook/datasheet/discrete/diode/schottky_barrier/rb160m-60.pdf" H 7200 2400 50  0001 C CNN
-F 4 "RB160M-90DKR-ND" H 7200 2400 60  0001 C CNN "Digi-Key Part Number"
-F 5 "1" H 7200 2400 60  0001 C CNN "Digi-Key Minimum Quantity"
-	1    7200 2400
-	0    1    1    0   
-$EndComp
-$Comp
-L D D7
-U 1 1 581537FD
-P 7200 2900
-AR Path="/58077727/581537FD" Ref="D7"  Part="1" 
-AR Path="/58084D17/581537FD" Ref="D11"  Part="1" 
-F 0 "D7" V 7154 2978 50  0000 L CNN
-F 1 "RB160M-60" V 7245 2978 50  0000 L CNN
-F 2 "Diodes_SMD:SOD-123" V 7291 2978 50  0001 L CNN
-F 3 "http://rohmfs.rohm.com/en/products/databook/datasheet/discrete/diode/schottky_barrier/rb160m-60.pdf" H 7200 2900 50  0001 C CNN
-F 4 "RB160M-90DKR-ND" H 7200 2900 60  0001 C CNN "Digi-Key Part Number"
-F 5 "1" H 7200 2900 60  0001 C CNN "Digi-Key Minimum Quantity"
-	1    7200 2900
-	0    1    1    0   
-$EndComp
-$Comp
-L D D9
-U 1 1 58153EBB
-P 8000 2900
-AR Path="/58077727/58153EBB" Ref="D9"  Part="1" 
-AR Path="/58084D17/58153EBB" Ref="D13"  Part="1" 
-F 0 "D9" V 7954 2978 50  0000 L CNN
-F 1 "RB160M-60" V 8045 2978 50  0000 L CNN
-F 2 "Diodes_SMD:SOD-123" V 8091 2978 50  0001 L CNN
-F 3 "http://rohmfs.rohm.com/en/products/databook/datasheet/discrete/diode/schottky_barrier/rb160m-60.pdf" H 8000 2900 50  0001 C CNN
-F 4 "RB160M-90DKR-ND" H 8000 2900 60  0001 C CNN "Digi-Key Part Number"
-F 5 "1" H 8000 2900 60  0001 C CNN "Digi-Key Minimum Quantity"
-	1    8000 2900
-	0    1    1    0   
-$EndComp
-$Comp
-L D D8
-U 1 1 58153F12
-P 8000 2400
-AR Path="/58077727/58153F12" Ref="D8"  Part="1" 
-AR Path="/58084D17/58153F12" Ref="D12"  Part="1" 
-F 0 "D8" V 7954 2478 50  0000 L CNN
-F 1 "RB160M-60" V 8045 2478 50  0000 L CNN
-F 2 "Diodes_SMD:SOD-123" V 8091 2478 50  0001 L CNN
-F 3 "http://rohmfs.rohm.com/en/products/databook/datasheet/discrete/diode/schottky_barrier/rb160m-60.pdf" H 8000 2400 50  0001 C CNN
-F 4 "RB160M-90DKR-ND" H 8000 2400 60  0001 C CNN "Digi-Key Part Number"
-F 5 "1" H 8000 2400 60  0001 C CNN "Digi-Key Minimum Quantity"
-	1    8000 2400
-	0    1    1    0   
-$EndComp
-$Comp
 L GND #PWR080
 U 1 1 581550B7
 P 8000 3150
 AR Path="/58077727/581550B7" Ref="#PWR080"  Part="1" 
 AR Path="/58084D17/581550B7" Ref="#PWR090"  Part="1" 
-F 0 "#PWR090" H 8000 2900 50  0001 C CNN
+F 0 "#PWR080" H 8000 2900 50  0001 C CNN
 F 1 "GND" H 8005 2977 50  0000 C CNN
 F 2 "" H 8000 3150 50  0000 C CNN
 F 3 "" H 8000 3150 50  0000 C CNN
@@ -498,7 +438,7 @@ U 1 1 58155164
 P 7200 3150
 AR Path="/58077727/58155164" Ref="#PWR081"  Part="1" 
 AR Path="/58084D17/58155164" Ref="#PWR091"  Part="1" 
-F 0 "#PWR091" H 7200 2900 50  0001 C CNN
+F 0 "#PWR081" H 7200 2900 50  0001 C CNN
 F 1 "GND" H 7205 2977 50  0000 C CNN
 F 2 "" H 7200 3150 50  0000 C CNN
 F 3 "" H 7200 3150 50  0000 C CNN
@@ -694,7 +634,7 @@ U 1 1 582EE915
 P 4550 5500
 AR Path="/58077727/582EE915" Ref="#PWR082"  Part="1" 
 AR Path="/58084D17/582EE915" Ref="#PWR092"  Part="1" 
-F 0 "#PWR092" H 4550 5250 50  0001 C CNN
+F 0 "#PWR082" H 4550 5250 50  0001 C CNN
 F 1 "GND" H 4555 5327 50  0000 C CNN
 F 2 "" H 4550 5500 50  0000 C CNN
 F 3 "" H 4550 5500 50  0000 C CNN
@@ -703,4 +643,64 @@ F 3 "" H 4550 5500 50  0000 C CNN
 $EndComp
 Wire Wire Line
 	4550 5500 4550 5200
+$Comp
+L D_Schottky D6
+U 1 1 5849BEDB
+P 7200 2400
+AR Path="/58077727/5849BEDB" Ref="D6"  Part="1" 
+AR Path="/58084D17/5849BEDB" Ref="D10"  Part="1" 
+F 0 "D6" V 7154 2479 50  0000 L CNN
+F 1 "RB160M-60" V 7245 2479 50  0000 L CNN
+F 2 "Diodes_SMD:SOD-123" V 7291 2479 50  0001 L CNN
+F 3 "http://rohmfs.rohm.com/en/products/databook/datasheet/discrete/diode/schottky_barrier/rb160m-60.pdf" V 7291 2479 50  0001 L CNN
+F 4 "RB160M-90DKR-ND" H 7200 2400 60  0001 C CNN "Digi-Key Part Number"
+F 5 "1" H 7200 2400 60  0001 C CNN "Digi-Key Minimum Quantity"
+	1    7200 2400
+	0    1    1    0   
+$EndComp
+$Comp
+L D_Schottky D7
+U 1 1 5849C456
+P 7200 2900
+AR Path="/58077727/5849C456" Ref="D7"  Part="1" 
+AR Path="/58084D17/5849C456" Ref="D11"  Part="1" 
+F 0 "D7" V 7154 2979 50  0000 L CNN
+F 1 "RB160M-60" V 7245 2979 50  0000 L CNN
+F 2 "Diodes_SMD:SOD-123" V 7291 2979 50  0001 L CNN
+F 3 "http://rohmfs.rohm.com/en/products/databook/datasheet/discrete/diode/schottky_barrier/rb160m-60.pdf" V 7291 2979 50  0001 L CNN
+F 4 "RB160M-90DKR-ND" H 7200 2900 60  0001 C CNN "Digi-Key Part Number"
+F 5 "1" H 7200 2900 60  0001 C CNN "Digi-Key Minimum Quantity"
+	1    7200 2900
+	0    1    1    0   
+$EndComp
+$Comp
+L D_Schottky D12
+U 1 1 5849D384
+P 8000 2400
+AR Path="/58084D17/5849D384" Ref="D12"  Part="1" 
+AR Path="/58077727/5849D384" Ref="D8"  Part="1" 
+F 0 "D8" V 7954 2479 50  0000 L CNN
+F 1 "RB160M-60" V 8045 2479 50  0000 L CNN
+F 2 "Diodes_SMD:SOD-123" V 8091 2479 50  0001 L CNN
+F 3 "http://rohmfs.rohm.com/en/products/databook/datasheet/discrete/diode/schottky_barrier/rb160m-60.pdf" V 8091 2479 50  0001 L CNN
+F 4 "RB160M-90DKR-ND" H 8000 2400 60  0001 C CNN "Digi-Key Part Number"
+F 5 "1" H 8000 2400 60  0001 C CNN "Digi-Key Minimum Quantity"
+	1    8000 2400
+	0    1    1    0   
+$EndComp
+$Comp
+L D_Schottky D13
+U 1 1 5849D3E7
+P 8000 2900
+AR Path="/58084D17/5849D3E7" Ref="D13"  Part="1" 
+AR Path="/58077727/5849D3E7" Ref="D9"  Part="1" 
+F 0 "D9" V 7954 2979 50  0000 L CNN
+F 1 "RB160M-60" V 8045 2979 50  0000 L CNN
+F 2 "Diodes_SMD:SOD-123" V 8091 2979 50  0001 L CNN
+F 3 "http://rohmfs.rohm.com/en/products/databook/datasheet/discrete/diode/schottky_barrier/rb160m-60.pdf" V 8091 2979 50  0001 L CNN
+F 4 "RB160M-90DKR-ND" H 8000 2900 60  0001 C CNN "Digi-Key Part Number"
+F 5 "1" H 8000 2900 60  0001 C CNN "Digi-Key Minimum Quantity"
+	1    8000 2900
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC
