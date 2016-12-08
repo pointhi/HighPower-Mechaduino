@@ -185,19 +185,6 @@ F 5 "1" H 4100 800 60  0001 C CNN "Digi-Key Minimum Quantity"
 	0    1    1    0   
 $EndComp
 $Comp
-L C C2
-U 1 1 58056280
-P 3450 800
-F 0 "C2" V 3198 800 50  0000 C CNN
-F 1 "1µ" V 3289 800 50  0000 C CNN
-F 2 "Capacitors_SMD:C_0603" H 3488 650 50  0001 C CNN
-F 3 "" H 3450 800 50  0000 C CNN
-F 4 "311-1343-1-ND" H 3450 800 60  0001 C CNN "Digi-Key Part Number"
-F 5 "1" H 3450 800 60  0001 C CNN "Digi-Key Minimum Quantity"
-	1    3450 800 
-	0    1    1    0   
-$EndComp
-$Comp
 L GND #PWR01
 U 1 1 58056CBD
 P 3800 2150
@@ -228,17 +215,6 @@ F 1 "GND" H 4405 677 50  0000 C CNN
 F 2 "" H 4400 850 50  0000 C CNN
 F 3 "" H 4400 850 50  0000 C CNN
 	1    4400 850 
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR04
-U 1 1 58057452
-P 3200 850
-F 0 "#PWR04" H 3200 600 50  0001 C CNN
-F 1 "GND" H 3205 677 50  0000 C CNN
-F 2 "" H 3200 850 50  0000 C CNN
-F 3 "" H 3200 850 50  0000 C CNN
-	1    3200 850 
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1620,17 +1596,11 @@ Wire Wire Line
 Wire Wire Line
 	4400 800  4400 850 
 Wire Wire Line
-	3950 800  3800 800 
+	3700 800  3950 800 
 Wire Wire Line
 	3800 800  3800 900 
 Wire Wire Line
 	3700 700  3700 900 
-Wire Wire Line
-	3700 800  3600 800 
-Wire Wire Line
-	3300 800  3200 800 
-Wire Wire Line
-	3200 800  3200 850 
 Connection ~ 3700 800 
 Wire Wire Line
 	3800 2100 3800 2150
@@ -2012,4 +1982,5 @@ Wire Wire Line
 	10250 4850 10850 4850
 NoConn ~ 8800 1700
 NoConn ~ 8800 3000
+Connection ~ 3800 800 
 $EndSCHEMATC
