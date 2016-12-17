@@ -30,9 +30,9 @@ We have a 64kBit EEPROM, to store the calibration data in a persistent way (Othe
 
 We cannot store the calibration data in a simple key-value form which would require 2^14 values with 0.01° resolution. Because of that we need to store this table using compression algorithms.
 
-Here is the idea of a simple compression algorithm, by storing the relative change of degree instead of an absolute position. We assume the value are monotonically increasing:
+Here is the idea of a simple compression algorithm, by storing the relative change of degree instead of an absolute position. We assume the values are monotonically increasing:
 
-Every relative change is stored by a ```0```, followed by a specific amount of ```1``` Bits defining the offset to the previous value in 0.01° accuray. When we assume we have to map 360° on 0.01° accuray, using a sensor with 14bit accuray, we would need a table with the size of ```2^14+360*100 = 52384``` Bits which can be stored in a 64kBit EEPROM.
+> Every relative change is stored by a ```0```, followed by a specific amount of ```1``` Bits defining the offset to the previous value in 0.01° accuray. When we assume we have to map 360° on 0.01° accuray, using a sensor with 14bit accuray, we would need a table with the size of ```2^14+360*100 = 52384``` Bits which can be stored in a 64kBit EEPROM.
 
 When we look onto the calibration routine, and using the informations about the algorithm used, we could probably further decrease the amount of data required to store the table.
 
