@@ -164,19 +164,11 @@ $EndComp
 Wire Wire Line
 	4400 3900 4400 4250
 Wire Wire Line
-	5700 3450 5800 3450
-Wire Wire Line
-	5800 3450 5950 3450
-Wire Wire Line
-	5950 3450 6200 3450
-Wire Wire Line
-	6200 3450 6250 3450
+	5700 3450 6250 3450
 Wire Wire Line
 	5700 3350 5750 3350
 Wire Wire Line
-	5750 3050 5950 3050
-Wire Wire Line
-	5950 3050 6600 3050
+	5750 3050 6600 3050
 $Comp
 L CP C34
 U 1 1 580BA3C4
@@ -296,15 +288,9 @@ $EndComp
 Wire Wire Line
 	6900 3050 7050 3050
 Wire Wire Line
-	7050 3050 7050 3450
+	7050 3050 7050 3600
 Wire Wire Line
-	7050 3450 7050 3600
-Wire Wire Line
-	6550 3450 6650 3450
-Wire Wire Line
-	6650 3450 7050 3450
-Wire Wire Line
-	7050 3450 7350 3450
+	6550 3450 7350 3450
 Wire Wire Line
 	6650 3450 6650 3600
 Connection ~ 7050 3450
@@ -312,11 +298,7 @@ Connection ~ 6650 3450
 Text HLabel 7850 3450 2    60   Output ~ 0
 VOUT
 Wire Wire Line
-	4250 3350 4400 3350
-Wire Wire Line
-	4400 3350 4750 3350
-Wire Wire Line
-	4750 3350 4900 3350
+	4250 3350 4900 3350
 Wire Wire Line
 	4400 3350 4400 3600
 Connection ~ 4750 3350
@@ -381,16 +363,12 @@ F 5 "1" H 7500 3450 60  0001 C CNN "Digi-Key Minimum Quantity"
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	7650 3450 7750 3450
-Wire Wire Line
-	7750 3450 7850 3450
+	7650 3450 7850 3450
 Wire Wire Line
 	7750 3550 7750 3450
 Connection ~ 7750 3450
 Wire Wire Line
-	7750 3850 7750 3900
-Wire Wire Line
-	7750 3900 7750 3950
+	7750 3850 7750 3950
 Wire Wire Line
 	7750 3900 8100 3900
 Connection ~ 7750 3900

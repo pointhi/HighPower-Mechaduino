@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/thomas/Projekte/HighPower-Mechaduino/pcb/HighPower-Mechaduino.sch)
-    (date "Don 08 Dez 2016 21:09:57 CET")
+    (date "Sam 17 Dez 2016 14:55:52 CET")
     (tool "Eeschema (2016-11-05 revision 3af551c)-master")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -1650,10 +1650,10 @@
   (libraries
     (library (logical conn)
       (uri /home/thomas/Projekte/Kicad/kicad-library/library/conn.lib))
-    (library (logical dc-dc)
-      (uri /home/thomas/Projekte/Kicad/kicad-library/library/dc-dc.lib))
     (library (logical device)
       (uri /home/thomas/Projekte/Kicad/kicad-library/library/device.lib))
+    (library (logical dc-dc)
+      (uri /home/thomas/Projekte/Kicad/kicad-library/library/dc-dc.lib))
     (library (logical ESD_Protection)
       (uri /home/thomas/Projekte/Kicad/kicad-library/library/ESD_Protection.lib))
     (library (logical memory)
