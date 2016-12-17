@@ -1,0 +1,23 @@
+ // The graph name and the semicolons are optional
+ digraph konfliktgraph {
+     USB -> "5V_Regulator";
+     USB -> Arduino;
+     VIN -> StepDown;
+     StepDown -> "5V_Regulator";
+     "5V_Regulator" -> "3.3V_Regulator";
+     "3.3V_Regulator" -> Arduino;
+     "3.3V_Regulator" -> Encoder;
+     Encoder -> Arduino;
+     Arduino -> Encoder;
+     Motor_Controller -> Arduino;
+     Arduino -> Motor_Controller;
+     VIN -> Motor_Controller;
+     Motor_Controller -> Stepper_Motors;
+     "3.3V_Regulator" -> EEPROM;
+     EEPROM -> Arduino;
+     Arduino -> EEPROM;
+     "3.3V_Regulator" -> Temp_Sensor;
+     Temp_Sensor -> Arduino;
+     Arduino -> Temp_Sensor;
+     //T1 -> T2 [label=z];
+ }
