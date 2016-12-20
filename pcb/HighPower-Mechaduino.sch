@@ -988,7 +988,7 @@ F 0 "C3" H 5085 5604 50  0000 R CNN
 F 1 "1µ" H 5085 5695 50  0000 R CNN
 F 2 "Capacitors_SMD:C_0603" H 5238 5500 50  0001 C CNN
 F 3 "" H 5200 5650 50  0000 C CNN
-F 4 "311-1343-1-ND" H 5200 5650 60  0001 C CNN "Digi-Key Part Number"
+F 4 "311-1787-1-ND" H 5200 5650 60  0001 C CNN "Digi-Key Part Number"
 F 5 "1" H 5200 5650 60  0001 C CNN "Digi-Key Minimum Quantity"
 	1    5200 5650
 	-1   0    0    1   
@@ -1001,7 +1001,7 @@ F 0 "C5" H 6285 5604 50  0000 R CNN
 F 1 "1µ" H 6285 5695 50  0000 R CNN
 F 2 "Capacitors_SMD:C_0603" H 6438 5500 50  0001 C CNN
 F 3 "" H 6400 5650 50  0000 C CNN
-F 4 "311-1343-1-ND" H 6400 5650 60  0001 C CNN "Digi-Key Part Number"
+F 4 "311-1787-1-ND" H 6400 5650 60  0001 C CNN "Digi-Key Part Number"
 F 5 "1" H 6400 5650 60  0001 C CNN "Digi-Key Minimum Quantity"
 	1    6400 5650
 	-1   0    0    1   

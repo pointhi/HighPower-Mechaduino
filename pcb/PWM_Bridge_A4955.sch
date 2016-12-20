@@ -373,7 +373,7 @@ F 0 "C26" H 5515 1946 50  0000 L CNN
 F 1 "1µ" H 5515 1855 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 5438 1750 50  0001 C CNN
 F 3 "" H 5400 1900 50  0000 C CNN
-F 4 "311-1343-1-ND" H 5400 1900 60  0001 C CNN "Digi-Key Part Number"
+F 4 "311-1787-1-ND" H 5400 1900 60  0001 C CNN "Digi-Key Part Number"
 F 5 "1" H 5400 1900 60  0001 C CNN "Digi-Key Minimum Quantity"
 	1    5400 1900
 	1    0    0    -1  
