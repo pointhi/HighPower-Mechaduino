@@ -82,11 +82,10 @@ LIBS:Xicor
 LIBS:xilinx
 LIBS:Zilog
 LIBS:a4955glptr-t
-LIBS:ap2112k-3.3trg1
 LIBS:lm75bd
 LIBS:mechanical
 LIBS:HighPower-Mechaduino-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8

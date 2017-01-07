@@ -82,11 +82,10 @@ LIBS:Xicor
 LIBS:xilinx
 LIBS:Zilog
 LIBS:a4955glptr-t
-LIBS:ap2112k-3.3trg1
 LIBS:lm75bd
 LIBS:mechanical
 LIBS:HighPower-Mechaduino-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -1735,9 +1734,6 @@ Wire Wire Line
 Wire Wire Line
 	800  1350 900  1350
 Wire Wire Line
-	900  1250 800  1250
-Connection ~ 800  1250
-Wire Wire Line
 	900  1150 800  1150
 Connection ~ 800  1150
 Connection ~ 800  1350
@@ -1983,4 +1979,5 @@ Wire Wire Line
 NoConn ~ 8800 1700
 NoConn ~ 8800 3000
 Connection ~ 3800 800 
+NoConn ~ 900  1250
 $EndSCHEMATC
