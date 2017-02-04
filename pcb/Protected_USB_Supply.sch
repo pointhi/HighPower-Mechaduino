@@ -92,7 +92,7 @@ encoding utf-8
 Sheet 5 7
 Title "USB input including protection circuit"
 Date "2016-12-03"
-Rev "0.1"
+Rev "v0.1"
 Comp "Thomas Pointhuber"
 Comment1 ""
 Comment2 ""
@@ -142,10 +142,10 @@ Wire Wire Line
 Wire Wire Line
 	4800 3400 4600 3400
 $Comp
-L GND #PWR092
+L GND #PWR091
 U 1 1 580C177F
 P 4900 4300
-F 0 "#PWR092" H 4900 4050 50  0001 C CNN
+F 0 "#PWR091" H 4900 4050 50  0001 C CNN
 F 1 "GND" H 4905 4127 50  0000 C CNN
 F 2 "" H 4900 4300 50  0000 C CNN
 F 3 "" H 4900 4300 50  0000 C CNN
@@ -155,10 +155,10 @@ $EndComp
 Wire Wire Line
 	4600 3700 4900 3700
 $Comp
-L GND #PWR093
+L GND #PWR092
 U 1 1 580C1786
 P 4200 4400
-F 0 "#PWR093" H 4200 4150 50  0001 C CNN
+F 0 "#PWR092" H 4200 4150 50  0001 C CNN
 F 1 "GND" H 4205 4227 50  0000 C CNN
 F 2 "" H 4200 4400 50  0000 C CNN
 F 3 "" H 4200 4400 50  0000 C CNN
