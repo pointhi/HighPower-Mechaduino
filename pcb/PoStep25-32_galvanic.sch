@@ -28,7 +28,6 @@ LIBS:elec-unifil
 LIBS:ESD_Protection
 LIBS:ftdi
 LIBS:gennum
-LIBS:graphic
 LIBS:hc11
 LIBS:intel
 LIBS:interface
@@ -44,7 +43,6 @@ LIBS:microchip_pic10mcu
 LIBS:microchip_pic12mcu
 LIBS:microchip_pic16mcu
 LIBS:microchip_pic18mcu
-LIBS:microchip_pic32mcu
 LIBS:microcontrollers
 LIBS:motor_drivers
 LIBS:motorola

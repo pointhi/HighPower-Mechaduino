@@ -28,7 +28,6 @@ LIBS:elec-unifil
 LIBS:ESD_Protection
 LIBS:ftdi
 LIBS:gennum
-LIBS:graphic
 LIBS:hc11
 LIBS:intel
 LIBS:interface
@@ -44,7 +43,6 @@ LIBS:microchip_pic10mcu
 LIBS:microchip_pic12mcu
 LIBS:microchip_pic16mcu
 LIBS:microchip_pic18mcu
-LIBS:microchip_pic32mcu
 LIBS:microcontrollers
 LIBS:motor_drivers
 LIBS:motorola
@@ -167,81 +165,81 @@ Wire Wire Line
 Wire Wire Line
 	5700 3350 5750 3350
 Wire Wire Line
-	5750 3050 6600 3050
+	5750 3050 7100 3050
 $Comp
 L CP C34
 U 1 1 580BA3C4
-P 7050 3750
-F 0 "C34" H 7168 3796 50  0000 L CNN
-F 1 "10µ" H 7168 3705 50  0000 L CNN
-F 2 "Capacitors_SMD_local:c_elec_6.6x5.8" H 7088 3600 50  0001 C CNN
-F 3 "http://www.chemi-con.co.jp/cgi-bin/CAT_DB/SEARCH/cat_db_al.cgi?e=e&j=p&pdfname=hxb" H 7050 3750 50  0001 C CNN
-F 4 "565-4191-1-ND" H 7050 3750 60  0001 C CNN "Digi-Key Part Number"
-F 5 "1" H 7050 3750 60  0001 C CNN "Digi-Key Minimum Quantity"
-	1    7050 3750
+P 7550 3750
+F 0 "C34" H 7668 3796 50  0000 L CNN
+F 1 "10µ" H 7668 3705 50  0000 L CNN
+F 2 "Capacitors_SMD_local:c_elec_6.6x5.8" H 7588 3600 50  0001 C CNN
+F 3 "http://www.chemi-con.co.jp/cgi-bin/CAT_DB/SEARCH/cat_db_al.cgi?e=e&j=p&pdfname=hxb" H 7550 3750 50  0001 C CNN
+F 4 "565-4191-1-ND" H 7550 3750 60  0001 C CNN "Digi-Key Part Number"
+F 5 "1" H 7550 3750 60  0001 C CNN "Digi-Key Minimum Quantity"
+	1    7550 3750
 	1    0    0    -1  
 $EndComp
 $Comp
 L GND #PWR096
 U 1 1 580BA3CF
-P 6650 4250
-F 0 "#PWR096" H 6650 4000 50  0001 C CNN
-F 1 "GND" H 6655 4077 50  0000 C CNN
-F 2 "" H 6650 4250 50  0000 C CNN
-F 3 "" H 6650 4250 50  0000 C CNN
-	1    6650 4250
+P 7150 4250
+F 0 "#PWR096" H 7150 4000 50  0001 C CNN
+F 1 "GND" H 7155 4077 50  0000 C CNN
+F 2 "" H 7150 4250 50  0000 C CNN
+F 3 "" H 7150 4250 50  0000 C CNN
+	1    7150 4250
 	1    0    0    -1  
 $EndComp
 $Comp
 L GND #PWR097
 U 1 1 580BA3D5
-P 7050 4250
-F 0 "#PWR097" H 7050 4000 50  0001 C CNN
-F 1 "GND" H 7055 4077 50  0000 C CNN
-F 2 "" H 7050 4250 50  0000 C CNN
-F 3 "" H 7050 4250 50  0000 C CNN
-	1    7050 4250
+P 7550 4250
+F 0 "#PWR097" H 7550 4000 50  0001 C CNN
+F 1 "GND" H 7555 4077 50  0000 C CNN
+F 2 "" H 7550 4250 50  0000 C CNN
+F 3 "" H 7550 4250 50  0000 C CNN
+	1    7550 4250
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6650 3900 6650 4250
+	7150 3900 7150 4250
 Wire Wire Line
-	7050 3900 7050 4250
+	7550 3900 7550 4250
 $Comp
 L R R20
 U 1 1 580BA3DD
-P 7750 3700
-F 0 "R20" V 7650 3700 50  0000 C CNN
-F 1 "22k" V 7850 3700 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 7680 3700 50  0001 C CNN
-F 3 "" H 7750 3700 50  0000 C CNN
-F 4 "311-22.0KHRCT-ND" H 7750 3700 60  0001 C CNN "Digi-Key Part Number"
-F 5 "1" H 7750 3700 60  0001 C CNN "Digi-Key Minimum Quantity"
-	1    7750 3700
+P 8000 3700
+F 0 "R20" V 7900 3700 50  0000 C CNN
+F 1 "22k" V 8100 3700 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 7930 3700 50  0001 C CNN
+F 3 "" H 8000 3700 50  0000 C CNN
+F 4 "311-22.0KHRCT-ND" H 8000 3700 60  0001 C CNN "Digi-Key Part Number"
+F 5 "1" H 8000 3700 60  0001 C CNN "Digi-Key Minimum Quantity"
+	1    8000 3700
 	-1   0    0    1   
 $EndComp
 $Comp
 L R R21
 U 1 1 580BA3E4
-P 7750 4100
-F 0 "R21" V 7650 4100 50  0000 C CNN
-F 1 "4k7" V 7850 4100 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 7680 4100 50  0001 C CNN
-F 3 "" H 7750 4100 50  0000 C CNN
-F 4 "311-4.70KHRCT-ND" H 7750 4100 60  0001 C CNN "Digi-Key Part Number"
-F 5 "1" H 7750 4100 60  0001 C CNN "Digi-Key Minimum Quantity"
-	1    7750 4100
+P 8000 4100
+F 0 "R21" V 7900 4100 50  0000 C CNN
+F 1 "4k7" V 8100 4100 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 7930 4100 50  0001 C CNN
+F 3 "" H 8000 4100 50  0000 C CNN
+F 4 "311-4.70KHRCT-ND" H 8000 4100 60  0001 C CNN "Digi-Key Part Number"
+F 5 "1" H 8000 4100 60  0001 C CNN "Digi-Key Minimum Quantity"
+	1    8000 4100
 	-1   0    0    1   
 $EndComp
 $Comp
 L GND #PWR098
 U 1 1 580BA3EB
-P 7750 4250
-F 0 "#PWR098" H 7750 4000 50  0001 C CNN
-F 1 "GND" H 7755 4077 50  0000 C CNN
-F 2 "" H 7750 4250 50  0000 C CNN
-F 3 "" H 7750 4250 50  0000 C CNN
-	1    7750 4250
+P 8000 4250
+F 0 "#PWR098" H 8000 4000 50  0001 C CNN
+F 1 "GND" H 8005 4077 50  0000 C CNN
+F 2 "" H 8000 4250 50  0000 C CNN
+F 3 "" H 8000 4250 50  0000 C CNN
+	1    8000 4250
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -276,25 +274,25 @@ Wire Wire Line
 $Comp
 L D_Schottky D5
 U 1 1 580BA407
-P 6750 3050
-F 0 "D5" H 6700 3300 50  0000 L CNN
-F 1 "RB160M-60" H 6600 3200 50  0000 L CNN
-F 2 "Diodes_SMD:SOD-123" H 6750 3050 50  0001 C CNN
-F 3 "" H 6750 3050 50  0000 C CNN
-	1    6750 3050
+P 7250 3050
+F 0 "D5" H 7200 3300 50  0000 L CNN
+F 1 "RB160M-60" H 7100 3200 50  0000 L CNN
+F 2 "Diodes_SMD:SOD-123" H 7250 3050 50  0001 C CNN
+F 3 "" H 7250 3050 50  0000 C CNN
+	1    7250 3050
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6900 3050 7050 3050
+	7400 3050 7550 3050
 Wire Wire Line
-	7050 3050 7050 3600
+	7550 3050 7550 3600
 Wire Wire Line
-	6550 3450 7350 3450
+	6950 3450 8100 3450
 Wire Wire Line
-	6650 3450 6650 3600
-Connection ~ 7050 3450
-Connection ~ 6650 3450
-Text HLabel 7850 3450 2    60   Output ~ 0
+	7150 3450 7150 3600
+Connection ~ 7550 3450
+Connection ~ 7150 3450
+Text HLabel 8100 3450 2    60   Output ~ 0
 VOUT
 Wire Wire Line
 	4250 3350 4900 3350
@@ -351,29 +349,27 @@ $EndComp
 $Comp
 L D_Schottky D2
 U 1 1 583B1A52
-P 7500 3450
-F 0 "D2" V 7450 3550 50  0000 L CNN
-F 1 "RB160M-60" V 7550 3550 50  0000 L CNN
-F 2 "Diodes_SMD:SOD-123" H 7500 3450 50  0001 C CNN
-F 3 "http://rohmfs.rohm.com/en/products/databook/datasheet/discrete/diode/schottky_barrier/rb160m-60.pdf" H 7500 3450 50  0001 C CNN
-F 4 "RB160M-90DKR-ND" H 7500 3450 60  0001 C CNN "Digi-Key Part Number"
-F 5 "1" H 7500 3450 60  0001 C CNN "Digi-Key Minimum Quantity"
-	1    7500 3450
+P 6800 3450
+F 0 "D2" V 6750 3550 50  0000 L CNN
+F 1 "RB160M-60" V 6850 3550 50  0000 L CNN
+F 2 "Diodes_SMD:SOD-123" H 6800 3450 50  0001 C CNN
+F 3 "http://rohmfs.rohm.com/en/products/databook/datasheet/discrete/diode/schottky_barrier/rb160m-60.pdf" H 6800 3450 50  0001 C CNN
+F 4 "RB160M-90DKR-ND" H 6800 3450 60  0001 C CNN "Digi-Key Part Number"
+F 5 "1" H 6800 3450 60  0001 C CNN "Digi-Key Minimum Quantity"
+	1    6800 3450
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	7650 3450 7850 3450
+	8000 3550 8000 3450
+Connection ~ 8000 3450
 Wire Wire Line
-	7750 3550 7750 3450
-Connection ~ 7750 3450
+	8000 3850 8000 3950
 Wire Wire Line
-	7750 3850 7750 3950
-Wire Wire Line
-	7750 3900 8100 3900
-Connection ~ 7750 3900
+	8000 3900 8350 3900
+Connection ~ 8000 3900
 Text Label 6150 3650 2    60   ~ 0
 Vfb
-Text Label 8100 3900 2    60   ~ 0
+Text Label 8350 3900 2    60   ~ 0
 Vfb
 Wire Wire Line
 	4750 3900 4750 4250
@@ -393,14 +389,14 @@ $EndComp
 $Comp
 L C C33
 U 1 1 583CD4BA
-P 6650 3750
-F 0 "C33" V 6902 3750 50  0000 C CNN
-F 1 "100n" V 6811 3750 50  0000 C CNN
-F 2 "Capacitors_SMD:C_0603" H 6688 3600 50  0001 C CNN
-F 3 "" H 6650 3750 50  0000 C CNN
-F 4 "311-1343-1-ND" H 6650 3750 60  0001 C CNN "Digi-Key Part Number"
-F 5 "1" H 6650 3750 60  0001 C CNN "Digi-Key Minimum Quantity"
-	1    6650 3750
+P 7150 3750
+F 0 "C33" V 7402 3750 50  0000 C CNN
+F 1 "100n" V 7311 3750 50  0000 C CNN
+F 2 "Capacitors_SMD:C_0603" H 7188 3600 50  0001 C CNN
+F 3 "" H 7150 3750 50  0000 C CNN
+F 4 "311-1343-1-ND" H 7150 3750 60  0001 C CNN "Digi-Key Part Number"
+F 5 "1" H 7150 3750 60  0001 C CNN "Digi-Key Minimum Quantity"
+	1    7150 3750
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -429,4 +425,6 @@ Connection ~ 5950 3050
 Wire Wire Line
 	6200 3250 6200 3450
 Connection ~ 6200 3450
+Wire Wire Line
+	6650 3450 6550 3450
 $EndSCHEMATC

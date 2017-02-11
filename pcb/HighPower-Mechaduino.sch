@@ -28,7 +28,6 @@ LIBS:elec-unifil
 LIBS:ESD_Protection
 LIBS:ftdi
 LIBS:gennum
-LIBS:graphic
 LIBS:hc11
 LIBS:intel
 LIBS:interface
@@ -44,7 +43,6 @@ LIBS:microchip_pic10mcu
 LIBS:microchip_pic12mcu
 LIBS:microchip_pic16mcu
 LIBS:microchip_pic18mcu
-LIBS:microchip_pic32mcu
 LIBS:microcontrollers
 LIBS:motor_drivers
 LIBS:motorola
@@ -1487,7 +1485,7 @@ U 1 1 583C5587
 P 3050 3000
 F 0 "MK1" H 3150 3005 50  0000 L CNN
 F 1 "Mounting_Hole_PAD" H 3150 2960 50  0001 L CNN
-F 2 "Mounting_Holes_local:MountingHole_4.3x6.2mm_M4_Pad_Via" H 3050 3000 60  0001 C CNN
+F 2 "Mounting_Holes_local:MountingHole_5.3x7.3mm_M5_Pad_Via" H 3050 3000 60  0001 C CNN
 F 3 "" H 3050 3000 60  0001 C CNN
 	1    3050 3000
 	1    0    0    -1  
@@ -1498,7 +1496,7 @@ U 1 1 583C88C3
 P 3400 3000
 F 0 "MK2" H 3500 3005 50  0000 L CNN
 F 1 "Mounting_Hole_PAD" H 3500 2960 50  0001 L CNN
-F 2 "Mounting_Holes_local:MountingHole_4.3x6.2mm_M4_Pad_Via" H 3400 3000 60  0001 C CNN
+F 2 "Mounting_Holes_local:MountingHole_5.3x7.3mm_M5_Pad_Via" H 3400 3000 60  0001 C CNN
 F 3 "" H 3400 3000 60  0001 C CNN
 	1    3400 3000
 	1    0    0    -1  
@@ -1509,7 +1507,7 @@ U 1 1 583C8B02
 P 3750 3000
 F 0 "MK3" H 3850 3005 50  0000 L CNN
 F 1 "Mounting_Hole_PAD" H 3850 2960 50  0001 L CNN
-F 2 "Mounting_Holes_local:MountingHole_4.3x6.2mm_M4_Pad_Via" H 3750 3000 60  0001 C CNN
+F 2 "Mounting_Holes_local:MountingHole_5.3x7.3mm_M5_Pad_Via" H 3750 3000 60  0001 C CNN
 F 3 "" H 3750 3000 60  0001 C CNN
 	1    3750 3000
 	1    0    0    -1  
@@ -1520,7 +1518,7 @@ U 1 1 583C8D4A
 P 4100 3000
 F 0 "MK4" H 4200 3005 50  0000 L CNN
 F 1 "Mounting_Hole_PAD" H 4200 2960 50  0001 L CNN
-F 2 "Mounting_Holes_local:MountingHole_4.3x6.2mm_M4_Pad_Via" H 4100 3000 60  0001 C CNN
+F 2 "Mounting_Holes_local:MountingHole_5.3x7.3mm_M5_Pad_Via" H 4100 3000 60  0001 C CNN
 F 3 "" H 4100 3000 60  0001 C CNN
 	1    4100 3000
 	1    0    0    -1  
