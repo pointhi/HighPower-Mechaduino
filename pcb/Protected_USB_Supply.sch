@@ -28,6 +28,7 @@ LIBS:elec-unifil
 LIBS:ESD_Protection
 LIBS:ftdi
 LIBS:gennum
+LIBS:graphic
 LIBS:hc11
 LIBS:intel
 LIBS:interface
@@ -43,6 +44,7 @@ LIBS:microchip_pic10mcu
 LIBS:microchip_pic12mcu
 LIBS:microchip_pic16mcu
 LIBS:microchip_pic18mcu
+LIBS:microchip_pic32mcu
 LIBS:microcontrollers
 LIBS:motor_drivers
 LIBS:motorola
@@ -111,9 +113,11 @@ F 5 "1" H 5500 3450 60  0001 C CNN "Digi-Key Minimum Quantity"
 	1    0    0    1   
 $EndComp
 $Comp
-L USB_OTG P2
+L USB_OTG-RESCUE-HighPower-Mechaduino P2
 U 1 1 580C1769
 P 4300 3500
+AR Path="/580C1769" Ref="P2"  Part="1" 
+AR Path="/580C14EB/580C1769" Ref="P2"  Part="1" 
 F 0 "P2" V 3875 3424 50  0000 C CNN
 F 1 "USB" V 3966 3424 50  0000 C CNN
 F 2 "Connectors:USB_Micro-B_10103594-0001LF" V 4250 3400 50  0001 C CNN
@@ -140,10 +144,10 @@ Wire Wire Line
 Wire Wire Line
 	4800 3400 4600 3400
 $Comp
-L GND #PWR091
+L GND #PWR095
 U 1 1 580C177F
 P 4900 4300
-F 0 "#PWR091" H 4900 4050 50  0001 C CNN
+F 0 "#PWR095" H 4900 4050 50  0001 C CNN
 F 1 "GND" H 4905 4127 50  0000 C CNN
 F 2 "" H 4900 4300 50  0000 C CNN
 F 3 "" H 4900 4300 50  0000 C CNN
@@ -153,10 +157,10 @@ $EndComp
 Wire Wire Line
 	4600 3700 4900 3700
 $Comp
-L GND #PWR092
+L GND #PWR096
 U 1 1 580C1786
 P 4200 4400
-F 0 "#PWR092" H 4200 4150 50  0001 C CNN
+F 0 "#PWR096" H 4200 4150 50  0001 C CNN
 F 1 "GND" H 4205 4227 50  0000 C CNN
 F 2 "" H 4200 4400 50  0000 C CNN
 F 3 "" H 4200 4400 50  0000 C CNN
