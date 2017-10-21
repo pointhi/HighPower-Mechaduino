@@ -11,7 +11,7 @@ found while building the first prototype.
 
 A big thanks to the [Shuttleworth Foundation](https://shuttleworthfoundation.org) for supporting the development of this Project.
 
-![Shuttleworth Funded](assets/Shuttleworth Funded.jpg)
+![Shuttleworth Funded](https://raw.githubusercontent.com/pointhi/HighPower-Mechaduino/master/assets/Shuttleworth%20Funded.jpg)
 
 ### Improvements
 
